@@ -1,0 +1,85 @@
+name: Living review
+
+on:
+  push:
+    branches: ['**']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Action to perform
+        type: choice
+        options: [Refresh papers, Publish existing snapshot]
+        default: Refresh papers
+  schedule:
+    - cron: "17 6 1 * *"
+
+concurrency:
+  group: living-review
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  build:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    permissions:
+      contents: write
+      pages: read
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Set up commit identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Refresh papers
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'Refresh papers')
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 worker/update.py refresh
+      - name: Build shareable snapshot
+        run: python3 worker/update.py snapshot
+      - name: Save review history
+        run: |
+          git add review/state.json app/studies.csv app/briefs.csv app/coverage.csv app/run.csv app/agreement.csv app/evidence.html
+          if ! git diff --cached --quiet; then
+            git commit -m "Update review register and public snapshot"
+            git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
+          fi
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: release
+          use-public-rspm: true
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::shiny
+            any::shinylive
+      - name: Check published figures and Shiny outputs
+        run: Rscript worker/check.R
+      - name: Export the R Shiny app
+        run: Rscript -e 'shinylive::export("app", "site")'
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - name: Publish dashboard
+        id: publish
+        uses: actions/deploy-pages@v4
