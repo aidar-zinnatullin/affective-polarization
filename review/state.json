@@ -1,1 +1,6031 @@
-{"articles": {}, "briefs": {}, "runs": []}
+{
+  "articles": {
+    "W4410017068": {
+      "aliases": [
+        "W4410017068"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jakob Kasper",
+          "Gijs Schumacher",
+          "Bert N. Bakker"
+        ],
+        "date": "2025-11-01",
+        "doi": "10.1111/1475-6765.70022",
+        "id": "W4410017068",
+        "issn": [
+          "0304-4130",
+          "1475-6765"
+        ],
+        "journal": "European Journal of Political Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Establishing the construct and predictive validity of brief measures of affective polarization",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement-focused validation study; it does not test an empirical antecedent or causal/process link of affective polarization."
+      },
+      "screen_hash": "c4827d71628340e1f44226e68beefd46b2a4545a395e6821d8880cc97b018aed"
+    },
+    "W4410138662": {
+      "aliases": [
+        "W4410138662"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Larissa Knöchelmann",
+          "Jule Kemmer",
+          "Christopher Cohrs"
+        ],
+        "date": "2026-01-16",
+        "doi": "10.32872/spb.12465",
+        "id": "W4410138662",
+        "issn": [
+          "1896-1800",
+          "2569-653X"
+        ],
+        "journal": "Social Psychological Bulletin",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Intellectual humility: Validation and comparison of four self-report scales in the German context",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4411579982": {
+      "aliases": [
+        "W4411579982"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Peter Luca Versteegen",
+          "Joseph B. Phillips",
+          "Lilliana Mason"
+        ],
+        "date": "2026-08-29",
+        "doi": "10.1007/s11109-026-10190-3",
+        "id": "W4411579982",
+        "issn": [
+          "0190-9320",
+          "1573-6687"
+        ],
+        "journal": "Political Behavior",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Cool Citizens? How Affectively Unpolarized Citizens View and Participate in Democracy",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4413804228": {
+      "aliases": [
+        "W4413804228"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Antoine Marie",
+          "Michael Bang Petersen"
+        ],
+        "date": "2025-08-29",
+        "doi": "10.31219/osf.io/nmg9h_v4",
+        "id": "W4413804228",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Motivations to connect with like-minded audiences increase partisan sharing on social media",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4413957750": {
+      "aliases": [
+        "W4413957750"
+      ],
+      "document_hash": "e9480a6e86b7ee81e9eea00495259f83c67137cdcdd56ae294893e949a879780",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Markus Kollberg",
+          "Ivo Bantel"
+        ],
+        "date": "2025-09-03",
+        "doi": "10.1080/01402382.2025.2531711",
+        "id": "W4413957750",
+        "issn": [
+          "0140-2382",
+          "1743-9655"
+        ],
+        "journal": "West European Politics",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Communicating a common front: mainstream party rhetoric and affective polarisation towards the radical right",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Germany"
+          ],
+          "design": "Panel",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Negative rhetoric by mainstream parties targeting the radical right (AfD), especially cross-party coordinated messaging",
+          "finding": "Negative elite rhetoric is positively associated with and causally increases affective polarisation toward the AfD. Observationally, cross-party negative rhetoric tracks higher out-party dislike; experimentally, all negative-message treatments increase polarisation, with cross-party messages producing the largest effects. In-party effects are smaller and in the observational models somewhat inconsistent or negative.",
+          "hypothesis": "Negative rhetoric by mainstream parties, especially coordinated cross-party attacks, increases affective polarisation toward the AfD more than single-party messages.",
+          "instruments": "Text analysis of German Bundestag debates using negativity dictionary plus PoS tagging; Politbarometer like-dislike / Skalometer measures; vignette survey experiment with real parliamentary messages",
+          "locators": "driver P2, design P5, finding P56",
+          "outcome": "Vertical",
+          "population": "Mainstream party voters in Germany; observational public opinion sample and survey experiment sample of representative German mainstream party voters",
+          "reason": "Article-level empirical study with an explicit causal/associational link between mainstream parties’ negative rhetoric and affective polarisation toward the radical right; uses observational text analysis plus survey experiment. Journal/report status is not provided in the excerpt, but the content meets the empirical antecedent criterion.",
+          "sample_size": "Observational sample size not fully reported; experiment n ≈ 3,100 (analyses report 2,910 usable cases)",
+          "supported": false
+        },
+        {
+          "countries": [
+            "Germany"
+          ],
+          "design": "Experimental",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Mainstream parties' negative rhetoric toward the AfD, especially cross-party/common-front messaging",
+          "finding": "The observational analysis finds a positive association between cross-party negative rhetoric and affective polarization toward the AfD, while in-party associations are mixed or null. The experiment shows that negative rhetoric causally increases affective polarization, with cross-party messages producing the largest effects.",
+          "hypothesis": "Negative rhetoric by mainstream parties, especially coordinated cross-party rhetoric, increases affective polarization toward the radical right more than in-party messaging.",
+          "instruments": "Parliamentary debate text analysis using negativity dictionary + PoS tagging; Politbarometer like-dislike / skalometer items; vignette survey experiment with real parliamentary messages",
+          "locators": "driver P2, finding P6, driver P41, outcome P45, design P44, finding P51",
+          "outcome": "Vertical",
+          "population": "Mainstream party voters in Germany",
+          "reason": "Empirical article with explicit causal and associational evidence on how mainstream parties' negative rhetoric affects affective polarization toward a radical right party (AfD) in Germany. Uses a text analysis linked to survey data and a pre-registered vignette survey experiment, with clear outcome and unit of analysis.",
+          "sample_size": "Observational: cross-sectional public opinion data linked to parliamentary debates; Experiment: n ≈ 3,100",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical study with causal direction: mainstream party negative rhetoric is tested as a predictor of affective polarization, including experimental evidence."
+      },
+      "screen_hash": "9310fd76d32be6a61b5cebf3c30776696e46cf8656fd6710e0a7cbfe8f055d14"
+    },
+    "W4414057147": {
+      "aliases": [
+        "W4414057147"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Sean Ewing"
+        ],
+        "date": "2025-09-08",
+        "doi": "10.33774/apsa-2025-fvmbg",
+        "id": "W4414057147",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Frames of Nationalization: Conflict, Party Labels, and National Figures in Local News and its Impact on Affective Polarization",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4414120453": {
+      "aliases": [
+        "W4414120453"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jack Banks",
+          "Daniel F. Stone"
+        ],
+        "date": "2026-04-08",
+        "doi": "10.1111/ssqu.70152",
+        "id": "W4414120453",
+        "issn": [
+          "0038-4941",
+          "1540-6237"
+        ],
+        "journal": "Social Science Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Hostile Campaign Rhetoric and Electoral Outcomes",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4414142125": {
+      "aliases": [
+        "W4414142125"
+      ],
+      "document_hash": "706543ed18f6a9e8f6d58f956bf67d2da561305ad43db280e6067872777b5021",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Martin Abel",
+          "Andrea Robbett",
+          "Daniel F. Stone"
+        ],
+        "date": "2025-09-09",
+        "doi": "10.3368/jhr.1124-13970r2",
+        "id": "W4414142125",
+        "issn": [
+          "0022-166X",
+          "1548-8004"
+        ],
+        "journal": "The Journal of Human Resources",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Partisan Discrimination in Hiring*",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Affective polarization (in-party minus out-party warmth)",
+          "finding": "Higher affective polarization predicted a larger wage penalty for out-partisans in the experimental hiring task. The association was strongest among the most polarized participants and remained economically meaningful after accounting for productivity beliefs, although beliefs appeared to be the more important correlate overall. The worker-payment manipulation did not change the out-partisan penalty, arguing against social-preference mechanisms.",
+          "hypothesis": "More affectively polarized partisans will discriminate more strongly against out-partisans in hiring, and this may be partly explained by beliefs about out-partisans’ productivity rather than social preferences.",
+          "instruments": "Hiring willingness-to-pay task over worker profiles; feelings thermometer for affective polarization; incentivized productivity-belief elicitation; worker-payment treatment",
+          "locators": "driver P11, design P3, finding P60",
+          "outcome": "Vertical",
+          "population": "U.S. Republican and Democratic participants acting as employers on Prolific",
+          "reason": "Pre-registered online experiment on U.S. partisans’ hiring decisions. It studies an antecedent of affective polarization in the sense that measured affective polarization predicts out-partisan discrimination, and it explicitly tests mechanism/process links with a causal lab design. Published journal article context is implied by the paper format; no exclusion criteria apply from the provided text.",
+          "sample_size": "1088 participants; 543 Republicans and 545 Democrats",
+          "supported": false
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Affective polarization (thermometer gap)",
+          "finding": "Affective polarization significantly predicts larger out-partisan wage penalties in the hiring experiment. The association is strongest among the most polarized participants, and remains meaningful even when jointly modeled with productivity beliefs, though beliefs appear more important overall. Social-preference treatment effects were null.",
+          "hypothesis": "Higher affective polarization would be associated with greater partisan discrimination in hiring, especially against out-partisans.",
+          "instruments": "Affective polarization via feelings thermometer difference (in-party minus out-party); wage offer / willingness to pay in BDM-style hiring task; productivity belief elicitation",
+          "locators": "driver P11, design P3, finding P60",
+          "outcome": "Vertical",
+          "population": "American political partisans recruited on Prolific acting as employers",
+          "reason": "Peer-reviewed article on an experiment testing whether affective polarization predicts partisan discrimination in hiring; measured outcome is willingness to pay/wage offers, with clear causal/procedural links and article-level results.",
+          "sample_size": "1088 participants; 29,879 wage-offer observations",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Experimental study with an explicit causal design linking partisanship to discriminatory hiring behavior; includes affective polarization as a predictive mechanism."
+      },
+      "screen_hash": "75b912418048c32e3bd7127fd7cd7a992b2111ec507127dc266245a58c4b16fe"
+    },
+    "W4414144748": {
+      "aliases": [
+        "W4414144748"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Quita Muis",
+          "Frank Hendriks",
+          "Tim Reeskens"
+        ],
+        "date": "2025-09-09",
+        "doi": "10.1080/13510347.2025.2548904",
+        "id": "W4414144748",
+        "issn": [
+          "1351-0347",
+          "1743-890X"
+        ],
+        "journal": "Democratization",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Opponents, not enemies: disentangling the relationship between polarization and democracy in Europe",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Journal article with repeated cross-sectional macro-level regression testing a directional relationship; includes affective polarization as a predictor of democratic support, so it is relevant and sufficiently empirical."
+      },
+      "screen_hash": "a9b39916648ef5ccad8ca1ced0e4daa691b00bc64908b5f1606827419f94af99"
+    },
+    "W4414145263": {
+      "aliases": [
+        "W4414145263"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anantha Ubaradka",
+          "Ajay Chandra",
+          "Dhiksha Jayanth"
+        ],
+        "date": "2025-09-09",
+        "doi": "10.31234/osf.io/q57jb_v1",
+        "id": "W4414145263",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Ideological Exposure, Authoritarianism, and Misinformation Propagation on Social Media",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W4414519177": {
+      "aliases": [
+        "W4414519177"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Delaney Peterson",
+          "Gijs Schumacher",
+          "Frederic R. Hopp",
+          "Bert N. Bakker"
+        ],
+        "date": "2025-09-25",
+        "doi": "10.31234/osf.io/e4w7x_v2",
+        "id": "W4414519177",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Political mental health is distinct from mental health and has unique political correlates",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4414942876": {
+      "aliases": [
+        "W4414942876"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Seo‐young Silvia Kim",
+          "Yuki Atsusaka"
+        ],
+        "date": "2025-10-08",
+        "doi": "10.31235/osf.io/ctgkn_v1",
+        "id": "W4414942876",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who Do People Blame for Affective Polarization?",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W4414949360": {
+      "aliases": [
+        "W4414949360"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Sezgin Ateş"
+        ],
+        "date": "2025-10-09",
+        "doi": "10.1108/jcm-11-2024-7392",
+        "id": "W4414949360",
+        "issn": [
+          "0736-3761",
+          "2052-1200"
+        ],
+        "journal": "Journal of Consumer Marketing",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Expanding boycott repertoire: politically motivated consumer boycotts as a reaction to brands’ political alignment",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Qualitative case study about boycotts in Turkey; discusses affective polarization as context/driver, but not an empirical antecedent study of affective polarization with causal design."
+      },
+      "screen_hash": "1ef013a735a86536af48dc2ce951e596783dfcc224521e491ca08fe2e475dd88"
+    },
+    "W4415026894": {
+      "aliases": [
+        "W4415026894"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mickael Temporão",
+          "Laurence-Olivier M. Foisy",
+          "Jeremy Drouin",
+          "Hubert Cadieux",
+          "Yannick Dufresne"
+        ],
+        "date": "2025-10-10",
+        "doi": "10.31235/osf.io/pvsfb_v3",
+        "id": "W4415026894",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "A Behavioral Instrument for Measuring Political Overconfidence: Implications for Understanding Affective Polarization in the United States",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W4415038199": {
+      "aliases": [
+        "W4415038199"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Javier J. Amores",
+          "Manuel Escudero-Garrido",
+          "William González-Baquero"
+        ],
+        "date": "2026-05-02",
+        "doi": "10.1016/j.ssaho.2026.102835",
+        "id": "W4415038199",
+        "issn": [
+          "2590-2911"
+        ],
+        "journal": "Social Sciences & Humanities Open",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political communication on gender and sexuality on Twitter/X in Spain (2015–2023): An AI-assisted analysis of sentiment, toxicity and hate speech as drivers of engagement",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W4415234659": {
+      "aliases": [
+        "W4415234659"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Luana Russo"
+        ],
+        "date": "2025-10-16",
+        "doi": "10.1016/j.electstud.2025.103001",
+        "id": "W4415234659",
+        "issn": [
+          "0261-3794",
+          "1873-6890"
+        ],
+        "journal": "Electoral Studies",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Negative partisanship in Western Europe",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W4415250944": {
+      "aliases": [
+        "W4415250944"
+      ],
+      "document_hash": "e77d74a6055e813074fa691873f73d32bcbcc515a8c27d7c689af0594ffb8396",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Hans W. A. Hanley",
+          "Zakir Durumeric"
+        ],
+        "date": "2025-10-16",
+        "doi": "10.1145/3757684",
+        "id": "W4415250944",
+        "issn": [
+          "2573-0142"
+        ],
+        "journal": "Proceedings of the ACM on Human-Computer Interaction",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Twits, Toxic Tweets, and Tribal Tendencies: Trends in Politically Polarized Posts on Twitter",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "uncertain",
+          "factor": "Interaction with politically diverse or ideologically different accounts; wider range of political views in conversations.",
+          "finding": "Across user- and topic-level analyses, greater political diversity in interactions was associated with higher toxicity, while extreme hyperpartisanship alone was not necessarily more toxic. Topic-level results were mixed: some partisan shifts tracked more toxicity, but heavily partisan echo chambers were often less toxic than mixed-ideology conversations.",
+          "hypothesis": "Greater political difference/diversity in interactions and topics would be associated with higher toxicity / tribal polarization.",
+          "instruments": "Correspondence Analysis for user partisanship; DeBERTa-based toxicity classifier; MPNet topic modeling with DP-Means; GAMs",
+          "locators": "driver P5, outcome P11, design P129, finding P75",
+          "outcome": "Both",
+          "population": "43,151 US-based Twitter/X accounts with politically engaged behavior",
+          "reason": "Empirical article with a clear directional process linking political diversity/partisanship to toxicity and affective polarization, but the paper studies Twitter toxicity rather than directly measuring affective polarization outcomes in people. It is relevant to antecedents of affective polarization, yet the main outcome is toxicity, so inclusion is uncertain.",
+          "sample_size": "89.6M tweets from 43.15K accounts",
+          "supported": true
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Unreported",
+          "finding": "The paper finds that greater cross-ideological interaction and broader political-topic diversity are associated with higher toxicity, while hyperpartisanship alone is not strongly linked to toxicity; however, affective polarization is not the main outcome of the study.",
+          "hypothesis": "Unreported",
+          "instruments": "Correspondence Analysis for user partisanship; DeBERTa-based toxicity classifier; MPNet + DP-Means topic clustering; GAMs",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "US-based politically engaged Twitter/X users",
+          "reason": "This is a journal article, but it does not study an antecedent of affective polarization as the outcome. The paper primarily examines how partisanship and political diversity relate to online toxicity on Twitter; affective polarization is discussed conceptually and as a measured user/topic characteristic, not as the outcome being explained.",
+          "sample_size": "43,151 accounts; 89,599,787 tweets",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical Twitter study with an explicit predictive/associational design linking political diversity and affective polarization-related toxicity to users’ own toxicity; not theory-only or qualitative."
+      },
+      "screen_hash": "cb5b077a7608b3bc424ff8b2d86ed4d068d390dd4c6fc33a657aeb6c372b1331"
+    },
+    "W4415256318": {
+      "aliases": [
+        "W4415256318"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mathias De Roeck",
+          "Kishan Vandael Schreurs"
+        ],
+        "date": "2025-10-16",
+        "doi": "10.1016/j.trf.2025.103401",
+        "id": "W4415256318",
+        "issn": [
+          "1369-8478",
+          "1873-5517"
+        ],
+        "journal": "Transportation Research Part F Traffic Psychology and Behaviour",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Explaining affective polarization between road users: The role of identity, personality and attributions",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical survey study with explicit antecedents and limited mediation evidence for causal processes in affective polarization."
+      },
+      "screen_hash": "9966910b1dc0266931f5d56cab23e7bbc04019ac6e5f61d167125646bad31ddc"
+    },
+    "W4415268580": {
+      "aliases": [
+        "W4415268580"
+      ],
+      "document_hash": "0d380602b5fe96482d6d7be6bace86b589bc4517ccb0ed29c4c4699728919b54",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Ervin Munandar",
+          "Yuniarti Maretha Pasaribu",
+          "Firzan Dahlan",
+          "Aaliyah El-Hussaini"
+        ],
+        "date": "2025-10-16",
+        "doi": "10.37275/oaijss.v8i4.294",
+        "id": "W4415268580",
+        "issn": [
+          "2722-4252"
+        ],
+        "journal": "Open Access Indonesia Journal of Social Sciences",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Reconfiguring Rivalry: Ideological Sorting, Digital Media, and the New Landscape of Affective Polarization in Post-2024 General Election",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Indonesia"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Social media consumption for political news and engagement",
+          "finding": "Cross-sectional regression found a strong positive association between political social media use and affective polarization, alongside a U-shaped ideology effect and a negative association with intergroup contact; results are associative, not causal.",
+          "hypothesis": "Affective polarization would be higher at ideological extremes, higher with greater political social media use, and lower with more intergroup contact; political participation also examined.",
+          "instruments": "Feeling thermometer-based affective polarization scale; 10-point ideological self-placement with quadratic term; social media consumption index; intergroup contact index; political participation index",
+          "locators": "driver P29, outcome P27, design P7, finding P29",
+          "outcome": "Both",
+          "population": "Eligible Indonesian voters in the 2024 presidential election",
+          "reason": "Quantitative journal article with a cross-sectional survey examining antecedents of affective polarization in post-election Indonesia; it tests explicit associations and a proposed causal mechanism (ideological extremity, social media use, and intergroup contact).",
+          "sample_size": "1,500 respondents",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Indonesia"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Social media consumption in the political information environment",
+          "finding": "Affective polarization was higher among respondents who consumed more political content on social media; the paper reports a strong positive association, though the cross-sectional design prevents causal inference. It also finds a U-shaped ideology effect and a negative association with intergroup contact.",
+          "hypothesis": "Affective polarization is associated with ideological extremity, higher political social media use, lower intergroup contact, and political participation.",
+          "instruments": "Feeling thermometer-based affective polarization score; 10-point ideological self-placement with quadratic term; 5-point social media consumption index (2 items); intergroup contact index (2 items); political participation index (4 yes/no items); demographics; hierarchical multiple regression.",
+          "locators": "driver P5, outcome P27, design P7, finding P29",
+          "outcome": "Vertical",
+          "population": "Eligible Indonesian voters in the 2024 election",
+          "reason": "Empirical quantitative journal-style article with a clear causal/process claim about antecedents of affective polarization in post-2024 Indonesia. It measures affective polarization and tests associated factors using a cross-sectional survey regression; although causality cannot be established, the paper explicitly analyzes antecedent relationships and the target outcome is identifiable.",
+          "sample_size": "1,500 respondents",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Cross-sectional journal-style survey with empirical predictors of affective polarization; although causal claims are limited, it includes clear antecedents and a specified process (ideological sorting/digital media), so it merits full-text review."
+      },
+      "screen_hash": "ec08b92b0a79b07e75d8dd030faf7d4d2625ed842439df13e8ecb30f754b74c3"
+    },
+    "W4415277716": {
+      "aliases": [
+        "W4415277716"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Homero Gil de Zúñiga",
+          "Ryan Yang Wang",
+          "Zicheng Cheng"
+        ],
+        "date": "2025-10-17",
+        "doi": "10.1177/08944393251387282",
+        "id": "W4415277716",
+        "issn": [
+          "0894-4393",
+          "1552-8286"
+        ],
+        "journal": "Social Science Computer Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Selective Exposure to News, Homogeneous Political Discussion Networks, and Affective Political Polarization: An Agent-Based Modeling of Minimal versus Strong Communication Effects",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "ABM study with explicit causal processes for selective exposure, homogeneous discussion, and social/media influence shaping affective polarization."
+      },
+      "screen_hash": "74b0010b97343279715b9fa284be2a3e6be506d5124e3c4ff9d27d5e8a9eec49"
+    },
+    "W4415295841": {
+      "aliases": [
+        "W4415295841"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Haoyang Qian",
+          "Malbor Asllani"
+        ],
+        "date": "2025-10-17",
+        "doi": "10.1103/km1w-fmfr",
+        "id": "W4415295841",
+        "issn": [
+          "2470-0045",
+          "2470-0053",
+          "2470-0061"
+        ],
+        "journal": "Physical review. E",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Explosive opinion polarization and depolarization with asymmetric perception",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/modeling study of opinion polarization and depolarization; no empirical antecedent of affective polarization."
+      },
+      "screen_hash": "389d90d376184acdf08b303ac2ee3c6cf14ce20e44e9e23db35b69f505244b86"
+    },
+    "W4415381535": {
+      "aliases": [
+        "W4415381535"
+      ],
+      "document_hash": "e02e662c71bab0d3195d8d5cade2727a5e4fb670aa1902b05c200a452520329c",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Marco Tonin",
+          "Bruno Lepri",
+          "Michele Tizzoni"
+        ],
+        "date": "2025-09-30",
+        "doi": "10.1093/pnasnexus/pgaf308",
+        "id": "W4415381535",
+        "issn": [
+          "2752-6542"
+        ],
+        "journal": "PNAS Nexus",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Physical partisan proximity outweighs online ties in predicting US voting outcomes",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Experienced partisan exposure in physical space versus online ties and residential sorting",
+          "finding": "Excluded: the main outcomes are county vote shares and individual vote choice, not affective polarization. The article reports that physical/offline exposure predicts vote choice better than online or residential exposure, but any link to affective polarization is only speculative.",
+          "hypothesis": "Physical partisan exposure would better predict voting outcomes than online or residential exposure.",
+          "instruments": "Colocation Maps, Social Connectedness Index (SCI), residential partisan exposure dataset, ANES 2020-2022 Social Media Study, spatial lag models, OLS, dominance analysis, logit regressions",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "US counties and ANES respondents in the 2020 presidential election study",
+          "reason": "The paper is about how partisan exposure in physical, online, and residential spaces predicts vote choice and county voting patterns. It does not study antecedents of affective polarization as the outcome, but rather electoral behavior; affective polarization is only mentioned as a potential implication in the discussion.",
+          "sample_size": "County-level US counties; individual survey final sample n=2,420",
+          "supported": false
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Unclear",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Physical partisan proximity / offline exposure versus online ties",
+          "finding": "The paper finds that offline physical exposure is generally more predictive of voting patterns and vote choice than online ties, but this is an association with electoral behavior rather than a direct study of affective polarization.",
+          "hypothesis": "Unreported",
+          "instruments": "Colocation Maps, Social Connectedness Index (Facebook), residential exposure dataset, ANES 2020-2022 Social Media Study",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "US counties and ANES survey respondents in the 2020 presidential election",
+          "reason": "The article examines partisan exposure, segregation, and vote choice at county and individual levels, not affective polarization as the measured outcome. It only mentions potential implications for affective polarization in discussion, without directly measuring it.",
+          "sample_size": "Counties not reported; individual survey final sample 2,420",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical association study with clear design and political behavior outcome; compares offline/online partisan exposure as predictors of vote choice, so it fits as a plausible antecedent-related full-text candidate."
+      },
+      "screen_hash": "f4cf51d88db323adf40ae9f6e9d8e3952933024f9983fc556c637df3d66d76a2"
+    },
+    "W4415521323": {
+      "aliases": [
+        "W4415521323"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Денис Стукал",
+          "Anna N. Shilina",
+          "Андрей Сергеевич Ахременко"
+        ],
+        "date": "2025-10-15",
+        "doi": "10.22363/2313-1438-2025-27-3-430-443",
+        "id": "W4415521323",
+        "issn": [
+          "2313-1438",
+          "2313-1446"
+        ],
+        "journal": "RUDN Journal of Political Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Social Media as an Alter Ego of Reality: What Does Affective Political Polarization Teach Us?",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/comparative survey only; no empirical antecedent or causal process linking a factor to affective polarization."
+      },
+      "screen_hash": "4a44b4c71c3eca10701607e6df90420d33c25e92af2b70f2f2987a7a1239594c"
+    },
+    "W4415566601": {
+      "aliases": [
+        "W4415566601"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Melissa Jauch",
+          "Olivia Fischer",
+          "Mariela E. Jaffé",
+          "Rainer Greifeneder"
+        ],
+        "date": "2025-10-26",
+        "doi": "10.1111/pops.70086",
+        "id": "W4415566601",
+        "issn": [
+          "0162-895X",
+          "1467-9221"
+        ],
+        "journal": "Political Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "How deep a divide do we tolerate? Measuring the willingness to engage with differently minded others (WEDO)",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement-only paper introducing WEDO; no explicit causal antecedent of affective polarization."
+      },
+      "screen_hash": "42c8d2238b1fab9b0a2dcf9263a0ed19c781ede88a2fd2375a9aabbc33153a31"
+    },
+    "W4415767535": {
+      "aliases": [
+        "W4415767535"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Francesca Aarons",
+          "Edward John Roy Clarke"
+        ],
+        "date": "2025-11-01",
+        "doi": "10.31234/osf.io/3nshj_v1",
+        "id": "W4415767535",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "“You can not like cake but still have a favourite”: How people evaluate and engage with political parties in multi-party systems",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W4416194646": {
+      "aliases": [
+        "W4416194646"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Danica Dillion",
+          "Kevin Lewis",
+          "Kurt J. Gray"
+        ],
+        "date": "2025-11-13",
+        "doi": "10.1007/s41109-025-00742-7",
+        "id": "W4416194646",
+        "issn": [
+          "2364-8228"
+        ],
+        "journal": "Applied Network Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Social network density predicts partisan animosity",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W4416859224": {
+      "aliases": [
+        "W4416859224"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Brandon Luke McMurtrie",
+          "Anja Roemer",
+          "Michael Carl Philipp",
+          "Ross Tane Hebden",
+          "Matt N Williams"
+        ],
+        "date": "2025-12-01",
+        "doi": "10.5334/irsp.1052",
+        "id": "W4416859224",
+        "issn": [
+          "0992-986X",
+          "2119-4130",
+          "2397-8570"
+        ],
+        "journal": "International Review of Social Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political Polarization and Wellbeing: Investigating Potential Intrapersonal Harm From Affective Polarization",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "The study tests affective polarization as a predictor of wellbeing and finds no significant causal effects; the only directional finding is stress causing polarization, which is not an antecedent of affective polarization."
+      },
+      "screen_hash": "29273c37ea3e323d739a42d86ebb5ff0361aff0e1c495b305a51a6d746a6132e"
+    },
+    "W4416934096": {
+      "aliases": [
+        "W4416934096"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Edward Hohe"
+        ],
+        "date": "2025-12-03",
+        "doi": "10.1007/s11109-025-10103-w",
+        "id": "W4416934096",
+        "issn": [
+          "0190-9320",
+          "1573-6687"
+        ],
+        "journal": "Political Behavior",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Misperceptions of Out-Partisan Anti-Deliberative Attitudes Shape Partisan Affective and Discursive Preferences",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Abstract unavailable. Full text required."
+      }
+    },
+    "W4417232859": {
+      "aliases": [
+        "W4417232859"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Bjarn Eck",
+          "Elie Michel",
+          "Émilie Van Haute"
+        ],
+        "date": "2025-12-11",
+        "doi": "10.1080/17457289.2025.2598210",
+        "id": "W4417232859",
+        "issn": [
+          "1368-9886",
+          "1745-7289",
+          "1745-7297"
+        ],
+        "journal": "Journal of Elections Public Opinion and Parties",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The impact of party-voter congruence on affective polarization: evidence from Belgium",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical study with a clear causal/associational process: party-voter policy congruence predicting horizontal affective polarization toward in- and out-party voters."
+      },
+      "screen_hash": "7b684e73ad6c3f3eec1b95481ce54a777ab52fd85ebd574ada5a4e6b5a55d1e0"
+    },
+    "W7105686401": {
+      "aliases": [
+        "W7105686401"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Haining Du"
+        ],
+        "date": "2025-11-01",
+        "doi": "10.1111/ssqu.70102",
+        "id": "W7105686401",
+        "issn": [
+          "0038-4941",
+          "1540-6237"
+        ],
+        "journal": "Social Science Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Deindustrialization, Identity Politics, and Public Support for Liberal Policies in the United States",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-only for affective polarization; the abstract reports no meaningful effect on partisan affective polarization."
+      },
+      "screen_hash": "f7fa7646455d281aa47d2cc630ba41153d9e7656023aa88a5a22637024317826"
+    },
+    "W7105690925": {
+      "aliases": [
+        "W7105690925"
+      ],
+      "document_hash": "196c24b6d15a635f1c0cc49c4876adb755202dc5f8a82c4c9f8f1614a6355f8c",
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Hamad Shafqat",
+          "Muhammad Wijdan Shah",
+          "Sajeela Naaz",
+          "Raheela Taj"
+        ],
+        "date": "2025-10-16",
+        "doi": "10.71016/wjsdgr/bta94r68",
+        "id": "W7105690925",
+        "issn": [
+          "3105-4455",
+          "3105-4463"
+        ],
+        "journal": "World Journal of SDGs Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political Discussions on Social Media: Impact on Young Minds in Pakistan",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Pakistan"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "exclude",
+          "factor": "Exposure to political content on social media, including party pages, news, and emotionally charged online material",
+          "finding": "Respondents were highly engaged with political content online, but most reported no change in party affiliation. The study also found substantial affective connection to political actors and greater trust in social media, suggesting reinforcement of existing views and some emotional polarization rather than widespread ideological realignment.",
+          "hypothesis": "Political content on social media influences youth polarization, political affiliation, and political preferences.",
+          "instruments": "Structured questionnaire; SPSS 26; descriptive statistics",
+          "locators": "",
+          "outcome": "Both",
+          "population": "University students aged 18-30",
+          "reason": "This is a non-journal research report/thesis-style study, which the instructions exclude. It is also purely cross-sectional and descriptive, with no explicit causal design beyond self-reported associations.",
+          "sample_size": "100",
+          "supported": false
+        },
+        {
+          "countries": [
+            "Pakistan"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Exposure to political content on social media",
+          "finding": "Most respondents used social media daily and saw it as a key political information source. Social media rarely changed party affiliation, but it was associated with stronger confirmation of prior beliefs, more personal connection to political actors, and higher trust in digital political information; ideological/issue polarization appeared limited while affective polarization was more evident.",
+          "hypothesis": "Social media exposure to political content influences youth political preferences and polarization, mainly through confirmation bias and emotionally charged online content.",
+          "instruments": "Structured questionnaire; SPSS v26 for descriptive analysis",
+          "locators": "driver P39, design P45",
+          "outcome": "Both",
+          "population": "University students aged 18-30 in Pakistan",
+          "reason": "Quantitative cross-sectional survey of Pakistani university students examining how exposure to political content on social media relates to political preferences, trust, and affective connection; it includes an explicit process claim about confirmation bias/echo chambers and an affective polarization outcome.",
+          "sample_size": "100 respondents",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Quantitative study with an explicit social-media-to-affective-polarization process in Pakistani youth; plausible empirical antecedent despite limited causal strength."
+      },
+      "screen_hash": "6d6bbad03db717fec9338695971e3b2057a38a2dbd31222d8893d9cbf96a3f47"
+    },
+    "W7110026115": {
+      "aliases": [
+        "W7110026115"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Yvonne Albrecht"
+        ],
+        "date": "2025-12-08",
+        "doi": "10.4324/9781003640783-3",
+        "id": "W7110026115",
+        "issn": [],
+        "journal": "Routledge eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "Politics of sensibilities and emotions in contexts of social crises",
+        "type": "book-chapter",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7110617968": {
+      "aliases": [
+        "W7110617968"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Michael Bang Petersen",
+          "Antoine Marie"
+        ],
+        "date": "2025-08-29",
+        "doi": "",
+        "id": "W7110617968",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Motivations to connect with like-minded audiences increase partisan sharing on social media",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7111430936": {
+      "aliases": [
+        "W7111430936"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Sanne Kruikemeier",
+          "Edwin Jans",
+          "Emma Turkenburg",
+          "Rens Vliegenthart"
+        ],
+        "date": "2025-09-24",
+        "doi": "",
+        "id": "W7111430936",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Dynamics and drivers of affective polarization in the Dutch 2023 election",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7112179757": {
+      "aliases": [
+        "W7112179757"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Chawani, Rodgers Brenner"
+        ],
+        "date": "2025-10-13",
+        "doi": "",
+        "id": "W7112179757",
+        "issn": [],
+        "journal": "ScholarWorks (Walden University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Polarization, Performance, Responsiveness, and Trust in Malawian Executive, Legislative, and Judicial Institutions",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7112282207": {
+      "aliases": [
+        "W7112282207"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Martino Ongis",
+          "David Kidd"
+        ],
+        "date": "2026-11-04",
+        "doi": "10.1111/pops.70205",
+        "id": "W7112282207",
+        "issn": [
+          "0162-895X",
+          "1467-9221"
+        ],
+        "journal": "Political Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Unrequited: Zero‐sum asymmetry in the political domain fuels affective polarization",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7114909039": {
+      "aliases": [
+        "W7114909039"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Dirk Stierand",
+          "Jan Sauermann"
+        ],
+        "date": "2025-12-11",
+        "doi": "10.17605/osf.io/f2gxc",
+        "id": "W7114909039",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Eroding Cement of Society? The Effect of Affective Polarization on Trust and Solidarity in a Behavioral Experiment (dataset and documentation)",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7117348079": {
+      "aliases": [
+        "W7117348079"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Stefanie Holden"
+        ],
+        "date": "2025-12-23",
+        "doi": "",
+        "id": "W7117348079",
+        "issn": [],
+        "journal": "eScholarship (California Digital Library)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "At the Edges of Us: Group Boundaries, Cultural Norms, and Social Identity in Love and Hate",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7117453394": {
+      "aliases": [
+        "W7117453394"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Ipshita Bhattacharya"
+        ],
+        "date": "2025-12-29",
+        "doi": "10.5709/alp-01.02.2025-04",
+        "id": "W7117453394",
+        "issn": [
+          "3072-1229"
+        ],
+        "journal": "AI Law Politics",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Democracy in Retreat: Structural and Historical Drivers of Eastern European Politics",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/synthesis article on democratic backsliding, not an empirical antecedent study of affective polarization; no original causal design."
+      },
+      "screen_hash": "dc25dfb493d299a441c6c93e204b625254c9dc4e422aec60c23f16d2bdcdde90"
+    },
+    "W7117475235": {
+      "aliases": [
+        "W7117475235"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Don Grant",
+          "Andrew K. Jorgenson",
+          "Wesley Longhofer",
+          "Ion Bodgan (“Bodi”) Vasi"
+        ],
+        "date": "2025-12-29",
+        "doi": "10.1177/00031224251396518",
+        "id": "W7117475235",
+        "issn": [
+          "0003-1224",
+          "1939-8271"
+        ],
+        "journal": "American Sociological Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Long Shadow of Partisan Hostility: How Affective Polarization Hinders Democracies’ Ability to Mitigate Climate Change",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused study on emissions; affective polarization is treated as the predictor rather than being examined as an antecedent."
+      },
+      "screen_hash": "ca24036eef6a6a25ee6fc8b4589a7a568685f4819071dd7026d0ea0b6cb6e5e3"
+    },
+    "W7117720239": {
+      "aliases": [
+        "W7117720239"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jens Lange",
+          "Alex Stefan Koch",
+          "Larissa Knöchelmann",
+          "Hans Alves"
+        ],
+        "date": "2025-12-31",
+        "doi": "10.1177/01461672251406455",
+        "id": "W7117720239",
+        "issn": [
+          "0146-1672",
+          "1552-7433"
+        ],
+        "journal": "Personality and Social Psychology Bulletin",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Attitude Formation Based on Political Views: An Expectancy-Value Model of Interpersonal Likability in Politics",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical reanalysis with large survey datasets shows expectancy and value predict interpersonal liking, offering a clear process for affective polarization."
+      },
+      "screen_hash": "a520d035625979d73f87e3aa5a765869b449036e95ceac0fe6d865c4a7f65188"
+    },
+    "W7118187198": {
+      "aliases": [
+        "W7118187198"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Vilja Robertsson",
+          "Lars-Olof Johansson"
+        ],
+        "date": "2026-01-05",
+        "doi": "10.1080/19012276.2025.2601544",
+        "id": "W7118187198",
+        "issn": [
+          "1901-2276",
+          "1904-0016"
+        ],
+        "journal": "Nordic Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Exploring “wokeness” in Sweden: psychological implications",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7123257109": {
+      "aliases": [
+        "W7123257109"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Phumiphat Praisant"
+        ],
+        "date": "2026-01-12",
+        "doi": "10.5281/zenodo.18225750",
+        "id": "W7123257109",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "When Democracy Collapses from Within: The Psychological Fragility of Democracy in Modern Politics",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7124142086": {
+      "aliases": [
+        "W7124142086"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Stephen Neely",
+          "Kevin B. Smith",
+          "Savannah Havird",
+          "Megan Corn"
+        ],
+        "date": "2026-01-10",
+        "doi": "10.1002/9781394365203.ch10",
+        "id": "W7124142086",
+        "issn": [],
+        "journal": "Wiley eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "Does the Media Really Divide Us?",
+        "type": "book-chapter",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7124152166": {
+      "aliases": [
+        "W7124152166"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Stephen Neely",
+          "Kevin B. Smith",
+          "Savannah Havird",
+          "Megan Corn"
+        ],
+        "date": "2026-01-10",
+        "doi": "10.1002/9781394365203.ch12",
+        "id": "W7124152166",
+        "issn": [],
+        "journal": "Wiley eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "The Anxious Cycle",
+        "type": "book-chapter",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7124451535": {
+      "aliases": [
+        "W7124451535"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [],
+        "date": "2026-01-01",
+        "doi": "10.32872/spb.v21",
+        "id": "W7124451535",
+        "issn": [
+          "1896-1800",
+          "2569-653X"
+        ],
+        "journal": "Social Psychological Bulletin",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "",
+        "type": "paratext",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7125257284": {
+      "aliases": [
+        "W7125257284"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Seda Irmak",
+          "Büşra Söylemez-Karakoç",
+          "Selim Erdem Aytaç"
+        ],
+        "date": "2026-01-21",
+        "doi": "10.1080/13629395.2026.2617259",
+        "id": "W7125257284",
+        "issn": [
+          "1362-9395",
+          "1743-9418"
+        ],
+        "journal": "Mediterranean Politics",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "When polarization meets backsliding: Affective polarization and support for undemocratic practices in Turkey",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7125670689": {
+      "aliases": [
+        "W7125670689"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Alejandro Ciordia Morandeira",
+          "Miranda J. Lubbers",
+          "Eva Jaspers",
+          "Jan‐Willem Simons"
+        ],
+        "date": "2025-11-09",
+        "doi": "10.31235/osf.io/zauq4_v1",
+        "id": "W7125670689",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Not All Political Topics Are Created Equal: How Issue Polarization Shapes Partner Selection in Informal Political Discussion",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7125682165": {
+      "aliases": [
+        "W7125682165"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jesús Sánchez Rodríguez"
+        ],
+        "date": "2026-01-26",
+        "doi": "10.5281/zenodo.18377827",
+        "id": "W7125682165",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The emotional dimension in politics. Cause of polarization in democracies",
+        "type": "report",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7125779908": {
+      "aliases": [
+        "W7125779908"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Arya Ganendra",
+          "Danila Adi Sanjaya",
+          "Ifah Shandy"
+        ],
+        "date": "2026-01-27",
+        "doi": "10.37275/oaijss.v8i3.304",
+        "id": "W7125779908",
+        "issn": [
+          "2722-4252"
+        ],
+        "journal": "Open Access Indonesia Journal of Social Sciences",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Algorithmic Enclaves and Political Sophistication: A Structural Equation Modeling (SEM) of Gen Z’s Voting Behavior in Indonesia’s 2024 Election",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7125935372": {
+      "aliases": [
+        "W7125935372"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Maxime Walder",
+          "Jan Fivaz",
+          "Daniel Schwarz"
+        ],
+        "date": "2026-01-28",
+        "doi": "10.17645/pag.11236",
+        "id": "W7125935372",
+        "issn": [
+          "2183-2463"
+        ],
+        "journal": "Politics and Governance",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Voting Advice Applications and Their Impact on Ideological and Affective Polarization",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7126144899": {
+      "aliases": [
+        "W7126144899"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Rodgers Brenner Chawani"
+        ],
+        "date": "2025-10-13",
+        "doi": "",
+        "id": "W7126144899",
+        "issn": [],
+        "journal": "ScholarWorks (Walden University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Exploring Challenges of Parents with Disabilities Affecting Custody of the Children",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7126247848": {
+      "aliases": [
+        "W7126247848"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jonathan Jackson",
+          "Tasseli E. McKay"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/fwbk6",
+        "id": "W7126247848",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "The politics of enforcement after a focusing event: A Wave 1–Wave 2 panel study of legitimacy, moral boundaries and affective polarisation in U.S. immigration enforcement and policing",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7126302497": {
+      "aliases": [
+        "W7126302497"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Felix Jäger"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7126302497",
+        "issn": [],
+        "journal": "MADOC (University of Mannheim)",
+        "language": "de",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Civil liberties under pressure? The determinants of citizens’ attitudes towards civil liberties policies",
+        "type": "dissertation",
+        "xml": true
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7127139986": {
+      "aliases": [
+        "W7127139986"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Steven W. Webster",
+          "Mary Adams Plooster"
+        ],
+        "date": "2026-02-02",
+        "doi": "10.1080/17457289.2026.2624129",
+        "id": "W7127139986",
+        "issn": [
+          "1368-9886",
+          "1745-7289",
+          "1745-7297"
+        ],
+        "journal": "Journal of Elections Public Opinion and Parties",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Anger, negative partisanship, and joy in the suffering of political others",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W7127447906": {
+      "aliases": [
+        "W7127447906"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Masayuki Miyahsita",
+          "Kazuma Tomimoto"
+        ],
+        "date": "2025-10-27",
+        "doi": "10.23919/isap63122.2025.11361878",
+        "id": "W7127447906",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Effect of Cylindrical Acrylic Scattering on Polarization Characteristics of Terahertz Waves",
+        "type": "conference-paper",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Non-psychology/non-social-science study of terahertz wave polarization; no affective polarization or relevant causal antecedent."
+      },
+      "screen_hash": "8b3755d5381d29f8df38876f6342c9efa4aca3c9e029fd86b0fbefb75d135b82"
+    },
+    "W7127546601": {
+      "aliases": [
+        "W7127546601"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Kamil Bernaerts"
+        ],
+        "date": "2026-09-17",
+        "doi": "10.82444/warw.33910642",
+        "id": "W7127546601",
+        "issn": [],
+        "journal": "Warwick Research Archive Portal (University of Warwick)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Friends or foes : does polarisation really undermine democracy? Understanding the two-way relationship between polarisation dynamics and the processes and institutions of democratic contestation",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7128777667": {
+      "aliases": [
+        "W7128777667"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Luciano Garelli",
+          "Gustavo Adolfo Ríos Rodriguez",
+          "Mario Alberto Storti"
+        ],
+        "date": "2026-02-17",
+        "doi": "10.1108/hff-09-2025-0692",
+        "id": "W7128777667",
+        "issn": [
+          "0961-5539",
+          "1758-6585"
+        ],
+        "journal": "International Journal of Numerical Methods for Heat &amp Fluid Flow",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Numerical modeling of a simplified alkaline water electrolyzer with code_saturne",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7128953427": {
+      "aliases": [
+        "W7128953427"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Léon Chiata",
+          "Mariken Anna Catharina Geertruida van der Velden",
+          "Alberto López Ortega"
+        ],
+        "date": "2026-01-28",
+        "doi": "10.17605/osf.io/3gf92",
+        "id": "W7128953427",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Are They Evil or Just Mistaken? Attribution Patterns in a Multiparty Democracy",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7130294994": {
+      "aliases": [
+        "W7130294994"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Matthew Arp",
+          "Simon J. Kiss"
+        ],
+        "date": "2025-11-01",
+        "doi": "",
+        "id": "W7130294994",
+        "issn": [],
+        "journal": "Scholars Commons (Wilfrid Laurier University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Policy Brief: Affective Polarization in Canada",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Policy brief/event report, not an empirical journal study with an explicit causal antecedent."
+      },
+      "screen_hash": "be8d79c294588a9cc85c376cf4fd63f8b84d3fa22c8c4995caacb77f540214f9"
+    },
+    "W7131086669": {
+      "aliases": [
+        "W7131086669"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Lukas Karel Sotola"
+        ],
+        "date": "2026-02-28",
+        "doi": "10.36850/d6d3-4f14",
+        "id": "W7131086669",
+        "issn": [
+          "2667-1204"
+        ],
+        "journal": "Journal of Trial and Error",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Why Not to Use Difference Scores in Research on Affective Polarization: A Critique and a Tutorial for Using Polyvariate Regression to Study Congruence as an Outcome",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7131778291": {
+      "aliases": [
+        "W7131778291"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Isaias Ghezae",
+          "Yphtach Lelkes",
+          "Mina Cikara"
+        ],
+        "date": "2026-02-27",
+        "doi": "10.31234/osf.io/hx97a_v1",
+        "id": "W7131778291",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who goes with whom: The multidimensional cognitive map of U.S. political coalitions",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7148454507",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7132855165": {
+      "aliases": [
+        "W7132855165"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Eun-Yeong Na"
+        ],
+        "date": "2026-02-27",
+        "doi": "10.1080/23311886.2026.2635021",
+        "id": "W7132855165",
+        "issn": [
+          "2331-1886"
+        ],
+        "journal": "Cogent Social Sciences",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Mediation of conviction in the relationship between media use and affective polarization: age as a moderator",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7133081022": {
+      "aliases": [
+        "W7133081022"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Yphtach Lelkes",
+          "Isaias Ghezae",
+          "Mina Cikara"
+        ],
+        "date": "2026-04-14",
+        "doi": "",
+        "id": "W7133081022",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who goes with whom: The multidimensional cognitive map of U.S. political coalitions",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7133351582": {
+      "aliases": [
+        "W7133351582"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Xia Liu",
+          "Taihui MAO"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.6334002",
+        "id": "W7133351582",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Governance Crisis in the Post-Truth Era: Platform Information Ecology, Affective Polarization, and the Reshaping of the Cognitive Public Sphere",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7134178067": {
+      "aliases": [
+        "W7134178067"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anna-Luise Schönheit"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/96xqj",
+        "id": "W7134178067",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Affective Reactions to Cultural Attitudinal Incongruence",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7134909306": {
+      "aliases": [
+        "W7134909306"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jacob Wang"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.6165727",
+        "id": "W7134909306",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Psychological Dynamics of Polarisation: Analysing Hong Kong's Yellow and Blue Camps in 2019 Protests Discipline: Political Psychology in Comparative Politics",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7135054438": {
+      "aliases": [
+        "W7135054438"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Bryan E. Denham"
+        ],
+        "date": "2026-03-01",
+        "doi": "10.1177/20503245261431086",
+        "id": "W7135054438",
+        "issn": [
+          "2050-3245"
+        ],
+        "journal": "Drug Science Policy and Law",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political ideology and party affiliation as determinants of attitudes toward legalization of Marijuana in the United States: Implications for policy conversations",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Negative partisanship"
+      ]
+    },
+    "W7135074329": {
+      "aliases": [
+        "W7135074329"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Kamil Bernaerts",
+          "Nino Junius"
+        ],
+        "date": "2026-11-05",
+        "doi": "10.1057/s41269-026-00457-2",
+        "id": "W7135074329",
+        "issn": [
+          "0001-6810",
+          "1741-1416"
+        ],
+        "journal": "Acta Politica",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Polarising alone? The relationship between social contact and affective polarisation in Belgium and the UK",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7137082382": {
+      "aliases": [
+        "W7137082382"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Katharina Abad Borger",
+          "Michael Bošnjak",
+          "Jonas Füßenich",
+          "Eva Walther"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.1027/2151-2604/a000613",
+        "id": "W7137082382",
+        "issn": [
+          "0044-3409",
+          "1438-9789",
+          "2151-2604",
+          "2190-8370"
+        ],
+        "journal": "Zeitschrift für Psychologie",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Systematic Review and Evidence Gap Maps of Affective Polarization Research",
+        "type": "review",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7137939630": {
+      "aliases": [
+        "W7137939630"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Natalia Rabahi"
+        ],
+        "date": "2026-03-16",
+        "doi": "10.1515/omgc-2025-0075",
+        "id": "W7137939630",
+        "issn": [
+          "2749-9049"
+        ],
+        "journal": "Online Media and Global Communication",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Creating “diasporic intimacy” with the Lebanese Diaspora in Brazil in times of peace and war",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7140035075": {
+      "aliases": [
+        "W7140035075"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "JAILSON LANA",
+          "Pablo Flôres Limberger"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/b4rpx",
+        "id": "W7140035075",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "POLITICIZED CONSUMPTION IN POLARIZED ENVIRONMENTS: AN EXPERIMENTAL ANALYSIS OF THE EFFECTS OF AFFECTIVE POLARIZATION ON BOYCOTT, BUYCOTT, AND CANCELLATION MEDIATED BY BRAND ACTIVISM AND MODERATED BY SOCIAL NORMS AND POLITICAL POSITIONING.",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7140101115": {
+      "aliases": [
+        "W7140101115"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "World Association for Public Opinion Research"
+        ],
+        "date": "2026-03-23",
+        "doi": "10.1093/ijpor/edag007",
+        "id": "W7140101115",
+        "issn": [
+          "0954-2892",
+          "1471-6909"
+        ],
+        "journal": "International Journal of Public Opinion Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "WAPOR News 2025",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7140126786": {
+      "aliases": [
+        "W7140126786"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Adam J. Schiffer"
+        ],
+        "date": "2026-03-01",
+        "doi": "10.1111/ssqu.70145",
+        "id": "W7140126786",
+        "issn": [
+          "0038-4941",
+          "1540-6237"
+        ],
+        "journal": "Social Science Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Crooked Pictures in Our Heads: Partisan Cable Coverage of Congress",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7140299152": {
+      "aliases": [
+        "W7140299152"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "James Philip Houghton",
+          "Gus Cooney",
+          "Duncan J Watts"
+        ],
+        "date": "2026-03-25",
+        "doi": "10.31235/osf.io/nygt3_v3",
+        "id": "W7140299152",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The role of topic choice in cross-partisan conversations",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7148454507": {
+      "aliases": [
+        "W7148454507"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Isaias Ghezae",
+          "Yphtach Lelkes",
+          "Mina Cikara"
+        ],
+        "date": "2026-04-02",
+        "doi": "10.31234/osf.io/hx97a_v2",
+        "id": "W7148454507",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who goes with whom: The multidimensional cognitive map of U.S. political coalitions",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7131778291",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7150927612": {
+      "aliases": [
+        "W7150927612"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Emily Huddart Kennedy",
+          "Tony J. Silva",
+          "Parker Muzzerall"
+        ],
+        "date": "2026-04-06",
+        "doi": "10.1111/cars.70032",
+        "id": "W7150927612",
+        "issn": [
+          "1755-6171",
+          "1755-618X"
+        ],
+        "journal": "Canadian Review of Sociology/Revue canadienne de sociologie",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Affective Climate and Political Polarization: Identity, Ideology, and Support for Climate Policy",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7151873582": {
+      "aliases": [
+        "W7151873582"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Peter Luca Versteegen"
+        ],
+        "date": "2026-04-08",
+        "doi": "10.7910/dvn/omjtcm",
+        "id": "W7151873582",
+        "issn": [],
+        "journal": "Harvard Dataverse",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Replication Data for: \"How Does Affective Polarization Feel? A Comparative Description\", European Journal of Political Research",
+        "type": "dataset",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7151878268": {
+      "aliases": [
+        "W7151878268"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Wataru Onishi"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/gjn34",
+        "id": "W7151878268",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Does Intra-Party Disagreement over Fiscal Legislation Reduce Affective Polarization?",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7152512860",
+      "queries": [
+        "Primary",
+        "Negative partisanship"
+      ]
+    },
+    "W7152332837": {
+      "aliases": [
+        "W7152332837"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Wataru Onishi"
+        ],
+        "date": "2026-04-06",
+        "doi": "",
+        "id": "W7152332837",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Does Intra-Party Disagreement Reduce Affective Polarization?",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Negative partisanship"
+      ]
+    },
+    "W7152512860": {
+      "aliases": [
+        "W7152512860"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Wataru Onishi"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/8qf69",
+        "id": "W7152512860",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Does Intra-Party Disagreement over Fiscal Legislation Reduce Affective Polarization?",
+        "type": "study-registration",
+        "xml": false
+      },
+      "possible_duplicate": "W7151878268",
+      "queries": [
+        "Primary",
+        "Negative partisanship"
+      ]
+    },
+    "W7154013612": {
+      "aliases": [
+        "W7154013612"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Sarthak Pattnaik",
+          "Chhayank Jain",
+          "Eugene Pinsky"
+        ],
+        "date": "2026-04-11",
+        "doi": "10.3390/make8040098",
+        "id": "W7154013612",
+        "issn": [
+          "2504-4990"
+        ],
+        "journal": "Machine Learning and Knowledge Extraction",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Algorithmic Insights into Human Irrationality: Machine Learning Approaches to Detecting Cognitive Biases and Motivated Reasoning",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154485339": {
+      "aliases": [
+        "W7154485339"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Wataru Onishi"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/hn8fs",
+        "id": "W7154485339",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Does Intra-Party Disagreement over Fiscal Legislation Reduce Affective Polarization?",
+        "type": "study-registration",
+        "xml": false
+      },
+      "possible_duplicate": "W7152512860",
+      "queries": [
+        "Primary",
+        "Negative partisanship"
+      ]
+    },
+    "W7154509113": {
+      "aliases": [
+        "W7154509113"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Ben Stanley"
+        ],
+        "date": "2026-04-15",
+        "doi": "10.1080/21599165.2026.2656881",
+        "id": "W7154509113",
+        "issn": [
+          "2159-9173",
+          "2159-9165"
+        ],
+        "journal": "East European Politics",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Democratic hypocrisy in practice: a panel study of revealed preferences for liberal democracy in Poland",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154563859": {
+      "aliases": [
+        "W7154563859"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Yin Zhi",
+          "Jin Wang"
+        ],
+        "date": "2026-04-20",
+        "doi": "10.1108/jices-07-2025-0195",
+        "id": "W7154563859",
+        "issn": [
+          "1477-996X",
+          "1758-8871"
+        ],
+        "journal": "Journal of Information Communication and Ethics in Society",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Misinformation and polarisation as manifestations of social identity: a literature review",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154827704": {
+      "aliases": [
+        "W7154827704"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Isaias Ghezae",
+          "Yphtach Lelkes",
+          "Mina Cikara"
+        ],
+        "date": "2026-04-18",
+        "doi": "10.31234/osf.io/hx97a_v4",
+        "id": "W7154827704",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who goes with whom: The multidimensional cognitive map of U.S. political coalitions",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7131778291",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154869657": {
+      "aliases": [
+        "W7154869657"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Hubert Cadieux",
+          "Mickael Temporão",
+          "Laurence-Olivier M. Foisy",
+          "Jeremy Drouin",
+          "Yannick Dufresne"
+        ],
+        "date": "2026-04-16",
+        "doi": "",
+        "id": "W7154869657",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "A Behavioral Instrument for Measuring Political Overconfidence: Implications for Understanding Affective Polarization in the United States",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7154913962": {
+      "aliases": [
+        "W7154913962"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "András Gál"
+        ],
+        "date": "2026-04-19",
+        "doi": "10.1080/01436597.2026.2646528",
+        "id": "W7154913962",
+        "issn": [
+          "0143-6597",
+          "1360-2241"
+        ],
+        "journal": "Third World Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The road leading apart: majoritarianism and affective polarisation in Hungary",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154939246": {
+      "aliases": [
+        "W7154939246"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anton Gollwitzer",
+          "Yooeun Jeong",
+          "Maike von Damaros",
+          "Live Leonhardsen Wilhelmsen",
+          "Seeya Pillai",
+          "Jason Steinhauer",
+          "Gabriele Oettingen"
+        ],
+        "date": "2026-04-18",
+        "doi": "10.31234/osf.io/uftmz_v3",
+        "id": "W7154939246",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Misplaced Certainty in Elite Political Rhetoric Predicts Support for Political Violence",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7154957951",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154951147": {
+      "aliases": [
+        "W7154951147"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "P O Quinn"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.6353458",
+        "id": "W7154951147",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Rise and Fall of the New World: Chaos, Power, and Greed",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154954981": {
+      "aliases": [
+        "W7154954981"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Tayla Erica D'Aloia",
+          "Natasha van Antwerpen",
+          "Toby Prike"
+        ],
+        "date": "2026-04-20",
+        "doi": "10.31234/osf.io/qdjts_v1",
+        "id": "W7154954981",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Understanding Misinformation Exposure: Effects on Societal Attitudes, Trust in Institutions, Perceptions of Morality, and Affective Polarisation",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7154957951": {
+      "aliases": [
+        "W7154957951"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anton Gollwitzer",
+          "Yooeun Jeong",
+          "Maike von Damaros",
+          "Live Leonhardsen Wilhelmsen",
+          "Seeya Pillai",
+          "Jason Steinhauer",
+          "Gabriele Oettingen"
+        ],
+        "date": "2026-04-20",
+        "doi": "10.31234/osf.io/uftmz_v4",
+        "id": "W7154957951",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Misplaced Certainty in Elite Political Rhetoric Predicts Support for Political Violence",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7154939246",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7155051881": {
+      "aliases": [
+        "W7155051881"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Felipe Vilanova",
+          "Flávio Azevedo"
+        ],
+        "date": "2026-04-21",
+        "doi": "10.3389/frsps.2026.1779833",
+        "id": "W7155051881",
+        "issn": [
+          "2813-7876"
+        ],
+        "journal": "Frontiers in Social Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The problem with polarization research in an age of extremism",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7155068316": {
+      "aliases": [
+        "W7155068316"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Brandon Luke McMurtrie",
+          "Matt N Williams",
+          "Michael Carl Philipp",
+          "Anja Roemer",
+          "Ross Tane Hebden"
+        ],
+        "date": "2026-04-21",
+        "doi": "10.1002/ejsp.70081",
+        "id": "W7155068316",
+        "issn": [
+          "0046-2772",
+          "1099-0992"
+        ],
+        "journal": "European Journal of Social Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political Social Identity Threat Predicts Increases in Affective Polarisation Over Time, but Not Changes in Well‐Being",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7155217028": {
+      "aliases": [
+        "W7155217028"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anna Hengge"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.11588/heidok.00038509",
+        "id": "W7155217028",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Young, Broke and (Un)polarized? Polarization and Young Adults in South Korea",
+        "type": "dissertation",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7155218049": {
+      "aliases": [
+        "W7155218049"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Paula Janicka"
+        ],
+        "date": "2026-04-22",
+        "doi": "10.24384/0mxj-yf22",
+        "id": "W7155218049",
+        "issn": [],
+        "journal": "Radar (Oxford Brookes University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The uncalibrated mind : does poor metacognition affect news discernment and affective polarisation?",
+        "type": "conference-abstract",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7155499936": {
+      "aliases": [
+        "W7155499936"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Rahel Geppert",
+          "Rune Miram",
+          "Robin Engelhardt",
+          "Jürgen Maes"
+        ],
+        "date": "2026-04-24",
+        "doi": "10.31234/osf.io/ftnwb",
+        "id": "W7155499936",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Moral Polarization: Different from Affective and Issue Polarization",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7157295682": {
+      "aliases": [
+        "W7157295682"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Katharina Lawall",
+          "Peter Luca Versteegen",
+          "Manos Tsakiris"
+        ],
+        "date": "2026-04-28",
+        "doi": "10.1017/s1475676526101170",
+        "id": "W7157295682",
+        "issn": [
+          "0304-4130",
+          "1475-6765"
+        ],
+        "journal": "European Journal of Political Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "How does affective polarization feel? A comparative description",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7158570351": {
+      "aliases": [
+        "W7158570351"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Emile Boullineau"
+        ],
+        "date": "2026-04-30",
+        "doi": "10.5281/zenodo.19902380",
+        "id": "W7158570351",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Evaluation Without Revision: Rethinking How Psychology Measures Judgmentalism",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7159575879": {
+      "aliases": [
+        "W7159575879"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Yaprak Gürsoy",
+          "Buğra Güngör"
+        ],
+        "date": "2026-05-12",
+        "doi": "10.1177/13691481261447632",
+        "id": "W7159575879",
+        "issn": [
+          "1369-1481",
+          "1467-856X"
+        ],
+        "journal": "The British Journal of Politics and International Relations",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Perceptions of government performance and collective trauma: The case of the 2023 Turkish earthquakes",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7159970525": {
+      "aliases": [
+        "W7159970525"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Xianquan Zeng",
+          "Jiarun Du",
+          "Jinghong Xu",
+          "Qiong Xu"
+        ],
+        "date": "2026-04-30",
+        "doi": "10.17645/mac.11794",
+        "id": "W7159970525",
+        "issn": [
+          "2183-2439"
+        ],
+        "journal": "Media and Communication",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Echoes of Emotion: Influencers’ Communication Strategies and Comment Polarization in the US 2024 Presidential Election",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7160025595": {
+      "aliases": [
+        "W7160025595"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Fatima Shahid",
+          "Laraib Amir",
+          "Ali Bhadur"
+        ],
+        "date": "2026-03-30",
+        "doi": "10.63544/ijss.v5i2.274",
+        "id": "W7160025595",
+        "issn": [
+          "2959-4359",
+          "3007-2018"
+        ],
+        "journal": "Inverge Journal of Social Sciences",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Digital Trap: How Short Political Videos on TikTok and Reels Lock Pakistani Youth into One-Sided Thinking",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7160163664": {
+      "aliases": [
+        "W7160163664"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Eric Merkley"
+        ],
+        "date": "2026-03-24",
+        "doi": "10.3138/9781049808673",
+        "id": "W7160163664",
+        "issn": [],
+        "journal": "University of Toronto Press eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "Polarization, Eh? The Causes and Consequences of Affective Polarization in Canada",
+        "type": "book",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7160546694": {
+      "aliases": [
+        "W7160546694"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Gökçe Özkarar-Gradwohl",
+          "Oliver Hugh Turnbull"
+        ],
+        "date": "2026-05-08",
+        "doi": "10.3389/fpsyg.2026.1797537",
+        "id": "W7160546694",
+        "issn": [
+          "1664-1078"
+        ],
+        "journal": "Frontiers in Psychology",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Can culture and universalism co-exist in affective neuroscience?",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7161108279": {
+      "aliases": [
+        "W7161108279"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Trystan Loustau",
+          "Julia Kamin",
+          "Graham Bodie"
+        ],
+        "date": "2026-05-14",
+        "doi": "10.31235/osf.io/xpdjh_v1",
+        "id": "W7161108279",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Social Cohesion Impact Measure (SCIM) for Evaluating Interventions Aimed at Promoting Social Cohesion",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7161520371": {
+      "aliases": [
+        "W7161520371"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "A. (Asilbek) Usmanov"
+        ],
+        "date": "2026-04-14",
+        "doi": "",
+        "id": "W7161520371",
+        "issn": [],
+        "journal": "Neliti",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Affective Polarization: Unraveling the Causes OF Democratic Backsliding in 68 Countries",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7161536499": {
+      "aliases": [
+        "W7161536499"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Til Gerlach"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/w83qd",
+        "id": "W7161536499",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Pre-registration for: Machine learning reveals heterogeneity in the effectiveness of democracy-strengthening interventions",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7161551290": {
+      "aliases": [
+        "W7161551290"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Rachel L. Neo"
+        ],
+        "date": "2026-05-18",
+        "doi": "10.1080/15456870.2026.2676059",
+        "id": "W7161551290",
+        "issn": [
+          "1545-6870",
+          "1545-6889"
+        ],
+        "journal": "Atlantic Journal of Communication",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Linking online partisan news exposure with affective polarization and perceived ideological sorting via political discussions",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7161779936": {
+      "aliases": [
+        "W7161779936"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Pallavi S",
+          "Madhushree A M"
+        ],
+        "date": "2026-05-19",
+        "doi": "10.36948/ijfmr.2026.v08i03.78278",
+        "id": "W7161779936",
+        "issn": [
+          "2582-2160"
+        ],
+        "journal": "International Journal For Multidisciplinary Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Examining the Effects of Affective Polarization, Cognitive Flexibility, and Social Support on Young Adults’ Political Interest",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7162098115": {
+      "aliases": [
+        "W7162098115"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Esther Mary L. Calvo"
+        ],
+        "date": "2026-05-22",
+        "doi": "10.1093/pa/gsag019",
+        "id": "W7162098115",
+        "issn": [
+          "0031-2290",
+          "1460-2482"
+        ],
+        "journal": "Parliamentary Affairs",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "(De)polarizing words: How elite rhetoric shapes affective polarization toward the radical right",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7162206702": {
+      "aliases": [
+        "W7162206702"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jingyi Pu"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/qajhg",
+        "id": "W7162206702",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Power of Visual Framing in AI-Mediated Political News: Evidence from a Survey Experiment in the U.S.",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7162329585": {
+      "aliases": [
+        "W7162329585"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Alexa Bankert",
+          "Joshua N. Zingher"
+        ],
+        "date": "2026-05-25",
+        "doi": "10.1177/10659129261454646",
+        "id": "W7162329585",
+        "issn": [
+          "1065-9129",
+          "1938-274X",
+          "1938-2758"
+        ],
+        "journal": "Political Research Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Partisan Hearts, Polarized Minds? Revisiting the Relationship Between Partisanship and Polarization",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7162410703": {
+      "aliases": [
+        "W7162410703"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Erika Fille Legara",
+          "Jose Marie Antonio Miñoza",
+          "Christopher Pineda Monterola"
+        ],
+        "date": "2026-05-26",
+        "doi": "10.21203/rs.3.rs-9799219/v1",
+        "id": "W7162410703",
+        "issn": [],
+        "journal": "Research Square",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Spite, Bandwagons, and Coalition Collapse",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W7162785365": {
+      "aliases": [
+        "W7162785365"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Miongsei Kang",
+          "Jong‐Cheol Kim"
+        ],
+        "date": "2026-05-29",
+        "doi": "10.3389/fpos.2026.1743027",
+        "id": "W7162785365",
+        "issn": [
+          "2673-3145"
+        ],
+        "journal": "Frontiers in Political Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Partisan polarization, populist attitudes, and anti-democratic behaviors",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7163353804": {
+      "aliases": [
+        "W7163353804"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mahmoud Farag",
+          "Isabella C. Montini",
+          "Philipp Schemm"
+        ],
+        "date": "2026-06-03",
+        "doi": "10.1017/s1755773926100484",
+        "id": "W7163353804",
+        "issn": [
+          "1755-7739",
+          "1755-7747"
+        ],
+        "journal": "European Political Science Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Overcoming impeachment hurdles: elite polarization, mass mobilization, and corruption scandals",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7163743679": {
+      "aliases": [
+        "W7163743679"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Nadine Knab",
+          "Emina Labeau",
+          "Norina Emechafor"
+        ],
+        "date": "2026-06-04",
+        "doi": "10.31234/osf.io/c27d5_v1",
+        "id": "W7163743679",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Look at Me Being Good – Connecting Moral Grandstanding with Affective Polarization and Civic Engagement",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7163757495": {
+      "aliases": [
+        "W7163757495"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Alula Alderson"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.17605/osf.io/stkxm",
+        "id": "W7163757495",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Not All Polarization is Equal? Examining the Differential Effects of Extremity on Political Self-Censorship",
+        "type": "study-registration",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7164300800": {
+      "aliases": [
+        "W7164300800"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Hyun-Chool Lee"
+        ],
+        "date": "2026-06-10",
+        "doi": "10.1177/01925121261445357",
+        "id": "W7164300800",
+        "issn": [
+          "0192-5121",
+          "1460-373X"
+        ],
+        "journal": "International Political Science Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Democratic satisfaction under affective polarization: Evidence from South Korea",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165083728": {
+      "aliases": [
+        "W7165083728"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Cassidy Kroggel"
+        ],
+        "date": "2025-12-08",
+        "doi": "",
+        "id": "W7165083728",
+        "issn": [],
+        "journal": "ScholarWorks@BGSU (Bowling Green State University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Ideology, Issue Consistency, & Rationality in Political Preferences Among BGSU Students",
+        "type": "article",
+        "xml": true
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused student study on ideological consistency and affective polarization; no clear antecedent causal process is specified."
+      },
+      "screen_hash": "39bf744848e99405239fc5875bcb416f26f2c9e709c475938cf710177a76d1a9"
+    },
+    "W7165220969": {
+      "aliases": [
+        "W7165220969"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Robert L. Svensson"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7165220969",
+        "issn": [],
+        "journal": "DiVA (Stockholm University)",
+        "language": "sv",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Polarization Enginge : A study of affective polarization and its drivers during the 2026 election year",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165392964": {
+      "aliases": [
+        "W7165392964"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Peter Luca Versteegen"
+        ],
+        "date": "2026-06-18",
+        "doi": "10.7910/dvn/iq6ebz",
+        "id": "W7165392964",
+        "issn": [],
+        "journal": "Harvard Dataverse",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Replication Data for: Cool Citizens? How Affectively Unpolarized Citizens View and Participate in Democracy",
+        "type": "dataset",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165430255": {
+      "aliases": [
+        "W7165430255"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Fagerstedt Joel"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7165430255",
+        "issn": [],
+        "journal": "Uppsala University Publications (Uppsala University)",
+        "language": "sv",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Moral Foundations Theory möter svenska partier: bär den eller brister den? : En jämförande textanalys av skillnad i moraliska grunder mellan Centerpartiet och Kristdemokraternas argumentation för väljarna.",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165518526": {
+      "aliases": [
+        "W7165518526"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Horacio Larreguy",
+          "Ernesto Tiburcio"
+        ],
+        "date": "2026-06-22",
+        "doi": "10.1038/s41562-026-02507-3",
+        "id": "W7165518526",
+        "issn": [
+          "2397-3374"
+        ],
+        "journal": "Nature Human Behaviour",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political polarization in low- and middle-income countries",
+        "type": "review",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165630192": {
+      "aliases": [
+        "W7165630192"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Keisuke Mori"
+        ],
+        "date": "2026-06-23",
+        "doi": "10.1080/18692729.2026.2685382",
+        "id": "W7165630192",
+        "issn": [
+          "1869-2729",
+          "1869-2737"
+        ],
+        "journal": "Contemporary Japan",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Affective polarization and the politics of visibility: Digital diffusion of the Takae anti-base protests in Okinawa",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7165748635": {
+      "aliases": [
+        "W7165748635"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Aurelius Ratu",
+          "Yuni Setyaningsih",
+          "Syarifah Aura Rabbani",
+          "Annisa Fitri Ayu",
+          "Dapunta Adyapaksi Ratyanasja",
+          "Gregorius Setiadharma",
+          "Algof Kristian Zega"
+        ],
+        "date": "2026-06-24",
+        "doi": "10.18502/kss.v11i4.21230",
+        "id": "W7165748635",
+        "issn": [
+          "2518-668X"
+        ],
+        "journal": "KnE Social Sciences",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Predictors of Political Polarization on Social Media among Young Indonesian Users",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167159886": {
+      "aliases": [
+        "W7167159886"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mazharul Ahosan Fahim"
+        ],
+        "date": "2026-08-01",
+        "doi": "",
+        "id": "W7167159886",
+        "issn": [],
+        "journal": "Digital Commons - East Tennessee State University (East Tennessee State University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Gender, Immigration, and the Republican Coalition: Attitude Activation Versus Attitude Change in the 2020–2024 Electoral Transition",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167252423": {
+      "aliases": [
+        "W7167252423"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anandita C. Sabherwal",
+          "Danielle Goldwert",
+          "Madalina Vlasceanu",
+          "Elke U. Weber"
+        ],
+        "date": "2026-06-29",
+        "doi": "10.31234/osf.io/8j7n2_v1",
+        "id": "W7167252423",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Coordinated Psychological Intervention Ensembles Outperform Single-Mechanism Designs Across Societal Challenges",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7167255523": {
+      "aliases": [
+        "W7167255523"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Benjamín Lira",
+          "Noah Castelo",
+          "Stefano Puntoni",
+          "Olivier Toubia"
+        ],
+        "date": "2026-07-02",
+        "doi": "10.48550/arxiv.2607.02181",
+        "id": "W7167255523",
+        "issn": [
+          "2331-8422"
+        ],
+        "journal": "arXiv (Cornell University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Synthetic Contact with AI Reduces Cross-Partisan Animosity",
+        "type": "preprint",
+        "xml": true
+      },
+      "possible_duplicate": "W7170064772",
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7167295424": {
+      "aliases": [
+        "W7167295424"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Kornelia Stark"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7167295424",
+        "issn": [],
+        "journal": "Uppsala University Publications (Uppsala University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Scrolling Apart: Gender, Content Exposure and Media Trust as Predictors of Affective Polarisation among Young Polish Adults",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167440952": {
+      "aliases": [
+        "W7167440952"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Kazi Mehedi Hasan"
+        ],
+        "date": "2026-05-01",
+        "doi": "",
+        "id": "W7167440952",
+        "issn": [],
+        "journal": "OpenSIUC (Southern Illinois University Carbondale)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "PERSONALIZED POLITICS IN THE DIGITAL AGE: HOW MEDIA EXPOSURE AND SOCIAL MEDIA MICRO TARGETING IMPACT PUBLIC AGENDA DIVERSITY AND WIDEN PARTISAN POLARIZATION IN U.S. PRESIDENTIAL ELECTIONS (2012-24)",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167445175": {
+      "aliases": [
+        "W7167445175"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Atinuke Elizabeth Ayowole-Muili"
+        ],
+        "date": "2026-05-01",
+        "doi": "",
+        "id": "W7167445175",
+        "issn": [],
+        "journal": "OpenSIUC (Southern Illinois University Carbondale)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Theoretical Foundations and Immigrant Partisan Development in The United States",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167684052": {
+      "aliases": [
+        "W7167684052"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Michael Patrick Lynch"
+        ],
+        "date": "2026-07-06",
+        "doi": "10.31820/ejap.22.1.1",
+        "id": "W7167684052",
+        "issn": [
+          "1845-8475",
+          "1849-0514"
+        ],
+        "journal": "European journal of analytic philosophy",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political narratives and concrete democratic hope",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167707805": {
+      "aliases": [
+        "W7167707805"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Patrizia Pedrini",
+          "Jacopo Marchetti"
+        ],
+        "date": "2026-07-06",
+        "doi": "10.31820/ejap.22.1.2",
+        "id": "W7167707805",
+        "issn": [
+          "1845-8475",
+          "1849-0514"
+        ],
+        "journal": "European journal of analytic philosophy",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Performative contingency and affective polarization",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7167894161": {
+      "aliases": [
+        "W7167894161"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Won-jun Lee"
+        ],
+        "date": "2026-06-30",
+        "doi": "10.29143/kuifg.2026.12.1.25",
+        "id": "W7167894161",
+        "issn": [
+          "2466-0396",
+          "2713-6396"
+        ],
+        "journal": "Institute for Future Growth",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Are Others Devils? A Study on the Causes and Pathways of Social Polarization",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7168159097": {
+      "aliases": [
+        "W7168159097"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Judd R. Thornton",
+          "Stephany Dejesus Lina"
+        ],
+        "date": "2026-07-06",
+        "doi": "10.29115/sp-2026-0014",
+        "id": "W7168159097",
+        "issn": [
+          "2168-0094"
+        ],
+        "journal": "Survey Practice",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Politics of Survey Participation: Political Engagement, Polarization, and Panel Attrition 1980–2020",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7168170889": {
+      "aliases": [
+        "W7168170889"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Luca Magni"
+        ],
+        "date": "2026-07-11",
+        "doi": "10.47363/jbrr/2026(3)127",
+        "id": "W7168170889",
+        "issn": [
+          "2755-8339"
+        ],
+        "journal": "Journal of Business Research and Reports",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "A Neurosemantic Approach to Vision and Mission Alignment: Construct Formalization, Metric Design, and Pilot Plausibility Testing",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7168413521": {
+      "aliases": [
+        "W7168413521"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Eliasu Mumuni",
+          "Gbensuglo Alidu Bukari",
+          "Musah Ibrahim Mordzeh-Ekpampo"
+        ],
+        "date": "2026-07-15",
+        "doi": "10.51867/aqssr.3.3.10",
+        "id": "W7168413521",
+        "issn": [
+          "3006-3493"
+        ],
+        "journal": "African Quarterly Social Science Review",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political economy of disinformation electioneering in Ghana: Explaining the effect on voter behaviour",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7168891913": {
+      "aliases": [
+        "W7168891913"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mariana Von Mohr",
+          "Olaf Borghi",
+          "Manos Tsakiris"
+        ],
+        "date": "2025-10-23",
+        "doi": "10.17605/osf.io/zyevr",
+        "id": "W7168891913",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Pro-Democratic Effort",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7169674330": {
+      "aliases": [
+        "W7169674330"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Bjarn Eck",
+          "Elie Michel"
+        ],
+        "date": "2026-07-18",
+        "doi": "10.1016/j.electstud.2026.103116",
+        "id": "W7169674330",
+        "issn": [
+          "0261-3794",
+          "1873-6890"
+        ],
+        "journal": "Electoral Studies",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Election salience revisited: How elections (do not) boost affective polarization",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7169713129": {
+      "aliases": [
+        "W7169713129"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Muhammad Ehab Rasul",
+          "Emily Kubin"
+        ],
+        "date": "2026-07-16",
+        "doi": "10.17605/osf.io/62st9",
+        "id": "W7169713129",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Incidental News Exposure, Short Form Video News Use, and Affective Polarization",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7171164826",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7169713704": {
+      "aliases": [
+        "W7169713704"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Marco Perugini"
+        ],
+        "date": "2026-07-19",
+        "doi": "10.5281/zenodo.21443388",
+        "id": "W7169713704",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Structural Floor: Algorithmic Architecture and the Collapse of Presidential Approval Volatility, 1945-2026",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7170064772": {
+      "aliases": [
+        "W7170064772"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Benjamín Lira",
+          "Noah Castelo",
+          "Stefano Puntoni",
+          "Olivier Toubia"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7042278",
+        "id": "W7170064772",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Synthetic Contact with AI Reduces Cross-Partisan Animosity",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7167255523",
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7170086769": {
+      "aliases": [
+        "W7170086769"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Katharina Anna Sodoma",
+          "Daniel Sharp"
+        ],
+        "date": "2026-07-23",
+        "doi": "10.1007/978-3-032-27049-8_12",
+        "id": "W7170086769",
+        "issn": [],
+        "journal": "Springer eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "Empathic Engagement and Polarization in Multi-Party Democracies: The Case of the Populist Radical Right",
+        "type": "book-chapter",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7170089698": {
+      "aliases": [
+        "W7170089698"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jehyun Yoon",
+          "Byeongchan Oh",
+          "Tae‐Hyeon Kim"
+        ],
+        "date": "2026-07-22",
+        "doi": "10.1016/j.mejo.2026.107401",
+        "id": "W7170089698",
+        "issn": [
+          "1879-2391"
+        ],
+        "journal": "Microelectronics Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Impact of an ultrathin Al2O3 interlayer on memory characteristics in HZO-FeFETs: A TCAD simulation study",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7170606210": {
+      "aliases": [
+        "W7170606210"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Loreto Cox"
+        ],
+        "date": "2026-07-21",
+        "doi": "10.7910/dvn/lw8gpp",
+        "id": "W7170606210",
+        "issn": [],
+        "journal": "Harvard Dataverse",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Replication Data for: \"Citizens’ Views and Polarization around Historical Divisions: The Case of Chile 50 Years after the Coup.\" Political Science Quarterly. DOI: https://doi.org/10.1093/psquar/qqag063",
+        "type": "dataset",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7170918476": {
+      "aliases": [
+        "W7170918476"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Paulo Cesar da Silva Pontes"
+        ],
+        "date": "2026-07-23",
+        "doi": "10.23900/artefactum.v25i5.3359",
+        "id": "W7170918476",
+        "issn": [
+          "1984-3852"
+        ],
+        "journal": "Artefactum",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "THE HYPOTHESIS OF PARTY IMMUNITY UNDER SCRUTINY: THE BANCO MASTER SCANDAL AND THE LIMITS OF THE DEFENSIVE FRAMING OF BOLSONARISTA ELECTORAL BEHAVIOR",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7171164826": {
+      "aliases": [
+        "W7171164826"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Muhammad Ehab Rasul",
+          "Emily Kubin"
+        ],
+        "date": "2026-07-22",
+        "doi": "10.17605/osf.io/qzbkw",
+        "id": "W7171164826",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Incidental News Exposure, Short Form Video News Use, and Affective Polarization",
+        "type": "study-registration",
+        "xml": false
+      },
+      "possible_duplicate": "W7169713129",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7171618694": {
+      "aliases": [
+        "W7171618694"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jennifer Larson",
+          "Janet Lewis"
+        ],
+        "date": "2026-07-28",
+        "doi": "10.7910/dvn/rahsvm",
+        "id": "W7171618694",
+        "issn": [],
+        "journal": "Harvard Dataverse",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Replication Data for: Networks Shape Political Attitude Change",
+        "type": "dataset",
+        "xml": false
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7171626263": {
+      "aliases": [
+        "W7171626263"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Heather Bedle"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.6675023",
+        "id": "W7171626263",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Group Perceptions in America: Demographic and Ideological Divides",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7171777324": {
+      "aliases": [
+        "W7171777324"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Sam Fuller",
+          "Neil Williams",
+          "Jack T. Rametta"
+        ],
+        "date": "2026-07-30",
+        "doi": "10.31235/osf.io/cy964_v1",
+        "id": "W7171777324",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Changing Landscape of Democratic (Dis)Satisfaction: Results from the American National Election Study 1996–2024",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7171780955": {
+      "aliases": [
+        "W7171780955"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Raúl Gómez",
+          "José Javier Olivas Osuna",
+          "Luis Ramiro"
+        ],
+        "date": "2026-07-30",
+        "doi": "10.1017/s1475676526101583",
+        "id": "W7171780955",
+        "issn": [
+          "0304-4130",
+          "1475-6765"
+        ],
+        "journal": "European Journal of Political Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Threat perception and partisan animosity: Evidence from Argentina and Brazil",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7171850389": {
+      "aliases": [
+        "W7171850389"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Derek Edward Holliday"
+        ],
+        "date": "2026-07-30",
+        "doi": "10.31235/osf.io/rvtsf_v1",
+        "id": "W7171850389",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Changing Partisanship Contributes Significantly to Rising Affective Polarization: Evidence from a Decomposition of Panel Data",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7171972745": {
+      "aliases": [
+        "W7171972745"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Carter Bailey"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7207459",
+        "id": "W7171972745",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Social Media as a Primary News Source with Correlations of Political Polarization Among U.S. Adults",
+        "type": "preprint",
+        "xml": true
+      },
+      "possible_duplicate": "W7201847037",
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7172385526": {
+      "aliases": [
+        "W7172385526"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Gi‐Woo Roh",
+          "Jungsub Shin"
+        ],
+        "date": "2026-08-04",
+        "doi": "10.1177/13540688261470553",
+        "id": "W7172385526",
+        "issn": [
+          "1354-0688",
+          "1460-3683"
+        ],
+        "journal": "Party Politics",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Party membership motivations and political activism in a polarized new democracy: Evidence from South Korea",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7172391088": {
+      "aliases": [
+        "W7172391088"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Miguel Eduardo Alva Rivera",
+          "Oniel Francisco Díaz Jiménez"
+        ],
+        "date": "2026-08-04",
+        "doi": "10.24201/es.2026v44.e3039",
+        "id": "W7172391088",
+        "issn": [
+          "0185-4186",
+          "2448-6442"
+        ],
+        "journal": "Estudios Sociológicos de El Colegio de México",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Polarización afectiva, partidismo negativo y comportamiento electoral en elecciones presidenciales: México 2024",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W7172539693": {
+      "aliases": [
+        "W7172539693"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Seo‐young Silvia Kim",
+          "Taegyoon Kim",
+          "Jeong Hyun Kim",
+          "Youngdeuk Park"
+        ],
+        "date": "2026-08-05",
+        "doi": "10.31235/osf.io/ktezp_v1",
+        "id": "W7172539693",
+        "issn": [],
+        "journal": "SocArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Epistemic Intolerance Toward Outpartisans",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7201843758": {
+      "aliases": [
+        "W7201843758"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Carter Bailey"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7209118",
+        "id": "W7201843758",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Social Media as a Primary News Source with Correlations of Political Polarization Among U.S. Adults",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7201847037",
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7201847037": {
+      "aliases": [
+        "W7201847037"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Carter Bailey"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7209038",
+        "id": "W7201847037",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Social Media as a Primary News Source with Correlations of Political Polarization Among U.S. Adults",
+        "type": "preprint",
+        "xml": true
+      },
+      "possible_duplicate": "W7201843758",
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7202093096": {
+      "aliases": [
+        "W7202093096"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jennifer Larson",
+          "Janet I. Lewis"
+        ],
+        "date": "2026-08-10",
+        "doi": "10.1017/nws.2026.10038",
+        "id": "W7202093096",
+        "issn": [
+          "2050-1242",
+          "2050-1250"
+        ],
+        "journal": "Network Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Networks shape political attitude change",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Partisan animosity"
+      ]
+    },
+    "W7202384718": {
+      "aliases": [
+        "W7202384718"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Han Yan"
+        ],
+        "date": "2026-02-01",
+        "doi": "10.62381/acs.hsms2026.17",
+        "id": "W7202384718",
+        "issn": [
+          "3008-0908"
+        ],
+        "journal": "Academic Conferences Series",
+        "language": "en",
+        "retracted": false,
+        "source_type": "conference",
+        "title": "Echo Chambers and Fragmented Public Opinion in U.S. Social Media Communication",
+        "type": "conference-paper",
+        "xml": true
+      },
+      "queries": [
+        "Primary",
+        "Partisan animosity"
+      ]
+    },
+    "W7202422137": {
+      "aliases": [
+        "W7202422137"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Francesca Thuresson"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7202422137",
+        "issn": [],
+        "journal": "Scholars' Bank (University of Oregon)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Designing Depolarization: A Comparative Evaluation of Interventions for Reducing Affective Political Polarization",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7203470114": {
+      "aliases": [
+        "W7203470114"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Callum Shaw"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.21953/researchonline.lse.ac.uk.00140611",
+        "id": "W7203470114",
+        "issn": [],
+        "journal": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Who sees what: information architecture and economic outcomes",
+        "type": "dissertation",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7203561594": {
+      "aliases": [
+        "W7203561594"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Brandon Luke McMurtrie"
+        ],
+        "date": "2025-12-30",
+        "doi": "",
+        "id": "W7203561594",
+        "issn": [],
+        "journal": "Massey Research Online (Massey University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Measuring affective polarization, examining its potential as a sociopolitical stressor, and investigating the role of identity threat : a longitudinal investigation : a thesis submitted in partial fulfilment of the requirements for the degree of Doctor of Philosophy in Psychology at Massey University, Palmerston North, New Zealand",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Thesis/dissertation, not a journal report; though it has a longitudinal causal test, it is excluded by source type."
+      },
+      "screen_hash": "d74b5438be58b2ab396dc77cbc75e15230c1148ca058b8bcf8ddc1e9ccd72661"
+    },
+    "W7203602222": {
+      "aliases": [
+        "W7203602222"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Lilla Orr",
+          "Gregory A. Huber"
+        ],
+        "date": "2026-08-17",
+        "doi": "10.3389/fpos.2026.1874036",
+        "id": "W7203602222",
+        "issn": [
+          "2673-3145"
+        ],
+        "journal": "Frontiers in Political Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Understanding the roots of perceived polarization: What it means to be a partisan",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7203910238": {
+      "aliases": [
+        "W7203910238"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Loreto Cox"
+        ],
+        "date": "2026-08-20",
+        "doi": "10.1093/psquar/qqag063",
+        "id": "W7203910238",
+        "issn": [
+          "0032-3195",
+          "1538-165X"
+        ],
+        "journal": "Political Science Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Citizens’ Views and Polarization around Historical Divisions: The Case of Chile Fifty Years after the Coup",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7204072586": {
+      "aliases": [
+        "W7204072586"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Mariano Torcal",
+          "Paul Allen Beck"
+        ],
+        "date": "2026-08-24",
+        "doi": "10.1016/j.electstud.2026.103140",
+        "id": "W7204072586",
+        "issn": [
+          "0261-3794",
+          "1873-6890"
+        ],
+        "journal": "Electoral Studies",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Interpersonal political discussion and affective polarization: Comparative evidence from 41 elections and five panel studies",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7204237787": {
+      "aliases": [
+        "W7204237787"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Manuel Josef Kogel",
+          "Aidar Zinnatullin"
+        ],
+        "date": "2026-08-26",
+        "doi": "10.1017/s1682098326100642",
+        "id": "W7204237787",
+        "issn": [
+          "1680-4333",
+          "1682-0983"
+        ],
+        "journal": "European Political Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "What drives affective polarization? A systematic literature review",
+        "type": "review",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7207833964": {
+      "aliases": [
+        "W7207833964"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Adam Ka‐Lok Cheung"
+        ],
+        "date": "2026-09-04",
+        "doi": "10.1016/j.ssresearch.2026.103423",
+        "id": "W7207833964",
+        "issn": [
+          "0049-089X",
+          "1096-0317"
+        ],
+        "journal": "Social Science Research",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Marriage in a divided world: Spousal political dissimilarities and marital conflict in Hong Kong",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7208689561": {
+      "aliases": [
+        "W7208689561"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Manos Tsakiris",
+          "Mariana Von Mohr",
+          "Olaf Borghi"
+        ],
+        "date": "2026-09-01",
+        "doi": "",
+        "id": "W7208689561",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Pro-Democratic Effort – Study 1",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7212290161": {
+      "aliases": [
+        "W7212290161"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Melissa Pavetich",
+          "Sofia Stathi"
+        ],
+        "date": "2026-09-10",
+        "doi": "10.1177/01461672261481208",
+        "id": "W7212290161",
+        "issn": [
+          "0146-1672",
+          "1552-7433"
+        ],
+        "journal": "Personality and Social Psychology Bulletin",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Bridging the Political Divide: Meta-Humanization and Moral Emotions Shape Partisan Reconciliation",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7212307279": {
+      "aliases": [
+        "W7212307279"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Bradley Wood-MacLean"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7446878",
+        "id": "W7212307279",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Public Resource Provision and the Objective Correlates of Place-Based Affective Polarization in Canada",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7213464481": {
+      "aliases": [
+        "W7213464481"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Patrick F. A. van Erkel",
+          "Artemis Tsoulou-Malakoudi",
+          "Corinna Oschatz"
+        ],
+        "date": "2026-09-17",
+        "doi": "10.1057/s41269-026-00448-3",
+        "id": "W7213464481",
+        "issn": [
+          "0001-6810",
+          "1741-1416"
+        ],
+        "journal": "Acta Politica",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Hate thy neighbor like thy party does? Negative attacks in elite communications on social media as drivers of affective polarization in multiparty systems",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7213612977": {
+      "aliases": [
+        "W7213612977"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Joshua Roth",
+          "Diana Armbruster"
+        ],
+        "date": "2026-05-18",
+        "doi": "10.17605/osf.io/2bsnp",
+        "id": "W7213612977",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Perceived Morality of Politicians",
+        "type": "study-registration",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7213775837": {
+      "aliases": [
+        "W7213775837"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Giovanni Della-Libera"
+        ],
+        "date": "2026-03-21",
+        "doi": "10.17605/osf.io/yutzs",
+        "id": "W7213775837",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "MFQ × O Predicts Affective Polarization: A Causal Model Test",
+        "type": "study-registration",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7213984467": {
+      "aliases": [
+        "W7213984467"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jiwen Han"
+        ],
+        "date": "2026-09-22",
+        "doi": "10.54254/2755-2721/2026.37053",
+        "id": "W7213984467",
+        "issn": [
+          "2755-2721",
+          "2755-273X"
+        ],
+        "journal": "Applied and Computational Engineering",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political Communication Construction in Short-Video Media Ecosystems: Participatory Dynamics and Mobilization Mechanisms",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7215384171": {
+      "aliases": [
+        "W7215384171"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Slava Mikhaylov",
+          "Yen-Chieh Liao",
+          "Li Tang"
+        ],
+        "date": "2026-09-29",
+        "doi": "",
+        "id": "W7215384171",
+        "issn": [],
+        "journal": "OSF Preprints (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Folk Causal Theories of Democratic Conflict - Causal effect of folk theories (Experiment)",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7216060263": {
+      "aliases": [
+        "W7216060263"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Rietveld, Stance, Anna Marie"
+        ],
+        "date": "2026-06-01",
+        "doi": "10.60644/10708",
+        "id": "W7216060263",
+        "issn": [],
+        "journal": "Open Research (Auckland University of Technology)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Where Words Collide: Distinguishing the Expression of Anger, Hate, Fear and Disgust Within the Context of Affectively Polarised American Discourse",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7220429136": {
+      "aliases": [
+        "W7220429136"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Adam H. Smiley",
+          "Caroline A. Lansford",
+          "Shauna M. Bowes"
+        ],
+        "date": "2026-10-05",
+        "doi": "10.1038/s41598-026-73886-w",
+        "id": "W7220429136",
+        "issn": [
+          "2045-2322"
+        ],
+        "journal": "Scientific Reports",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Political heterogeneity in American churches and affective polarization",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7220715022": {
+      "aliases": [
+        "W7220715022"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Anonymous, Anonymous",
+          "Anonymous, Anonymous"
+        ],
+        "date": "2026-10-06",
+        "doi": "10.5281/zenodo.23197776",
+        "id": "W7220715022",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "[Dataset and codebook] When Protest Polarizes Further: Psychological Reactance as a Driver of Affective Polarisation",
+        "type": "dataset",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7220798160": {
+      "aliases": [
+        "W7220798160"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Arya Budi"
+        ],
+        "date": "2025-11-26",
+        "doi": "",
+        "id": "W7220798160",
+        "issn": [],
+        "journal": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "All the president’s people? The origins of affective attachment towards political leaders",
+        "type": "dissertation",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7220816374": {
+      "aliases": [
+        "W7220816374"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Samuli Heliste"
+        ],
+        "date": "2026-04-08",
+        "doi": "",
+        "id": "W7220816374",
+        "issn": [],
+        "journal": "UTUPub (University of Turku)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Political identities or personal attitudes? : How individual attitudes predict affective polarization in Finland",
+        "type": "dissertation",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7220961650": {
+      "aliases": [
+        "W7220961650"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "God’swill Osa"
+        ],
+        "date": "2026-08-01",
+        "doi": "10.26153/tsw/64865",
+        "id": "W7220961650",
+        "issn": [],
+        "journal": "Texas Digital Library (University of Texas)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "As above, so below : a theory of partisan group consciousness",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7221827755": {
+      "aliases": [
+        "W7221827755"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Atif Ur Rehman"
+        ],
+        "date": "2026-10-14",
+        "doi": "10.21203/rs.3.rs-10939955/v1",
+        "id": "W7221827755",
+        "issn": [],
+        "journal": "Research Square",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Sophistication Paradox: Political Sophistication Amplifies, Rather Than Buffers, Polarization-Driven Misinformation Belief",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7222804223": {
+      "aliases": [
+        "W7222804223"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Carsten Sander",
+          "Juliane Degner"
+        ],
+        "date": "2026-10-17",
+        "doi": "10.1177/19485506261495615",
+        "id": "W7222804223",
+        "issn": [
+          "1948-5506",
+          "1948-5514"
+        ],
+        "journal": "Social Psychological and Personality Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Constructing the Enemy: Noun and Generic Party Labels Predict Partisan Prejudice in Social Media Comments",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7222988251": {
+      "aliases": [
+        "W7222988251"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jakub Neumann"
+        ],
+        "date": "2026-01-01",
+        "doi": "",
+        "id": "W7222988251",
+        "issn": [],
+        "journal": "Digital Repository (National Repository of Grey Literature)",
+        "language": "cs",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Relationship Between the Perceived Homogeneity of the Information Environment on Social Media and Affective Polarization",
+        "type": "dissertation",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7223056983": {
+      "aliases": [
+        "W7223056983"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "José F. Fontanari"
+        ],
+        "date": "2026-10-18",
+        "doi": "10.48550/arxiv.2610.25210",
+        "id": "W7223056983",
+        "issn": [
+          "2331-8422"
+        ],
+        "journal": "arXiv (Cornell University)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Negative partisanship drives anti-frontrunner volatility in election dynamics",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Negative partisanship"
+      ]
+    },
+    "W7223207265": {
+      "aliases": [
+        "W7223207265"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Enno Brandes"
+        ],
+        "date": "2026-09-08",
+        "doi": "10.68709/001c.169220",
+        "id": "W7223207265",
+        "issn": [
+          "3064-9218"
+        ],
+        "journal": "Critical Debates in Humanities Science and Global Justice",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Attitudes Toward Political Violence in High School Male Students",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7223212649": {
+      "aliases": [
+        "W7223212649"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Jack Zhou"
+        ],
+        "date": "2026-03-18",
+        "doi": "10.68709/001c.159149",
+        "id": "W7223212649",
+        "issn": [
+          "3064-9218"
+        ],
+        "journal": "Critical Debates in Humanities Science and Global Justice",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Belonging-Induced Echo Chambers: Adolescence, Peer Groups, & Polarization in an American High School",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7223246288": {
+      "aliases": [
+        "W7223246288"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Ben Rudolph",
+          "Andrew Delton"
+        ],
+        "date": "2026-10-20",
+        "doi": "10.17605/osf.io/8mtus",
+        "id": "W7223246288",
+        "issn": [],
+        "journal": "Open Science Framework",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Moral conviction, social, influence, and emerging political attitudes",
+        "type": "study-registration",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7224970092": {
+      "aliases": [
+        "W7224970092"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Carlos Alberto Molinaro"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.2139/ssrn.7672761",
+        "id": "W7224970092",
+        "issn": [
+          "1556-5068"
+        ],
+        "journal": "SSRN Electronic Journal",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The Causes of Contemporary Political Polarization",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7224993540": {
+      "aliases": [
+        "W7224993540"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Andreas Flache",
+          "Alla Loseva",
+          "Yade Rotte"
+        ],
+        "date": "2026-01-01",
+        "doi": "10.18564/jasss.6172",
+        "id": "W7224993540",
+        "issn": [
+          "1460-7425"
+        ],
+        "journal": "Journal of Artificial Societies and Social Simulation",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "When Contact Backfires and when It Does Not: A Computational Model of the Opinion Dynamics of Intergroup Attitudes",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225019578": {
+      "aliases": [
+        "W7225019578"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Muhammad Talha"
+        ],
+        "date": "2026-10-31",
+        "doi": "10.5281/zenodo.23833692",
+        "id": "W7225019578",
+        "issn": [],
+        "journal": "Zenodo (CERN European Organization for Nuclear Research)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Divided Yet Not Disaffected: Affective Polarization, Youth Compromise and the Stability of Democracy",
+        "type": "preprint",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225170645": {
+      "aliases": [
+        "W7225170645"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Víctor Renobell-Santarén¹",
+          "Víctor Hugo Pérez-Gallo²",
+          "Raquel Valle-Escolano²",
+          "Alfonso Chaves-Montero"
+        ],
+        "date": "2026-11-03",
+        "doi": "10.21203/rs.3.rs-11309364/v1",
+        "id": "W7225170645",
+        "issn": [],
+        "journal": "Research Square",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "When hope is no longer enough: emotional ambivalence, digital exposure and the limits of the affective buffer against political polarisation",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225416563": {
+      "aliases": [
+        "W7225416563"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Ravindra Kumar",
+          "Maninder Singh",
+          "Satyendra Kumar"
+        ],
+        "date": "2026-09-30",
+        "doi": "10.68892/ijrm.008",
+        "id": "W7225416563",
+        "issn": [
+          "0976-318X"
+        ],
+        "journal": "International Journal of Retailing and Marketing",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Beyond Party Lines: How Cultural Identity Shapes Affective Polarisation Among Young Voters in Multiparty Systems in India",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225580781": {
+      "aliases": [
+        "W7225580781"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Patrick Jern",
+          "Ruth Virtanen",
+          "Martin Lagerström",
+          "Albert Weckman",
+          "Kim Strandberg",
+          "Ida E. M. Pedersen"
+        ],
+        "date": "2026-11-08",
+        "doi": "10.31234/osf.io/u97pa",
+        "id": "W7225580781",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Divided Politics, Divided Lives? Affective Polarization, Gender, and Loneliness in Finland",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7225592772",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225592772": {
+      "aliases": [
+        "W7225592772"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Patrick Jern",
+          "Ruth Virtanen",
+          "Martin Lagerström",
+          "Albert Weckman",
+          "Kim Strandberg",
+          "Ida E. M. Pedersen"
+        ],
+        "date": "2026-11-08",
+        "doi": "10.31234/osf.io/u97pa_v1",
+        "id": "W7225592772",
+        "issn": [],
+        "journal": "PsyArXiv (OSF Preprints)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "Divided Politics, Divided Lives? Affective Polarization, Gender, and Loneliness in Finland",
+        "type": "preprint",
+        "xml": false
+      },
+      "possible_duplicate": "W7225580781",
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225704258": {
+      "aliases": [
+        "W7225704258"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Manuel Jesus Arias-Maldonado"
+        ],
+        "date": "2026-11-10",
+        "doi": "10.4324/9781042024469-10",
+        "id": "W7225704258",
+        "issn": [],
+        "journal": "Routledge eBooks",
+        "language": "en",
+        "retracted": false,
+        "source_type": "ebook platform",
+        "title": "Public Opinion and Truth in the Digital Age",
+        "type": "book-chapter",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225790271": {
+      "aliases": [
+        "W7225790271"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Liane Weintraub",
+          "James Mitchell",
+          "Eric R. Hamilton",
+          "Jianxing Yu"
+        ],
+        "date": "2026-11-11",
+        "doi": "10.33774/apsa-2026-qvk4j",
+        "id": "W7225790271",
+        "issn": [],
+        "journal": "",
+        "language": "en",
+        "retracted": false,
+        "source_type": "",
+        "title": "Affective Depolarization and Democratic Resilience in Anonymous Cross-Partisan Conversations",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7225854830": {
+      "aliases": [
+        "W7225854830"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Lien Smets",
+          "Mirko Crulli",
+          "Émilie Van Haute"
+        ],
+        "date": "2026-11-12",
+        "doi": "10.21203/rs.3.rs-11292065/v1",
+        "id": "W7225854830",
+        "issn": [],
+        "journal": "Research Square",
+        "language": "en",
+        "retracted": false,
+        "source_type": "repository",
+        "title": "The mechanisms behind affective polarization between urban and rural citizens: place-based resentment and perceptions of differentness",
+        "type": "preprint",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7236293940": {
+      "aliases": [
+        "W7236293940"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "Francesco Pira"
+        ],
+        "date": "2026-11-18",
+        "doi": "10.3389/fpos.2026.1999851",
+        "id": "W7236293940",
+        "issn": [
+          "2673-3145"
+        ],
+        "journal": "Frontiers in Political Science",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Digital acceleration and democratic erosion: 80 years of the Italian Republic",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    },
+    "W7237195035": {
+      "aliases": [
+        "W7237195035"
+      ],
+      "first_seen": "2026-11-21",
+      "meta": {
+        "authors": [
+          "James Steur",
+          "Jair A. Moreira",
+          "ALEENA KHAN"
+        ],
+        "date": "2026-11-01",
+        "doi": "10.1111/ssqu.70217",
+        "id": "W7237195035",
+        "issn": [
+          "0038-4941",
+          "1540-6237"
+        ],
+        "journal": "Social Science Quarterly",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Vicarious Contact and Elite Cooperation: The Role of Bipartisan Legislation in Reducing Affective Polarization and Anti‐Democratic Spite",
+        "type": "article",
+        "xml": true
+      },
+      "queries": [
+        "Primary"
+      ]
+    }
+  },
+  "briefs": {},
+  "last_work": "2026-11-21 · Per-run AI allowance reached. Queue saved.",
+  "runs": [
+    {
+      "date": "2026-11-21",
+      "queries": {
+        "Hostility toward the opposition party": {
+          "from_date": "2025-08-23",
+          "hits": 0,
+          "query_text": "\"hostility toward the opposition party\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-21"
+        },
+        "Negative partisanship": {
+          "from_date": "2025-08-23",
+          "hits": 12,
+          "query_text": "\"negative partisanship\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-21"
+        },
+        "Partisan animosity": {
+          "from_date": "2025-08-23",
+          "hits": 23,
+          "query_text": "\"partisan animosity\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-21"
+        },
+        "Primary": {
+          "from_date": "2025-08-23",
+          "hits": 185,
+          "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-21"
+        }
+      }
+    }
+  ]
+}
