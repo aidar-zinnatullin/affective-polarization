@@ -108,9 +108,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-only study: it examines how affective polarization status relates to democratic attitudes/participation, not an antecedent or causal process of affective polarization."
+      },
+      "screen_hash": "9569ca649f44d469e7d8e15adfa2a3ad7f7af3ce303926787702813cc5f5473a",
       "sjr": [
         "Q1",
         "2025"
@@ -4382,6 +4389,22 @@
       ]
     },
     "W7161779936": {
+      "adjudication": {
+        "countries": [],
+        "design": "Cross-sectional associative",
+        "driver": "Psychological factors",
+        "eligibility": "include",
+        "factor": "Affective polarization",
+        "finding": "Across the cross-sectional sample, affective polarization was strongly and negatively associated with political interest; the article also reports similarly strong negative associations for cognitive flexibility and social support. The regression models were statistically significant, but the paper notes unusually high R² values and cautions that the direction may reflect sample-specific overlap or overfitting; nevertheless, the article’s stated conclusion is that higher affective polarization reduces political interest.",
+        "hypothesis": "Affective polarization, cognitive flexibility, and social support will significantly predict political interest among young adults.",
+        "instruments": "Affective Polarization Scale; Cognitive Flexibility Scale; Social Support Questionnaire (Short Form); Political Interest Scale",
+        "locators": "driver P108, outcome P110, design P120, finding P192",
+        "outcome": "Unspecified",
+        "population": "Young adults aged 18–25, college students",
+        "reason": "Empirical quantitative article on young adults testing affective polarization as a predictor of political interest, with explicit directional associations and regression analysis. Despite some internal inconsistencies and likely measurement overlap, it reports article-level relationships and a strongest design of correlational regression on a cross-sectional sample.",
+        "sample_size": "200 young adults",
+        "supported": true
+      },
       "aliases": [
         "W7161779936"
       ],
@@ -4429,6 +4452,22 @@
           "reason": "Empirical quantitative journal article on antecedents of political interest with an explicit directional test of affective polarization, cognitive flexibility, and social support among young adults; includes correlational and regression analyses. Although the source text is internally inconsistent and some reported coefficients appear implausible, it still provides an empirical design and causal/predictive framing suitable for inclusion.",
           "sample_size": "200",
           "supported": true
+        },
+        {
+          "countries": [],
+          "design": "Cross-sectional associative",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Affective polarization (primary driver family; also examined alongside cognitive flexibility and social support)",
+          "finding": "All three predictors were reported as significantly related to political interest, but in the observed analyses each was associated with lower political interest; affective polarization showed the strongest negative association. The study is cross-sectional and the text contains some contradictory interpretations, so the direction and causal meaning are uncertain.",
+          "hypothesis": "Affective polarization, cognitive flexibility, and social support will significantly predict political interest among young adults.",
+          "instruments": "Affective Polarization Scale (15 items); Cognitive Flexibility Scale (12 items); Social Support Questionnaire–Short Form (6 items); Political Interest Scale (30 items)",
+          "locators": "driver P110, outcome P110, design P120",
+          "outcome": "Vertical",
+          "population": "Young adults aged 18-25, full-time college students",
+          "reason": "Empirical quantitative study of young adults examining affective polarization, cognitive flexibility, and social support as predictors of political interest. It reports correlational and regression analyses with an explicit directional/process claim, so it fits antecedents of political interest/affective polarization literature. However, it appears cross-sectional and the text has some internal inconsistencies, so causal claims should be treated cautiously.",
+          "sample_size": "200",
+          "supported": false
         }
       ],
       "screen": {
@@ -4461,9 +4500,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical, journal-style study with a clear causal/process claim linking elite rhetoric to higher affective polarization toward the radical right; abstract provides sufficient design information to assess full text."
+      },
+      "screen_hash": "438913fb66f8645b1ced23772c4987ec7d1e671cdfe2e396262fc9b1156bea75",
       "sjr": [
         "Q1",
         "2025"
@@ -4520,9 +4566,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Original national survey study with multi-measure evidence on how partisan strength relates to affective polarization; empirical association design, not theory-only or consequence-only."
+      },
+      "screen_hash": "2d9ae16d0d4c1aa09bb259619381f18756086984298aae824b24d9f6c6660274",
       "sjr": [
         "Q1",
         "2025"
@@ -4579,18 +4632,53 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measures consequences/antecedents of anti-democratic justification, not affective polarization; no clear antecedent or causal process for affective polarization is tested."
+      },
+      "screen_hash": "9341d79e453804980b3144f8379466a6bb5d1177c77e2c4cf2124c8ba3568935",
       "sjr": [
         "Q1",
         "2025"
       ]
     },
     "W7163353804": {
+      "adjudication": {
+        "countries": [
+          "Brazil",
+          "United States",
+          "Peru",
+          "South Korea",
+          "Czech Republic",
+          "Ecuador",
+          "Romania",
+          "Lithuania",
+          "Madagascar",
+          "Ukraine"
+        ],
+        "design": "Other",
+        "driver": "Identity and group processes",
+        "eligibility": "include",
+        "factor": "Elite affective polarization",
+        "finding": "Elite affective polarization is associated with impeachment success, especially removal from office; it can independently or jointly help overcome the lower-house hurdle and, more strongly, removal from office when no legislative shield exists. Results also show mixed pathways: ideological and affective polarization together help lower-house votes, while affective polarization is the key driver for removal, often alongside scandals or mobilization.",
+        "hypothesis": "Presidential impeachment is more likely amid elite ideological polarization and corruption scandals; more likely amid elite ideological polarization, corruption scandals, and mass mobilization; and more likely in the presence of elite affective polarization regardless of a corruption scandal.",
+        "instruments": "Crisp-set qualitative comparative analysis (QCA); V-Party expert-coded elite affective polarization; Dalton index for elite ideological polarization; legislative shield; Mass Mobilization Data Project; corruption-scandal coding",
+        "locators": "driver P5, design P6, finding P8",
+        "outcome": "Both",
+        "population": "Presidential impeachment cases and non-impeachment cases",
+        "reason": "Empirical journal article using crisp-set QCA on cross-national impeachment cases; it tests a causal process with explicit directional hypotheses linking elite affective polarization to overcoming impeachment hurdles. Outcome is identified and the strongest design is QCA-based configurational analysis with sufficiency/necessity tests across 44 cases. It is article-level, English, and not qualitative-only or consequence-only.",
+        "sample_size": "44 cases (29 lower-house votes; 20 removals from office)",
+        "supported": false
+      },
       "aliases": [
         "W7163353804"
       ],
+      "document_hash": "25657074be2c46bf926064d7845d3ebd18ff03b3d74249aaac47ccfb63c04930",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -4613,9 +4701,73 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "readings": [
+        {
+          "countries": [
+            "Brazil",
+            "United States",
+            "Peru",
+            "Czech Republic",
+            "Ecuador",
+            "South Korea",
+            "Romania",
+            "Lithuania",
+            "Madagascar",
+            "Ukraine"
+          ],
+          "design": "Other",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Elite affective polarization",
+          "finding": "Elite affective polarization is a key antecedent of impeachment: it can help trigger a pro-impeachment lower-house vote and, especially without a legislative shield, can drive removal from office. The pattern is strongest for removal from office when combined with corruption scandals or mass mobilization; ideological polarization is more important for the lower-house vote. Results are robust, though some cases remain unexplained.",
+          "hypothesis": "H3: Presidential impeachment is more likely in the presence of elite affective polarization, regardless of a corruption scandal.",
+          "instruments": "Crisp-set qualitative comparative analysis; elite affective polarization measured with V-Party political opponents variable; elite ideological polarization via Dalton index; legislative shield, mass mobilization, and corruption scandal measures from V-Party, Mass Mobilization Data Project, and secondary sources",
+          "locators": "driver P24, outcome P7, design P6, finding P65",
+          "outcome": "Both",
+          "population": "44 presidential impeachment and non-impeachment cases across world regions, 1992-2022",
+          "reason": "Empirical, peer-reviewed article using crisp-set QCA to explain presidential impeachment outcomes with explicit directional hypotheses about elite affective polarization as an antecedent. It studies causal configurations leading to overcoming impeachment hurdles and reports both positive and null/mixed results across pathways.",
+          "sample_size": "44 cases",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Brazil",
+            "United States",
+            "Peru",
+            "Czech Republic",
+            "South Korea",
+            "Ecuador",
+            "Romania",
+            "Ukraine",
+            "Madagascar",
+            "Lithuania",
+            "Mexico"
+          ],
+          "design": "Other",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Elite affective polarization",
+          "finding": "The paper finds that elite polarization, especially affective polarization, is associated with a higher likelihood of passing impeachment hurdles and, in some configurations, removal from office, but it does not study what causes affective polarization.",
+          "hypothesis": "Affective and ideological elite polarization facilitate impeachment, especially with corruption scandals or mass mobilization and weak legislative shields.",
+          "instruments": "Crisp-set QCA using V-Party, Mass Mobilization Data Project, and corruption-scandal coding",
+          "locators": "",
+          "outcome": "Vertical",
+          "population": "Presidential impeachment cases",
+          "reason": "Empirical article on impeachment, not an antecedent study of affective polarization as the outcome of interest; affective polarization is treated as a driver, not measured as a consequence or target. The paper is therefore outside the requested empirical antecedents scope.",
+          "sample_size": "44 cases",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical QCA of impeachment cases examines affective polarization as a causal factor in pro-impeachment votes and removal; full text is plausible despite the abstract not being a standard journal article citation."
+      },
+      "screen_hash": "78e808f3c24a781345b7d749ecddf750a68794a9f6ce718dcc6c0abecf1fa056",
       "sjr": [
         "Q1",
         "2025"
@@ -4704,9 +4856,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Outcome is democratic satisfaction; affective polarization is only a correlate/predictor here, not an antecedent of affective polarization."
+      },
+      "screen_hash": "344a77d080c2fa19075d6fecbfe59a19ee2bbc6af85d533dbea94859fa373cf9",
       "sjr": [
         "Q1",
         "2025"
@@ -4790,9 +4949,16 @@
         "type": "dataset",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-only: the paper studies how affective polarization relates to democratic attitudes and participation among unpolarized citizens, not antecedents or causes of affective polarization."
+      },
+      "screen_hash": "97f302c5cd51b8e71ef2b05897b2a0cba88f55095952c647f11616eb51f8e600"
     },
     "W7165430255": {
       "aliases": [
@@ -4875,9 +5041,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is primarily a study of digital diffusion and visibility in an existing protest, not an empirical antecedent of affective polarization; it describes polarized communities rather than causes or processes leading to affective polarization."
+      },
+      "screen_hash": "8d6904b03717adf9473faa7374425ba542a0094b6982be0efd406778e034dd3e",
       "sjr": [
         "Q1",
         "2025"
@@ -4912,9 +5085,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Cross-sectional journal-style quantitative study with explicit predictors of polarization; an association/design label is clear, though causal direction remains correlational."
+      },
+      "screen_hash": "0e65c6bb52317d44fd5b29ff62e22404730d159ffbc8aed7d3b636b1449cbc6a"
     },
     "W7167159886": {
       "aliases": [
@@ -4937,9 +5117,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Non-journal thesis report; though it mentions attitude activation/change, it is a thesis rather than a peer-reviewed journal article."
+      },
+      "screen_hash": "56407642f1760f77490d90f7295313dec67d6591e3e0eb5c6bf97ee5495467e7"
     },
     "W7167252423": {
       "aliases": [
@@ -5106,9 +5293,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/commentary piece about narratives and affective polarization; no empirical study or causal design."
+      },
+      "screen_hash": "39439fab9cabb97b41c353c5f07f783d21e8d4b8f6ef4712233501c78be9927a",
       "sjr": [
         "Q1",
         "2025"
@@ -5139,9 +5333,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory-only philosophical discussion; no empirical antecedent or causal/process evidence for affective polarization."
+      },
+      "screen_hash": "c558d5df72674f11ea48a9ffcbc08e885fd13a631b89aec4377ff15dd22a4c03",
       "sjr": [
         "Q1",
         "2025"
@@ -5171,9 +5372,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused: the abstract centers on how affective polarization leads to behavioral exclusion, rather than an antecedent cause/process of affective polarization."
+      },
+      "screen_hash": "f2a52586723b4f84817c922bda53e341c003b8b74e8343abdff43c9885bef9ec"
     },
     "W7168159097": {
       "aliases": [
@@ -5199,9 +5407,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is a consequence/selection study on panel attrition; affective polarization is an outcome/predictor in survey retention, not an empirical antecedent of affective polarization."
+      },
+      "screen_hash": "df717dc1fcbd0f862ea35782117ffcf59e92eb9effdc4fd50f5cb1026cecd9af"
     },
     "W7168170889": {
       "aliases": [
@@ -5226,9 +5441,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/theory-focused and predicts stock returns; no empirical antecedent of affective polarization is tested."
+      },
+      "screen_hash": "dcc4d938885d17a9962c95f3a9582bd9990701578f2920b433ac7d3dd6d4fbfc"
     },
     "W7168413521": {
       "aliases": [
@@ -5255,9 +5477,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "The study is about disinformation effects and mentions affective polarization only as a mediator; it does not examine empirical antecedents of affective polarization."
+      },
+      "screen_hash": "22c54c67afa17344a403c72334674e12e85e7c975ec39b72014973f1467a77bf"
     },
     "W7168891913": {
       "aliases": [
@@ -5311,9 +5540,15 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Abstract unavailable. Full text required."
+      },
       "sjr": [
         "Q1",
         "2025"
@@ -5367,9 +5602,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/hypothesis paper proposing a causal mechanism, not an empirical study of affective polarization."
+      },
+      "screen_hash": "a824eb79442a7c587f228a9d7e777e6783c7551a319b879dd085962a59a70730"
     },
     "W7170064772": {
       "aliases": [
@@ -5453,9 +5695,15 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Abstract unavailable. Full text required."
+      },
       "sjr": [
         "Q2",
         "2025"
@@ -5482,9 +5730,16 @@
         "type": "dataset",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Replication data / descriptive survey only; no clear empirical causal direction or process beyond associations."
+      },
+      "screen_hash": "e028ec2f47939b7b21ccb26fedeab90a7d2a07662b1dbd86c004af303884934b"
     },
     "W7170918476": {
       "aliases": [
@@ -5509,9 +5764,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused and largely interpretive; no clear empirical antecedent of affective polarization or causal direction beyond voting-intention effects."
+      },
+      "screen_hash": "6f5b21a3f3750e30b14f6de186fbdc7753a8437c2211514280601ca105ce0756"
     },
     "W7171164826": {
       "aliases": [
@@ -5734,9 +5996,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical survey study with a clear directional link: higher affective polarization intensifies negative partisan motivation, and the design is a survey-based association relevant to antecedents of affective polarization."
+      },
+      "screen_hash": "0b3e5c57e7c3dd14eff5c8207db98f8083280afde6130fc8dd5a2348d7b93726",
       "sjr": [
         "Q1",
         "2025"
@@ -6070,9 +6339,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/perception study; no explicit causal antecedent of affective polarization."
+      },
+      "screen_hash": "2eeb5d41e5dc6ecd8de2ea473ac363cbb6495bc8a9faa265b14be397acc17573",
       "sjr": [
         "Q1",
         "2025"
@@ -6102,9 +6378,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Empirical survey study on historical divisions and affective polarization, but the abstract is mainly descriptive and does not clearly specify a causal direction or process for polarization."
+      },
+      "screen_hash": "f7b3d791c1c122b251a663046b90fbbb576ebccb34f1e714aa5045328b4c0844",
       "sjr": [
         "Q1",
         "2025"
@@ -6114,6 +6397,7 @@
       "aliases": [
         "W7204072586"
       ],
+      "document_hash": "6581f65d5ab455c8230477e11f91c8fbc88b5ba89efe0a7c7d18b0aef6cb84bb",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -6135,9 +6419,62 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "readings": [
+        {
+          "countries": [
+            "Chile",
+            "Germany",
+            "The Netherlands",
+            "Portugal",
+            "Spain"
+          ],
+          "design": "Panel",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Interpersonal political discussion network composition (in-party vs out-party; homogeneous vs cross-cutting)",
+          "finding": "Cross-sectionally, homogeneous in-party discussion networks were associated with higher affective polarization, stronger in-party affinity, and more out-party animosity. Cross-partisan discussion was generally not depolarizing overall and only sometimes reduced animosity in the cross-sectional models. In the panel models, the most consistent finding was reverse causation: out-party animosity predicted less later out-party discussion in four of five countries, while in-party discussion sometimes increased later in-group affinity. Overall, the article finds a reciprocal but asymmetric process, with affective avoidance stronger and more consistent than depolarizing contact effects.",
+          "hypothesis": "Homogeneous in-party discussions increase in-group affinity and out-group animosity; out-party discussions reduce animosity; affective polarization also leads to discussion avoidance, especially via out-party animosity.",
+          "instruments": "Name-generator political discussion network items; feeling thermometers toward party leaders; cross-sectional multilevel regression; cross-lagged panel models",
+          "locators": "outcome P2, design P5",
+          "outcome": "Both",
+          "population": "Adult respondents in democratic election surveys",
+          "reason": "Empirical journal article with explicit causal direction/process: a cross-sectional comparative analysis and cross-lagged panel models examining how discussion network composition and affective polarization reciprocally relate across countries. Uses quantitative survey data, reports associations and panel evidence, and is in English. Not consequence-only or theory-only.",
+          "sample_size": "Cross-sectional: 43,078 respondents (26,423 used in main models); panel samples: Chile 1,504; Germany 1,512; Portugal 1,510; Spain 1,110; The Netherlands 1,262",
+          "supported": false
+        },
+        {
+          "countries": [
+            "Chile",
+            "Germany",
+            "The Netherlands",
+            "Portugal",
+            "Spain"
+          ],
+          "design": "Panel",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Partisan composition of political discussion networks, especially in-party versus out-party discussion exposure",
+          "finding": "Across 41 elections, homogeneous in-party discussion networks were associated with higher in-party affinity, higher out-party animosity, and higher overall affective polarization, while exclusively out-party networks were generally associated with lower polarization and lower animosity. In the panel models, out-party animosity consistently predicted less subsequent cross-partisan discussion in four of five countries, indicating a robust avoidance pathway. By contrast, discussion effects on later polarization were weaker and context-dependent: in-party discussion sometimes increased later in-group affinity, but out-party discussion did not reliably reduce animosity.",
+          "hypothesis": "In-party discussions should increase in-party affinity and out-party animosity; out-party discussions should reduce out-party animosity but may increase in-party affinity; affective polarization may also predict later discussion avoidance, especially out-party animosity reducing cross-partisan discussion.",
+          "instruments": "Name-generator political discussion network measure; feeling thermometers toward party leaders recoded into in-party affinity and out-party animosity; weighted affective polarization index; cross-lagged panel models and multilevel regression",
+          "locators": "design P5, finding P73",
+          "outcome": "Both",
+          "population": "Adult election survey respondents in 20 democracies for the cross-sectional component; panel respondents in five democracies for the longitudinal component",
+          "reason": "Empirical journal article using cross-sectional comparative surveys and five panel studies to test reciprocal links between political discussion network composition and affective polarization; it reports directional hypotheses and cross-lagged associations, so it fits the review.",
+          "sample_size": "43,078 respondents in the cross-sectional analysis; five two-wave panels (Chile 1,504; Germany 1,512; Portugal 1,510; Spain 1,110; The Netherlands 1,262)",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical multi-country panel and election-level analyses with explicit causal direction/process linking discussion networks and affective polarization."
+      },
+      "screen_hash": "cca0670af9e3aa1cba30f462e493827face0886a90e348b51e919bd086965d36",
       "sjr": [
         "Q1",
         "2025"
@@ -6180,6 +6517,7 @@
       "aliases": [
         "W7207833964"
       ],
+      "document_hash": "dafb09e110ea84b18daddd7f9163c1f8938c8fe662d095fcd84adbc5b34f96c9",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -6200,9 +6538,54 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "readings": [
+        {
+          "countries": [
+            "Hong Kong"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Spousal political identity dissimilarity (with comparative tests against political, gender-role, and familistic value dissimilarities)",
+          "finding": "Political identity dissimilarity is the strongest and most consistent correlate of marital conflict: it predicts more frequent political conflict and psychological aggression net of value differences, and it spills into household and relationship conflict mainly when affective polarization is high. Value dissimilarities show more limited, domain-specific associations, especially for household conflict. The study is cross-sectional, so the authors describe the evidence as correlational rather than causal.",
+          "hypothesis": "Political identity dissimilarity will predict more frequent, broader, and more intense marital conflict net of value dissimilarity; affective polarization will strengthen spillover from identity dissimilarity, especially for non-political conflict.",
+          "instruments": "Dyadic household survey; couple-level conflict frequency scales; CTS2 psychological aggression items; political identity dissimilarity binary; multi-domain value difference scores; affective polarization/moralization scale",
+          "locators": "driver P79, outcome P8, design P45, finding P92",
+          "outcome": "Both",
+          "population": "Heterosexual married adult couples in Hong Kong",
+          "reason": "Representative dyadic survey of married couples in Hong Kong tests whether spousal political identity and value dissimilarities predict marital conflict frequency, scope, and psychological aggression; the paper reports a clear associational process with an explicit hypothesis about identity-based antagonism. It is journal-article style empirical analysis, in English, and not qualitative-only or consequence-only.",
+          "sample_size": "1003 married couples (2006 adults)",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Hong Kong"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Spousal political identity dissimilarity",
+          "finding": "Cross-sectional dyadic regressions show that political identity dissimilarity robustly predicts more frequent political conflict and higher odds of psychological aggression net of value differences; it also predicts more household and relationship conflict when affective polarization is higher. Value dissimilarity has smaller, more domain-specific effects, and no moderation appears for aggression.",
+          "hypothesis": "Political identity dissimilarity will increase political conflict, broader non-political conflict under affective polarization, and psychological aggression net of value differences.",
+          "instruments": "Couple-level marital conflict frequency scales (political, household, relationship); CTS2 psychological aggression binary indicator; political identity dissimilarity; three value-dissimilarity scales; affective polarization/moralization scale",
+          "locators": "driver P21, outcome P8, design P45, finding P94",
+          "outcome": "Both",
+          "population": "Heterosexual married adult couples living in Hong Kong",
+          "reason": "Representative dyadic household survey of married couples in Hong Kong tests whether spousal political identity dissimilarity predicts marital conflict frequency, scope, and psychological aggression net of value differences, with an explicit antagonism process and clear empirical design.",
+          "sample_size": "1003 married couples (2006 adults)",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical dyadic survey with regression analyses testing an explicit link from political dissimilarity and affective polarization to marital conflict; suitable antecedent evidence despite focusing on marital outcomes."
+      },
+      "screen_hash": "f33df4ca341d37d41de713c388c8d4a9610ee4e72c645f7ef68451f9a1e2e391",
       "sjr": [
         "Q1",
         "2025"
@@ -6260,9 +6643,17 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "retrieval": "Full-text identity needs verification",
+      "screen": {
+        "decision": "advance",
+        "reason": "Study tests a clear causal process (meta-humanization → moral emotions → affective polarization and related attitudes) with multiple studies, so it is relevant for full-text review."
+      },
+      "screen_hash": "be1fbfaabda17f2f3ef5c15d0b9f78d7ddb7adfe30b1aa03d3f7f0fa95d9e135",
       "sjr": [
         "Q1",
         "2025"
@@ -6321,9 +6712,15 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Abstract unavailable. Full text required."
+      },
       "sjr": [
         "Q1",
         "2025"
@@ -6418,9 +6815,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Computational study of mobilization on short-video platforms; no empirical antecedent or explicit causal process for affective polarization, and the abstract is consequence-/association-oriented rather than testing polarization drivers."
+      },
+      "screen_hash": "fe8732766fef869e9b5ddd6eacb989c748bb5fb45b6bb4204b56cb236458379d"
     },
     "W7215384171": {
       "aliases": [
@@ -6741,9 +7145,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measures attitudes toward political violence rather than antecedents of affective polarization; no causal process for affective polarization is examined."
+      },
+      "screen_hash": "2efa45717dcf13d291197de3a0b031b0fd7fd8c4933b894e816f57c8883a1606"
     },
     "W7223212649": {
       "adjudication": {
@@ -7021,6 +7432,7 @@
       "aliases": [
         "W7225416563"
       ],
+      "document_hash": "1e3fca845640867e105ff1e7ce486029b283594227008bcfbf84b3561cb332b1",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -7042,9 +7454,36 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [
+            "India"
+          ],
+          "design": "Panel",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Cultural identity salience, especially religious identity salience",
+          "finding": "Across survey and panel analyses, higher cultural identity salience predicted greater partisan affective polarisation, with religion the strongest predictor. The association remained after controls and was partly explained by social sorting and partisan media exposure; results were mixed across states and stronger in reinforcing identity contexts.",
+          "hypothesis": "Cultural identity salience increases affective polarisation, with religious identity strongest; effects are mediated by social sorting and partisan media exposure, and stronger among young voters.",
+          "instruments": "0-100 feeling thermometer battery for seven parties; multi-item scales for religious, caste, linguistic, and regional identity salience; name-generator social sorting measure; partisan media exposure frequency; OLS and SEM/mediation models",
+          "locators": "outcome P27, design P24, finding P67, finding P69",
+          "outcome": "Vertical",
+          "population": "Registered voters aged 18-35 across six Indian states",
+          "reason": "Empirical journal-style article with an explicit causal/process claim about how cultural identity salience predicts affective polarisation among young Indian voters, including mediation through social sorting and partisan media exposure. The outcome is measured with feeling thermometers toward parties (vertical), and the paper reports cross-sectional associations plus a wave-based panel component, but the core design is survey/associational with mediation analysis.",
+          "sample_size": "N = 4,820 total; Wave 1 n = 2,564; Wave 2 panel n = 2,256",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical survey study with explicit associations/processes linking cultural identity salience and media/social sorting to affective polarisation; journal status not provided but abstract is sufficient to advance for full text."
+      },
+      "screen_hash": "9c9d66536232fd548fb50416784f878eeb4969ba7641ce41c891082da5397592"
     },
     "W7225580781": {
       "aliases": [
@@ -7291,6 +7730,43 @@
           "source": "OpenAlex",
           "status": "Complete",
           "through_date": "2026-11-21"
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "queries": {
+        "Hostility toward the opposition party": {
+          "from_date": "2025-08-23",
+          "hits": 0,
+          "query_text": "\"hostility toward the opposition party\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Negative partisanship": {
+          "from_date": "2025-08-23",
+          "hits": 12,
+          "query_text": "\"negative partisanship\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Partisan animosity": {
+          "from_date": "2025-08-23",
+          "hits": 23,
+          "query_text": "\"partisan animosity\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Primary": {
+          "from_date": "2025-08-23",
+          "hits": 185,
+          "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
         }
       }
     },
