@@ -351,15 +351,15 @@
           "design": "Experimental",
           "driver": "Psychological factors",
           "eligibility": "include",
-          "factor": "Affective polarization (in-party minus out-party warmth)",
-          "finding": "Higher affective polarization predicted a larger wage penalty for out-partisans in the experimental hiring task. The association was strongest among the most polarized participants and remained economically meaningful after accounting for productivity beliefs, although beliefs appeared to be the more important correlate overall. The worker-payment manipulation did not change the out-partisan penalty, arguing against social-preference mechanisms.",
-          "hypothesis": "More affectively polarized partisans will discriminate more strongly against out-partisans in hiring, and this may be partly explained by beliefs about out-partisans’ productivity rather than social preferences.",
-          "instruments": "Hiring willingness-to-pay task over worker profiles; feelings thermometer for affective polarization; incentivized productivity-belief elicitation; worker-payment treatment",
-          "locators": "driver P11, design P3, finding P60",
+          "factor": "Affective polarization, measured as in-party minus out-party thermometer scores",
+          "finding": "More affectively polarized participants imposed larger out-partisan wage penalties. This association was strong and robust across tasks; when beliefs were modeled jointly, affective polarization remained significant but was smaller, suggesting it mattered alongside, but less than, productivity beliefs. Social-preference treatment was null.",
+          "hypothesis": "Higher affective polarization should predict larger out-partisan wage penalties; productivity beliefs may also explain discrimination.",
+          "instruments": "Feelings thermometer difference (in-party minus out-party) for affective polarization; incentivized productivity belief elicitation; willingness-to-pay hiring task",
+          "locators": "outcome P3, design P3, finding P60",
           "outcome": "Vertical",
-          "population": "U.S. Republican and Democratic participants acting as employers on Prolific",
-          "reason": "Pre-registered online experiment on U.S. partisans’ hiring decisions. It studies an antecedent of affective polarization in the sense that measured affective polarization predicts out-partisan discrimination, and it explicitly tests mechanism/process links with a causal lab design. Published journal article context is implied by the paper format; no exclusion criteria apply from the provided text.",
-          "sample_size": "1088 participants; 543 Republicans and 545 Democrats",
+          "population": "American partisans recruited on Prolific as hiring employers",
+          "reason": "Pre-registered online experiment tests whether affective polarization and productivity beliefs predict partisan discrimination in hiring; explicit causal mechanism analysis is included.",
+          "sample_size": "1088 participants (543 Republicans, 545 Democrats)",
           "supported": false
         },
         {
@@ -369,23 +369,23 @@
           "design": "Experimental",
           "driver": "Psychological factors",
           "eligibility": "include",
-          "factor": "Affective polarization (thermometer gap)",
-          "finding": "Affective polarization significantly predicts larger out-partisan wage penalties in the hiring experiment. The association is strongest among the most polarized participants, and remains meaningful even when jointly modeled with productivity beliefs, though beliefs appear more important overall. Social-preference treatment effects were null.",
-          "hypothesis": "Higher affective polarization would be associated with greater partisan discrimination in hiring, especially against out-partisans.",
-          "instruments": "Affective polarization via feelings thermometer difference (in-party minus out-party); wage offer / willingness to pay in BDM-style hiring task; productivity belief elicitation",
-          "locators": "driver P11, design P3, finding P60",
+          "factor": "Affective polarization (in-party minus out-party thermometer difference)",
+          "finding": "More affectively polarized participants imposed larger out-partisan wage penalties. The relationship was statistically significant, strongest among the most polarized respondents, and remained meaningful alongside productivity beliefs; social-preference treatment effects were null.",
+          "hypothesis": "Affective polarization and productivity beliefs predict partisan wage discrimination, beyond social preferences.",
+          "instruments": "Hiring experiment using incentive-compatible willingness-to-pay decisions (Becker-DeGroot-Marschak); feelings thermometer for affective polarization; incentivized belief elicitation about worker productivity",
+          "locators": "outcome P11, design P3, finding P60",
           "outcome": "Vertical",
           "population": "American political partisans recruited on Prolific acting as employers",
-          "reason": "Peer-reviewed article on an experiment testing whether affective polarization predicts partisan discrimination in hiring; measured outcome is willingness to pay/wage offers, with clear causal/procedural links and article-level results.",
-          "sample_size": "1088 participants; 29,879 wage-offer observations",
+          "reason": "Experimental journal article on an explicit cause of partisan affective polarization in hiring discrimination; outcome is a vertical partisan attitude measure, and the paper tests mechanisms including affective polarization and productivity beliefs.",
+          "sample_size": "1088 participants",
           "supported": false
         }
       ],
       "screen": {
         "decision": "advance",
-        "reason": "Experimental study with an explicit causal design linking partisanship to discriminatory hiring behavior; includes affective polarization as a predictive mechanism."
+        "reason": "Experimental hiring study with explicit causal testing of partisan bias; affective polarization is a predictor of discriminatory outcomes, though the abstract suggests it is not the sole mechanism."
       },
-      "screen_hash": "75b912418048c32e3bd7127fd7cd7a992b2111ec507127dc266245a58c4b16fe",
+      "screen_hash": "cc9a2f384b26499a8ee9cdd097de9856c0b7065e5be8c2f56535b8b4956f85b4",
       "sjr": [
         "Q1",
         "2025"
@@ -647,9 +647,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Negative partisanship"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Focuses on negative partisanship and associated predictors, not an explicit causal antecedent of affective polarization; appears mainly associative/descriptive."
+      },
+      "screen_hash": "77fc2c4f92d1b806c581cf3d0b1fcfd47dfc90c66b3e23b8a7d0e39c4a98f73a",
       "sjr": [
         "Q1",
         "2025"
@@ -1152,10 +1159,46 @@
         "Negative partisanship"
       ]
     },
+    "W4415950085": {
+      "aliases": [
+        "W4415950085"
+      ],
+      "first_seen": "2026-11-22",
+      "meta": {
+        "authors": [
+          "Galim Lee",
+          "Yunmin Nam"
+        ],
+        "date": "2025-10-31",
+        "doi": "10.15617/psc.2025.10.31.3.117",
+        "id": "W4415950085",
+        "issn": [
+          "1229-8255"
+        ],
+        "journal": "The Journal of Political Science & Communication",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "Pathways from Internet Media and Fake News to Affective Polarization",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical survey study with a clear causal pathway: online media use and YouTube viewing increase fake-news exposure, which in turn heightens affective polarization."
+      },
+      "screen_hash": "8c432da05b1c8e74742dd52dbab35f2f2ea02df1193106f698fc79769791720e"
+    },
     "W4416194646": {
       "aliases": [
         "W4416194646"
       ],
+      "document_hash": "6c908feede5be1369b378ca4c684232fdbda11cc3f983bea44edbba00e9be422",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -1177,9 +1220,36 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Partisan animosity"
       ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Social network density / perceived network density",
+          "finding": "Across studies, denser social networks were generally associated with greater warmth and openness toward political opponents, especially through projected unity; Study 2 showed no direct experimental effect on animosity, but significant indirect effects; community-level analyses also found denser counties/postal codes had less partisan animosity. Effects on warmth were somewhat mixed at the individual level, but openness was more robust.",
+          "hypothesis": "Denser social networks increase projected unity and thereby reduce partisan animosity toward political opponents.",
+          "instruments": "Social network density from interconnections among close ties; unity with close others and distant Americans; partisan animosity via warmth/openness toward political opponents and feeling thermometers; community density from Social Capital Atlas",
+          "locators": "outcome P20, design P71, finding P100",
+          "outcome": "Vertical",
+          "population": "U.S. adults and county/postal-code-level U.S. communities; includes representative survey respondents, MTurk participants, and county-level public datasets",
+          "reason": "Empirical article testing whether social network density predicts lower partisan animosity, with both associative and experimental evidence and an explicit mechanism (projected unity).",
+          "sample_size": "Study 1: 612 recruited / 540 analyzed; Study 2: 481 recruited / 449 analyzed; Study 3: 1,863 participants from 1,602 postal codes plus 79,819 county-level cases; additional pilot samples and replications reported",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical studies on social network density and partisan animosity, including an experimental causal cascade and observational associations; plausible antecedent of affective polarization."
+      },
+      "screen_hash": "98749475930519b20a9771f5fe112bb2cbcaf306b209098b3cf08a011a1eb4c9",
       "sjr": [
         "Q2",
         "2025"
@@ -1548,9 +1618,28 @@
       ]
     },
     "W7112282207": {
+      "adjudication": {
+        "countries": [
+          "United States"
+        ],
+        "design": "Experimental",
+        "driver": "Psychological factors",
+        "eligibility": "include",
+        "factor": "Zero-sum asymmetry in perceived political trade-offs",
+        "finding": "Across five studies, zero-sum asymmetry was a robust positive correlate of affective polarization and outperformed overall zero-sum endorsement; in two experiments, asymmetry-inducing framing increased expressed affective polarization, though some component measures were mixed or marginal.",
+        "hypothesis": "Zero-sum asymmetry would positively predict affective polarization, and asymmetry-inducing framing would increase affective polarization relative to cooperative framing.",
+        "instruments": "8-item zero-sum beliefs scale adapted from Roberts and Davidai; zero-sum asymmetry computed from ingroup-gain vs outgroup-gain endorsements; affective polarization measured by feeling thermometer, social distance, trust, and composite indices",
+        "locators": "driver P3, outcome P37, finding P99",
+        "outcome": "Both",
+        "population": "U.S. adults/registered residents recruited via Prolific; separate liberal, conservative, and ideologically diverse samples",
+        "reason": "This empirical article tests an explicit causal and correlational relationship between zero-sum asymmetry in political conflict perceptions and affective polarization, using three cross-sectional correlational studies and two experiments. It reports article-level evidence that asymmetry predicts affective polarization and that experimentally inducing asymmetry increases affective polarization in the short term.",
+        "sample_size": "Studies 1-5: 150, 200, 142, 400, 491 (analysis samples varied slightly)",
+        "supported": false
+      },
       "aliases": [
         "W7112282207"
       ],
+      "document_hash": "fd16e418a7f31b4f25c1dbdd43beb69ebdfea7a2aef58e6d5b16678097bf9914",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -1572,10 +1661,55 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary",
         "Partisan animosity"
       ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Zero-sum asymmetry in political conflict perceptions",
+          "finding": "Across five studies, greater zero-sum asymmetry was consistently associated with higher affective polarization and, in some samples, stronger civic efficacy, democratic commitment, and participation. Experimental framing that heightened asymmetry increased affective polarization in Studies 4 and 5, though some individual measures were null or mixed.",
+          "hypothesis": "Zero-sum asymmetry would predict affective polarization, and an asymmetry-inducing framing would increase affective polarization relative to cooperative/non-zero-sum framing.",
+          "instruments": "Zero-sum beliefs scale adapted from Roberts & Davidai (2022); out-party animosity feeling thermometer; affective polarization thermometer/social-distance composite; civic efficacy scale; democratic commitment item/scale; political participation items; manipulation checks",
+          "locators": "driver P19, outcome P37, finding P108",
+          "outcome": "Both",
+          "population": "U.S. adults, mostly Prolific participants; ideological subsamples including liberals and conservatives",
+          "reason": "Empirical journal article testing a causal/process claim about a political belief (zero-sum asymmetry) predicting and experimentally shifting affective polarization. Includes correlational and experimental evidence, with explicit directional process and journal-style reporting.",
+          "sample_size": "Studies 1-5: 150, 200, 142, 400, 491 (total described n=1383 across studies)",
+          "supported": false
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Other",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Zero-sum asymmetry in political conflict framing (directional, one-sided trade-off beliefs).",
+          "finding": "Across five studies, greater zero-sum asymmetry was consistently associated with higher affective polarization, while overall zero-sum endorsement was weak or inconsistent. In two experiments, asymmetry-inducing framing increased affective polarization short term, though component effects were mixed and some individual indicators were null or marginal.",
+          "hypothesis": "Zero-sum asymmetry would predict affective polarization more strongly than overall zero-sum endorsement, and asymmetry-inducing framing would increase affective polarization.",
+          "instruments": "Zero-sum beliefs scale adapted from Roberts & Davidai (2022), including ingroup-gain and outgroup-gain items; affective polarization measured with feeling thermometer, social distance, trust, and composite indices; civic efficacy, democratic commitment, and participation measures.",
+          "locators": "driver P19, outcome P37, design P19, finding P108",
+          "outcome": "Both",
+          "population": "U.S. adults recruited via Prolific; separate samples including Massachusetts residents, ideologically diverse U.S. residents, conservative U.S. participants, and U.S. adults in two experiments.",
+          "reason": "Article-level empirical study with explicit causal and associative tests of zero-sum asymmetry predicting affective polarization; includes cross-sectional correlational studies and two experiments in English-language journal article format.",
+          "sample_size": "Study 1: 150; Study 2: 200; Study 3: 142; Study 4: 400; Study 5: 491",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Correlational and experimental studies report zero-sum asymmetry as a directional antecedent that reliably predicts heightened partisan animosity/affective polarization."
+      },
+      "screen_hash": "519fe5bf42ceaa87a5d5f128d53eb49c78b42bcd7155ce53912aaac32fcb716b",
       "sjr": [
         "Q1",
         "2025"
@@ -2046,6 +2180,41 @@
       },
       "screen_hash": "11e2d1af2db3d8ecda47baef606cbda11a315a7a65b0805c82e05031a66dda84"
     },
+    "W7125836233": {
+      "aliases": [
+        "W7125836233"
+      ],
+      "first_seen": "2026-11-22",
+      "meta": {
+        "authors": [
+          "Sehee Lee"
+        ],
+        "date": "2025-12-31",
+        "doi": "10.30992/kpsr.2025.12.24.4.117",
+        "id": "W7125836233",
+        "issn": [
+          "1598-5008",
+          "2734-0147"
+        ],
+        "journal": "한국정당학회보",
+        "language": "en",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Anger of Defeat: Electoral Defeat and Affective Polarization Among Strong Partisans",
+        "type": "article",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical study with a clear causal direction: electoral defeat is analyzed as increasing affective polarization among strong partisans."
+      },
+      "screen_hash": "075ba18dc8bdbb713cac1703b5c0c7c7d989bcf9ee9e037e86ad297855e043cc"
+    },
     "W7125935372": {
       "adjudication": {
         "countries": [
@@ -2379,6 +2548,38 @@
       "queries": [
         "Primary"
       ]
+    },
+    "W7129023522": {
+      "aliases": [
+        "W7129023522"
+      ],
+      "first_seen": "2026-11-22",
+      "meta": {
+        "authors": [
+          "Kristina Lerman"
+        ],
+        "date": "2026-02-21",
+        "doi": "10.1145/3773966.3785155",
+        "id": "W7129023522",
+        "issn": [],
+        "journal": "ACM International Conference on Web Search and Data Mining (WSDM)",
+        "language": "en",
+        "retracted": false,
+        "source_type": "conference",
+        "title": "Cyberpsychology: Emotion as the Hidden Driver of Social Behavior in Online Networks",
+        "type": "conference-paper",
+        "xml": false
+      },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
+      "queries": [
+        "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory-heavy talk; the abstract does not report an empirical antecedent study or a specific causal design on affective polarization."
+      },
+      "screen_hash": "9740a762af3cdb1ef1e4e9db8c96cfbbbf583858a7ec98b1451a3232dee508ef"
     },
     "W7130294994": {
       "aliases": [
@@ -2737,12 +2938,47 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "retrieval": "Full-text DOI needs verification",
+      "screen": {
+        "decision": "advance",
+        "reason": "Original survey study on social contact and affective polarization; reports an association with explicit directional interpretation, so it fits as an empirical antecedent."
+      },
+      "screen_hash": "195284c34f87dff2c5ef9e9295b06d6b90ce245613a787aaa7b0b973f70cb6d5",
       "sjr": [
         "Q1",
         "2025"
+      ]
+    },
+    "W7136598364": {
+      "aliases": [
+        "W7136598364"
+      ],
+      "first_seen": "2026-11-22",
+      "meta": {
+        "authors": [
+          "Sehee Lee"
+        ],
+        "date": "2026-02-28",
+        "doi": "10.35656/jkp.35.1.6",
+        "id": "W7136598364",
+        "issn": [
+          "1738-7477"
+        ],
+        "journal": "Journal of Korean Politics",
+        "language": "ko",
+        "retracted": false,
+        "source_type": "journal",
+        "title": "The Emotional Trap: Affective Polarization and Perceptions of Electoral Fairness",
+        "type": "article",
+        "xml": false
+      },
+      "queries": [
+        "Primary"
       ]
     },
     "W7137082382": {
@@ -3103,7 +3339,7 @@
           "Wataru Onishi"
         ],
         "date": "2026-01-01",
-        "doi": "10.17605/osf.io/gjn34",
+        "doi": "10.17605/osf.io/hn8fs",
         "id": "W7151878268",
         "issn": [],
         "journal": "",
@@ -3342,7 +3578,7 @@
         "type": "preprint",
         "xml": false
       },
-      "possible_duplicate": "W7131778291",
+      "possible_duplicate": "W7148454507",
       "queries": [
         "Primary"
       ]
@@ -3629,10 +3865,10 @@
         "doi": "10.11588/heidok.00038509",
         "id": "W7155217028",
         "issn": [],
-        "journal": "",
+        "journal": "heiDOK (Heidelberg University)",
         "language": "en",
         "retracted": false,
-        "source_type": "",
+        "source_type": "repository",
         "title": "Young, Broke and (Un)polarized? Polarization and Young Adults in South Korea",
         "type": "dissertation",
         "xml": true
@@ -6879,9 +7115,28 @@
       ]
     },
     "W7220429136": {
+      "adjudication": {
+        "countries": [
+          "United States"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Identity and group processes",
+        "eligibility": "include",
+        "factor": "Political heterogeneity of church congregation / out-partisan proportion at church",
+        "finding": "Across two cross-sectional studies, church political heterogeneity was associated with affective polarization in a non-linear way: politically balanced congregations showed the lowest affective polarization, whereas churches with very low or very high out-partisan shares showed higher affective polarization. In Study 1, the linear association with affective polarization was null and attendance was only marginal; exploratory quadratic analyses suggested a U-shape. In Study 2, the linear negative association and quadratic effect were both significant across models, with two-lines tests supporting a robust U-shaped pattern for the new measure and at least partial support for feeling thermometers.",
+        "hypothesis": "Greater exposure to out-partisans at church would predict lower affective polarization, with Study 2 also testing a non-linear (U-shaped) relationship.",
+        "instruments": "Study 1: feeling thermometers for Democrats/Republicans and 4-item social distance scale; Study 2: Campos & Federico new affective polarization measure plus feeling thermometer measure. Predictor was self-reported proportion/percentage of out-partisans at church; church attendance frequency also measured.",
+        "locators": "driver P16, outcome P21, design P106, finding P97",
+        "outcome": "Both",
+        "population": "American Christians",
+        "reason": "Empirical journal article in English with an explicit tested relationship between church political heterogeneity (out-partisan proportion/percentage at church) and affective polarization among American Christians. The strongest evidence is cross-sectional regression with exploratory quadratic/two-lines analyses showing a non-linear association, alongside null or marginal linear effects in Study 1.",
+        "sample_size": "Study 1 sample size not reported in supplied text; Study 2 final sample size 497",
+        "supported": true
+      },
       "aliases": [
         "W7220429136"
       ],
+      "document_hash": "2e533d635ebe6a222674eafb30562408ae7e6bf2600c5b58c66a5044398b8117",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -6903,9 +7158,54 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Political composition of church / out-partisan contact at church; secondary factor: church attendance frequency.",
+          "finding": "Across two cross-sectional studies, the linear association between church out-partisan proportion and affective polarization was weak in Study 1 but became robust in Study 2, where more balanced churches predicted lower affective polarization. The relationship was non-linear: affective polarization was lowest in politically balanced churches and higher at very low or very high out-party shares. Church attendance frequency showed only marginal or model-dependent negative associations, becoming significant in some exploratory or simplified models. Social distance showed clearer negative associations with out-partisan church composition than affective polarization in Study 1, and exploratory analyses in Study 2 linked higher out-party shares with greater social isolation and political concealment at church.",
+          "hypothesis": "More out-partisans in one's church and more frequent attendance would be associated with lower affective polarization; Study 2 also tested a non-linear U-shaped relation with lowest polarization at moderate out-party percentages.",
+          "instruments": "Study 1: feeling thermometers for Democrats and Republicans (difference score) and 4-item social distance scale. Study 2: Campos & Federico \"New Measure\" of affective polarization plus feeling thermometers; predictor was perceived percent out-partisans in church. Both studies used self-reported church attendance / church composition and regression models with covariates.",
+          "locators": "outcome P21, finding P109",
+          "outcome": "Both",
+          "population": "American Christians",
+          "reason": "Empirical journal article with explicit hypotheses and cross-sectional regression analyses examining whether church attendance frequency and political composition of churches predict affective polarization among American Christians. The target outcome is clear, the direction is antecedent-to-outcome, and the paper reports significant associations and null/mixed results.",
+          "sample_size": "Study 1 sample size unreported in provided text; Study 2 final sample size = 497",
+          "supported": false
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Political makeup of church congregation / out-party proportion at church",
+          "finding": "Across two cross-sectional studies, the linear association between out-party presence at church and affective polarization was mixed: Study 1 found no significant linear effect, but exploratory quadratic analyses suggested lowest polarization in politically balanced churches; Study 2 found robust significant linear and quadratic effects on both affective polarization measures, with lowest polarization at moderate out-party percentages. Church attendance frequency was weaker and inconsistent, becoming significant in some follow-up models but not in the preregistered specifications.",
+          "hypothesis": "Greater out-partisan presence at church would predict lower affective polarization, with a possible non-linear (U-shaped) pattern; more frequent attendance was also expected to relate to lower polarization.",
+          "instruments": "Feeling thermometers; Campos & Federico 'New Measure' of affective polarization; social distance scale; self-reported church out-party proportion/percentage; church attendance frequency",
+          "locators": "driver P16, outcome P21, design P106, finding P109",
+          "outcome": "Both",
+          "population": "American Christians who attend church; Prolific samples in two studies",
+          "reason": "Empirical, English-language journal article with explicit correlational and exploratory causal-process framing. It examines a political heterogeneity/contact antecedent of affective polarization in U.S. churches, with clear outcome measures and regression-based tests.",
+          "sample_size": "Study 1 and Study 2 (Study 2 final N=497 after exclusions; Study 1 sample size not reported in supplied text)",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical, pre-registered studies examine whether church attendance and congregation out-partisan composition predict affective polarization in American Christians."
+      },
+      "screen_hash": "5fd8cc6befe43c7d821f35e1eac75e04180dc6d1f69a9da6713e401fff703d38",
       "sjr": [
         "Q1",
         "2025"
@@ -6933,9 +7233,16 @@
         "type": "dataset",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Dataset/codebook repository, not a journal report or full empirical article."
+      },
+      "screen_hash": "cfd7e8eba6876458f9ea3ea75ecf74a0eb0492dafad1b9c899a447bfa12efcd6"
     },
     "W7220798160": {
       "aliases": [
@@ -7062,9 +7369,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Observational social-media study with a clear process claim: noun and generic party labels predict higher partisan prejudice in comments."
+      },
+      "screen_hash": "64499a8186b8718158089572822bc183a7eb55e0b6520912b7ab345c42381606",
       "sjr": [
         "Q1",
         "2025"
@@ -7269,9 +7583,16 @@
         "type": "study-registration",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Survey experiment tests whether majority consensus exposure increases moral conviction for a new policy, giving a clear causal antecedent to affective polarization-relevant attitudes."
+      },
+      "screen_hash": "3e6d473a6382022a23ae7be722a8821ffa1e5ee0803d0ab66f6cccc26751ca3b"
     },
     "W7224970092": {
       "aliases": [
@@ -7304,7 +7625,6 @@
       "aliases": [
         "W7224993540"
       ],
-      "document_hash": "be436e0f79df7929c00808d2ec01060fbe43068f00eca91df6794f25ee17ec36",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -7331,45 +7651,11 @@
       "queries": [
         "Primary"
       ],
-      "readings": [
-        {
-          "countries": [],
-          "design": "Other",
-          "driver": "Identity and group processes",
-          "eligibility": "exclude",
-          "factor": "Intergroup contact operating under xenophobia, attitudinal bias, and constrained partner selection",
-          "finding": "In the simulations, contact often improved outgroup attitudes and reduced polarization, but under some parameter settings it backfired and raised affective polarization; extremely strong xenophobia could also suppress cross-group interaction and reduce polarization again. Results were nonlinear and depended on the balance of negative intergroup influence and outgroup avoidance.",
-          "hypothesis": "Simulation experiments ask when intergroup contact reduces or backfires on affective polarization under varying xenophobia, attitudinal bias, and selection constraints.",
-          "instruments": "Computational agent-based model; no survey instruments",
-          "locators": "",
-          "outcome": "Both",
-          "population": "Simulated agents in two groups",
-          "reason": "Not an empirical antecedents study with observed human data; this is a computational agent-based simulation / theoretical model article. It does analyze a causal process (intergroup contact, xenophobia, attitudinal bias) and affective polarization, but it is not an empirical journal report of antecedents.",
-          "sample_size": "N = 110 agents in the baseline simulation",
-          "supported": false
-        },
-        {
-          "countries": [],
-          "design": "Other",
-          "driver": "Unclear",
-          "eligibility": "exclude",
-          "factor": "Intergroup contact combined with xenophobia, attitudinal bias, homophily, and social influence.",
-          "finding": "In simulations, contact often improved outgroup attitudes, but under some conditions of stronger bias it backfired and increased affective polarization; extreme avoidance could also suppress polarization.",
-          "hypothesis": "The paper asks when intergroup contact mitigates or backfires in affecting intergroup attitudes and affective polarization under different bias conditions.",
-          "instruments": "Computational agent-based model; simulated intergroup attitudes and affective polarization measures.",
-          "locators": "",
-          "outcome": "Both",
-          "population": "Unreported",
-          "reason": "Theory/computational simulation article rather than an empirical journal study with observed data; no real-world sample, assignment mechanism, or empirical causal identification.",
-          "sample_size": "Unreported",
-          "supported": false
-        }
-      ],
       "screen": {
-        "decision": "advance",
-        "reason": "Computational model with explicit causal processes for intergroup contact and peer influence affecting outgroup attitudes/affective polarization; plausible empirical antecedent despite simulation design."
+        "decision": "exclude",
+        "reason": "Computational agent-based simulation only; not an empirical antecedent study and provides no direct causal evidence from observed data."
       },
-      "screen_hash": "bd11bd4dfe7ed1913b6172e1831386e6dae4200862c470fa3e917f7e1f0afc4b",
+      "screen_hash": "a186882e186442f707d45ae6f7f83940a4592d6bf729cc21a485d29e99629176",
       "sjr": [
         "Q1",
         "2025"
@@ -7432,7 +7718,6 @@
       "aliases": [
         "W7225416563"
       ],
-      "document_hash": "1e3fca845640867e105ff1e7ce486029b283594227008bcfbf84b3561cb332b1",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -7459,31 +7744,11 @@
       "queries": [
         "Primary"
       ],
-      "readings": [
-        {
-          "countries": [
-            "India"
-          ],
-          "design": "Panel",
-          "driver": "Identity and group processes",
-          "eligibility": "include",
-          "factor": "Cultural identity salience, especially religious identity salience",
-          "finding": "Across survey and panel analyses, higher cultural identity salience predicted greater partisan affective polarisation, with religion the strongest predictor. The association remained after controls and was partly explained by social sorting and partisan media exposure; results were mixed across states and stronger in reinforcing identity contexts.",
-          "hypothesis": "Cultural identity salience increases affective polarisation, with religious identity strongest; effects are mediated by social sorting and partisan media exposure, and stronger among young voters.",
-          "instruments": "0-100 feeling thermometer battery for seven parties; multi-item scales for religious, caste, linguistic, and regional identity salience; name-generator social sorting measure; partisan media exposure frequency; OLS and SEM/mediation models",
-          "locators": "outcome P27, design P24, finding P67, finding P69",
-          "outcome": "Vertical",
-          "population": "Registered voters aged 18-35 across six Indian states",
-          "reason": "Empirical journal-style article with an explicit causal/process claim about how cultural identity salience predicts affective polarisation among young Indian voters, including mediation through social sorting and partisan media exposure. The outcome is measured with feeling thermometers toward parties (vertical), and the paper reports cross-sectional associations plus a wave-based panel component, but the core design is survey/associational with mediation analysis.",
-          "sample_size": "N = 4,820 total; Wave 1 n = 2,564; Wave 2 panel n = 2,256",
-          "supported": false
-        }
-      ],
       "screen": {
-        "decision": "advance",
-        "reason": "Empirical survey study with explicit associations/processes linking cultural identity salience and media/social sorting to affective polarisation; journal status not provided but abstract is sufficient to advance for full text."
+        "decision": "exclude",
+        "reason": "Consequence-focused; the abstract reports correlates and implications of affective polarisation rather than a clear empirical antecedent with an explicit causal direction."
       },
-      "screen_hash": "9c9d66536232fd548fb50416784f878eeb4969ba7641ce41c891082da5397592"
+      "screen_hash": "81e417c38be1490bbf3a2278b7b68d3d6012c95b3067627ded681dacf546a199"
     },
     "W7225580781": {
       "aliases": [
@@ -7650,18 +7915,44 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory-heavy historical analysis with secondary indicators; no explicit empirical antecedent or causal test of affective polarization."
+      },
+      "screen_hash": "b1ad358dcbfa5d06ff2d4eabc15274fcf1fa2d21d852bdc0ce8c779efc5a9ed2",
       "sjr": [
         "Q1",
         "2025"
       ]
     },
     "W7237195035": {
+      "adjudication": {
+        "countries": [
+          "United States"
+        ],
+        "design": "Experimental",
+        "driver": "Institutional factors",
+        "eligibility": "include",
+        "factor": "Vicarious elite contact paired with bipartisan legislative cooperation/success versus failure",
+        "finding": "Positive contact plus successful bipartisan legislation robustly reduced AP; negative contact plus successful legislation produced mixed but often similar AP reductions; negative contact plus unsuccessful legislation did not reduce AP in between-subjects tests and had cautionary within-subject effects that may partly reflect time trends. None of the treatments reduced ADS, likely due to floor effects.",
+        "hypothesis": "Positive and successful vicarious bipartisan cooperation was expected to reduce AP and ADS; negative-but-successful cooperation was also expected to reduce both, while negative-and-unsuccessful cooperation was expected to show no reduction.",
+        "instruments": "Feeling thermometers toward Democrats and Republicans (AP index = in-party minus out-party); 2-item Anti-Democratic Spite index on 6-point Likert scale, normalized 0-1",
+        "locators": "driver P5, outcome P53, design P9, finding P86, finding P94",
+        "outcome": "Both",
+        "population": "US adults, Republicans and Democrats including independent leaners",
+        "reason": "Empirical pre-registered survey experiment in English journal article tests whether vicarious elite contact and bipartisan legislative success reduce affective polarization, with explicit causal hypotheses and outcome measures. The strongest design is an experiment with pre/post AP measurement; it also examines ADS but finds null effects there.",
+        "sample_size": "N=1675 final analytic sample (N=2000 recruited; 325 pure independents excluded)",
+        "supported": true
+      },
       "aliases": [
         "W7237195035"
       ],
+      "document_hash": "b39d20318e09b093db2783df2e0978da8bcb4c986ebf20c821cda8aaa8b74a94",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -7684,16 +7975,67 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Institutional factors",
+          "eligibility": "include",
+          "factor": "Exposure to vicarious elite contact combined with bipartisan legislative success/failure",
+          "finding": "The strongest evidence shows that positive contact paired with successful bipartisan legislation reduces affective polarization, mainly by increasing out-party warmth. Negative contact with successful cooperation yields similar within-person AP reductions but weaker/borderline between-group evidence, while negative contact with unsuccessful cooperation shows mixed/null between-group results and may reflect general time trends. Treatments did not reduce anti-democratic spite.",
+          "hypothesis": "Positive and successful vicarious cooperation on legislation reduces AP and ADS; negative but successful cooperation reduces AP/ADS; negative and unsuccessful cooperation does not reduce AP/ADS",
+          "instruments": "Pre-treatment and post-treatment affective polarization measured with feeling thermometers toward Democrats and Republicans; ADS measured with a two-item index; pre-registered survey experiment with four vignette conditions",
+          "locators": "driver P7, outcome P53, design P9, finding P63, finding P81",
+          "outcome": "Both",
+          "population": "Adult Democrats and Republicans (including independent leaners) in a YouGov sample",
+          "reason": "Empirical journal article in English testing whether vicarious elite contact and bipartisan legislative success reduce affective polarization and anti-democratic spite using a pre-registered survey experiment. It includes an explicit causal design and reports effects on AP; ADS is also measured, though null.",
+          "sample_size": "N = 1675 final analytic sample (2000 recruited; 325 pure independents excluded)",
+          "supported": true
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Experimental",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Vicarious elite contact paired with bipartisan legislative success (vs. negative/unsuccessful or control)",
+          "finding": "The experiment found that positive contact with successful legislation significantly reduced AP, and negative contact with successful legislation also reduced AP in within-subject analyses; unsuccessful cooperation did not reduce AP reliably. Effects appeared to operate mainly through increased out-party warmth. Treatments did not reduce anti-democratic spite.",
+          "hypothesis": "Positive and successful vicarious bipartisan cooperation reduces AP; negative but successful cooperation may also reduce AP; unsuccessful cooperation should not reduce AP. Similar hypotheses were posed for ADS.",
+          "instruments": "Pre- and post-treatment feeling thermometers toward Democrats and Republicans; AP coded as in-party minus out-party thermometer difference; two-item anti-democratic spite index",
+          "locators": "driver P5, outcome P53, design P9, finding P10",
+          "outcome": "Both",
+          "population": "US adults (Republicans and Democrats, including leaners) recruited by YouGov",
+          "reason": "Experimental journal article testing whether vicarious elite contact and bipartisan legislative success reduce affective polarization; includes a clear causal design and measured AP as the main outcome. It also measures anti-democratic spite, but the paper’s primary included outcome for this review is AP.",
+          "sample_size": "1675",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Pre-registered survey experiment with explicit causal manipulation of elite contact and bipartisan legislation on affective polarization; appropriate empirical antecedent despite mixed results."
+      },
+      "screen_hash": "d7309004cc6611951efdce2b012c32c08bea00cf8fdaa4cc739d28a94bc6dcfe",
       "sjr": [
         "Q1",
         "2025"
       ]
     }
   },
-  "briefs": {},
+  "briefs": {
+    "Identity and group processes": {
+      "date": "2026-11-22",
+      "signature": "03c055c28e25926e4e6b193052576cc31d3dcb627163f87481f6f42fb222422f",
+      "text": "W7207833964 supports the baseline note by showing that the strength and salience of partisan identity are associated with more frequent political conflict, and that this spillover into household and relationship conflict is conditional rather than uniform—especially stronger when affective polarization is high. [W7207833964] The record also complicates any simple emphasis on issue agreement by finding that political identity dissimilarity is a stronger and more consistent correlate of marital conflict than value differences, which have only limited, domain-specific associations. [W7207833964] Because the study is cross-sectional, its results remain correlational and do not identify a causal effect of partisan identity or network composition; they are consistent with, but do not prove, the baseline claim about identity-linked social processes. [W7207833964]"
+    }
+  },
   "last_work": "2026-11-22 · Per-run AI allowance reached. Queue saved. Journal check: archived SCImago 2025 export.",
   "runs": [
     {
@@ -7837,6 +8179,43 @@
         "Primary": {
           "from_date": "2025-08-23",
           "hits": 185,
+          "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "queries": {
+        "Hostility toward the opposition party": {
+          "from_date": "2025-08-23",
+          "hits": 0,
+          "query_text": "\"hostility toward the opposition party\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Negative partisanship": {
+          "from_date": "2025-08-23",
+          "hits": 12,
+          "query_text": "\"negative partisanship\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Partisan animosity": {
+          "from_date": "2025-08-23",
+          "hits": 23,
+          "query_text": "\"partisan animosity\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Primary": {
+          "from_date": "2025-08-23",
+          "hits": 189,
           "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
           "source": "OpenAlex",
           "status": "Complete",
