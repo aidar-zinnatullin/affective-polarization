@@ -11,7 +11,7 @@ import urllib.request
 
 MODEL = "gpt-5.4-mini-2026-03-17"
 PROTOCOL = "1.0"
-MONTHLY_CENTS = 400
+MONTHLY_CENTS = 500
 RUN_CENTS = 100
 DRIVERS = ["Psychological factors", "Media and information environment",
            "Identity and group processes", "Institutional factors", "Socioeconomic factors"]
