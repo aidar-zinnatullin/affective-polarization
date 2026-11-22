@@ -41,7 +41,7 @@ ui <- fluidPage(
             tags$style(HTML(paste(readLines("style.css", warn = FALSE), collapse = "\n")))),
   tags$main(class = "page",
     tags$header(class = "masthead",
-      tags$p(class = "source", "Kogel & Zinnatullin · European Political Science"),
+      tags$p(class = "source", source_link("Kogel & Zinnatullin", paper_url), " · European Political Science"),
       tags$h1("What drives affective polarization?"),
       tags$p(class = "intro", "Explore the published review and follow new evidence about the causes of partisan dislike."),
       tags$div(class = "metrics", number_card("135", "Published articles"),
