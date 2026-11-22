@@ -2,6 +2,7 @@
 import csv
 from difflib import SequenceMatcher
 import gzip
+import hashlib
 import io
 import json
 import os
@@ -156,32 +157,54 @@ def issns(text):
     return re.findall(r"\b[0-9]{4}-?[0-9]{3}[0-9X]\b", (text or "").upper())
 
 
-def journals():
-    """Use a dated official export when available. Manual ISSN checks override it."""
-    snapshot_year = 2025
+SJR_YEAR = "2025"
+SJR_EXPORT = "https://www.scimagojr.com/journalrank.php?type=j&year=2025&out=xls"
+# A fixed copy of the 2025 SCImago export for hosts unable to retrieve the official download.
+SJR_ARCHIVE = ("https://raw.githubusercontent.com/P-M-Ferreira/ranking/"
+               "532ddee09d9f780a5c29c9f99f38e886231418b1/scimagojr%202025.csv")
+SJR_BLOB = "6a4e1ea4868698dedf7aabb11c8bb87bedc65ac0"
+
+
+def sjr_index(data):
+    try:
+        text = data.decode("utf-8-sig")
+    except UnicodeError:
+        text = data.decode("latin-1")
+    rows = csv.DictReader(io.StringIO(text), delimiter=";")
+    columns = {"Type", "Issn", "SJR Best Quartile", f"Total Docs. ({SJR_YEAR})"}
+    if not columns.issubset(rows.fieldnames or []):
+        raise Retrieval("SCImago export unavailable or wrong reporting year")
     mapping = {}
-    origin = f"https://www.scimagojr.com/journalrank.php?type=j&year={snapshot_year}&out=xls"
+    for row in rows:
+        if (row.get("Type") or "").strip().casefold() == "journal":
+            quartile = (row["SJR Best Quartile"] or "").strip()
+            for value in issns(row["Issn"]):
+                mapping[value.replace("-", "")] = (
+                    quartile if quartile in {"Q1", "Q2", "Q3", "Q4"} else "Unreported", SJR_YEAR)
+    if not mapping:
+        raise Retrieval("SCImago export has no journal identifiers")
+    return mapping
+
+
+def journals():
     local = Path("review/scimago-2025.csv")
     try:
-        data = local.read_bytes() if local.exists() else fetch(origin, limit=30_000_000, timeout=7)
-        try:
-            txt = data.decode("utf-8-sig")
-        except UnicodeError:
-            txt = data.decode("latin-1")
-        rows = csv.DictReader(io.StringIO(txt), delimiter=";")
-        if "SJR Best Quartile" not in (rows.fieldnames or []):
-            raise Retrieval("SCImago export unavailable")
-        for row in rows:
-            if (row.get("Type") or "").casefold() != "journal":
-                continue
-            for value in issns(row.get("Issn")):
-                q = row["SJR Best Quartile"]
-                mapping[value.replace("-", "")] = (q if q in {"Q1","Q2","Q3","Q4"} else "Unreported",
-                                                    str(snapshot_year))
+        data = local.read_bytes() if local.exists() else fetch(SJR_EXPORT, limit=30_000_000, timeout=7)
+        mapping = sjr_index(data)
+        source = "SCImago 2025 export"
     except (Retrieval, csv.Error):
-        pass
+        try:
+            data = fetch(SJR_ARCHIVE, limit=30_000_000, timeout=20)
+            header = f"blob {len(data)}\0".encode("ascii")
+            if hashlib.sha1(header + data).hexdigest() != SJR_BLOB:
+                raise Retrieval("Archived SCImago export changed")
+            mapping = sjr_index(data)
+            source = "archived SCImago 2025 export"
+        except (Retrieval, csv.Error):
+            mapping = {}
+            source = "SCImago 2025 unavailable; unmatched outlets remain pending"
     mapping.update(manual_journals())
-    return mapping
+    return mapping, source
 
 
 def manual_journals():

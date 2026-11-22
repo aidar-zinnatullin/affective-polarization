@@ -19,58 +19,21 @@ agreement <- read_data("agreement.csv")
 families <- base_counts$category[base_counts$measure == "Driver family"]
 paper_url <- "https://doi.org/10.1017/S1682098326100642"
 osf_url <- "https://osf.io/c4kv3/"
-primary <- grepl("(^| \\| )Primary($| \\| )", studies$queries)
-verified <- studies[primary & studies$status == "Verified inclusion", , drop = FALSE]
-proposals <- studies[primary & startsWith(studies$status, "AI proposal"), , drop = FALSE]
+if (!"inclusion_basis" %in% names(studies)) {
+  primary <- grepl("(^| \\| )Primary($| \\| )", studies$queries)
+  studies$inclusion_basis <- ifelse(primary & studies$status == "Verified inclusion", "Reviewer", "")
+}
+included <- studies[nzchar(studies$inclusion_basis), , drop = FALSE]
+verified <- included[included$inclusion_basis == "Reviewer", , drop = FALSE]
+ai_reviewed <- included[included$inclusion_basis == "AI", , drop = FALSE]
 complete <- coverage[coverage$status == "Complete" & coverage$query == "Primary", , drop = FALSE]
 last_search <- if (nrow(complete)) tail(complete$date, 1) else "Awaiting first search"
-
-corpus_names <- c("Published baseline" = "baseline", "Published + verified" = "combined",
-                  "Verified additions" = "new", "AI proposals" = "ai")
-measures <- c("Driver family", "Outcome", "Design", "Journal quartile", "Geography")
 
 source_link <- function(label, url) tags$a(label, href = url, target = "_blank", rel = "noopener")
 number_card <- function(value, caption) {
   tags$div(class = "metric", tags$strong(value), tags$span(caption))
 }
 message_box <- function(x) tags$p(class = "empty", x)
-
-area_counts <- function(rows) {
-  if (!nrow(rows)) return(character())
-  unlist(lapply(rows$countries, function(value) {
-    x <- unique(trimws(strsplit(value, "|", fixed = TRUE)[[1]]))
-    x <- x[nzchar(x)]
-    if (length(x) > 2) return("Cross-national (>2)")
-    if (!length(x)) return("None")
-    x
-  }), use.names = FALSE)
-}
-counts <- function(measure, corpus) {
-  original <- base_counts[base_counts$measure == measure, c("category","n")]
-  if (!corpus %in% c("baseline", "combined")) original$n[] <- 0L
-  add <- switch(corpus, combined = verified, new = verified, ai = proposals, studies[FALSE, ])
-  values <- switch(measure,
-      "Driver family" = add$driver, "Outcome" = add$outcome, "Design" = add$design,
-      "Journal quartile" = ifelse(nzchar(add$quartile), add$quartile, "Pending journal check"),
-      "Geography" = area_counts(add))
-  for (value in setdiff(unique(values), original$category)) {
-    original <- rbind(original, data.frame(category = value, n = 0L))
-  }
-  if (length(values)) {
-    original$n <- original$n + tabulate(match(values, original$category), nbins = nrow(original))
-  }
-  original
-}
-annual_counts <- function(corpus, outcome) {
-  tbl <- if (corpus %in% c("baseline", "combined")) base_years else base_years[FALSE, ]
-  add <- switch(corpus, combined = verified, new = verified, ai = proposals, studies[FALSE, ])
-  if (nrow(add)) {
-    tbl <- rbind(tbl, data.frame(year = as.integer(substr(add$date, 1, 4)),
-                                driver = add$driver, outcome = add$outcome, n = 1L))
-  }
-  if (outcome != "All forms") tbl <- tbl[tbl$outcome == outcome, , drop = FALSE]
-  tbl
-}
 
 ui <- fluidPage(
   tags$head(tags$title("Affective polarization | Evidence monitor"),
@@ -82,7 +45,9 @@ ui <- fluidPage(
       tags$h1("What drives affective polarization?"),
       tags$p(class = "intro", "Explore the published review and follow new evidence about the causes of partisan dislike."),
       tags$div(class = "metrics", number_card("135", "Published articles"),
-               number_card(nrow(verified), "Verified additions"), number_card(nrow(studies), "Records in update register"))),
+               number_card(nrow(ai_reviewed), "AI-reviewed additions"),
+               number_card(nrow(verified), "Reviewer-confirmed additions"),
+               number_card(nrow(studies), "Records in update register"))),
     tabsetPanel(id = "tabs",
       tabPanel("Evidence map", includeHTML("evidence.html")),
       tabPanel("Study register",
@@ -99,7 +64,8 @@ ui <- fluidPage(
           tags$h2("Search coverage"), tags$p("Last complete primary search: ", last_search),
           tags$p(run$message[1]), uiOutput("coverage_view"), tags$h2("Review protocol"),
           tags$p("OpenAlex supplies the automated primary search and three sensitivity searches. The original review used Google Scholar and Scopus. Each search keeps its own hit count."),
-          tags$p("Two blinded AI readings propose article-level codes. Proposals can include outlets pending an SJR check. Verified totals require a reviewer decision, an SJR check and a primary-search match."),
+          tags$p("The combined graph adds primary-search English-language journal articles dated after 22 August 2025. An ISSN match to SCImago and two agreeing full-text AI readings with checked evidence are required for automatic inclusion. The codes cover driver, outcome, design and countries."),
+          tags$p("When a third independent AI reading can resolve a disagreement, the worker requests one within its existing budget. Unresolved cases stay in the register. Optional reviewer decisions take precedence. Each included record contributes once, in its publication year."),
           tags$p("Historical distributions and annual cells were transcribed from the published figures. Original screening was reported in aggregate. Two unspecified outcomes are inferred from the difference between Figures 4 and 5."),
           tags$p("The same human coder repeated the original driver classification after 15 days. Nominal Krippendorff’s alpha was 0.689. The update register retains both model readings for later comparison."),
           tags$h3("AI driver coding agreement"), tags$p(agreement$pairs[1], " paired inclusions with a classifiable driver. ",
@@ -131,7 +97,8 @@ server <- function(input, output, session) {
         tags$details(tags$summary(source_link(r$title,url)," · ",r$status),
           tags$p(paste(r$authors,r$journal,r$date,sep=" · ")), tags$p(paste(r$id,r$queries,sep=" · ")),
           tags$p(paste(Filter(nzchar,c(r$driver,r$outcome,r$design,r$countries)),collapse=" · ")),
-          tags$p(r$finding),tags$p(class="foot",r$note," ",r$locators))
+          tags$p(r$finding),tags$p(class="foot",r$note," ",r$locators),
+          if (nzchar(r$inclusion_basis)) tags$p(class="foot",paste("Included in combined graph ·", r$inclusion_basis)))
       }))
   })
   output$csv <- downloadHandler(filename = function() "affective-polarization-register.csv",
@@ -141,7 +108,7 @@ server <- function(input, output, session) {
     base <- baseline_notes$note[baseline_notes$driver == input$family]
     new <- briefs[briefs$driver == input$family, , drop = FALSE]
     tags$div(tags$h2("Published synthesis"), tags$p(base), tags$h2("Update draft"),
-      if (!nrow(new)) message_box("A synthesis draft appears after new verified findings are processed by the update job.")
+      if (!nrow(new)) message_box("A synthesis draft appears after the update job processes included findings for this driver.")
       else tags$div(tags$p(new$draft[1]), tags$p(class = "foot",new$date[1]," · AI draft for editorial review")))
   })
   output$flow <- renderTable(setNames(flow,c("Stage","Articles / records")), striped = TRUE, rownames = FALSE)

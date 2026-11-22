@@ -14,7 +14,7 @@ DRIVER_COLORS = {
 }
 QUARTILE_COLORS = {"Q1": "#FFA500", "Q2": "#FFFF00"}
 NEUTRAL = "#707070"
-FORMS = ["Horizontal", "All forms", "Vertical", "Both", "Unspecified"]
+FORMS = ["All forms", "Horizontal", "Vertical", "Both", "Unspecified"]
 
 
 def read(path):
@@ -95,17 +95,27 @@ def build(app):
     baseline = read(app/'baseline.csv')
     families = [r['category'] for r in baseline if r['measure']=='Driver family']
     annual = read(app/'annual.csv')
-    studies = [r for r in read(app/'studies.csv') if 'Primary' in r['queries'].split(' | ')]
-    verified = [r for r in studies if r['status']=='Verified inclusion']
-    proposals = [r for r in studies if r['status'].startswith('AI proposal')]
-    options = ["Published baseline", "Published + verified", "Verified additions", "AI proposals"]
+    studies = read(app/'studies.csv')
+    included = [r for r in studies if r['inclusion_basis']]
+    verified = [r for r in included if r['inclusion_basis'] == 'Reviewer']
+    ai = [r for r in included if r['inclusion_basis'] == 'AI']
+    pending = [r for r in studies if r['status'] == 'AI proposal: check outlet'
+               and 'Primary' in r['queries'].split(' | ')]
+    corpora = [
+        ("Published + AI-reviewed", True, included),
+        ("Published baseline", True, []),
+        ("AI-reviewed additions", False, ai),
+        ("Published + verified", True, verified),
+        ("Verified additions", False, verified),
+        ("Pending outlet checks", False, pending),
+    ]
     results = []
-    for i, extra in enumerate([[], verified, verified, proposals]):
+    for i, (label, with_baseline, extra) in enumerate(corpora):
         counts = defaultdict(Counter)
         cells = Counter()
         for r in baseline:
-            counts[r['measure']][r['category']] = int(r['n']) if i<2 else 0
-        if i < 2:
+            counts[r['measure']][r['category']] = int(r['n']) if with_baseline else 0
+        if with_baseline:
             for r in annual:
                 cells[int(r['year']),r['driver'],r['outcome']] += int(r['n'])
         for r in extra:
@@ -116,7 +126,14 @@ def build(app):
             counts['Geography'].update(['Cross-national (>2)'] if len(areas)>2 else areas or ['None'])
         forms = chooser(f'ap-form{i}', FORMS, [trend(cells,families,f) for f in FORMS], 'Outcome form')
         measures = chooser(f'ap-measure{i}',list(counts),[bars(values, measure) for measure, values in counts.items()], 'Breakdown')
-        results.append('<section class="section"><h2>Research over time</h2>'+forms+
+        caption = ''
+        if i == 0:
+            baseline_n = sum(int(r['n']) for r in annual)
+            caption = (f'<p class="foot">{baseline_n} published articles · {len(ai)} AI-reviewed additions'
+                       f' · {len(verified)} reviewer-confirmed additions</p>')
+        elif label == "Pending outlet checks":
+            caption = '<p class="foot">These candidates await confirmation that their journal is indexed in SCImago.</p>'
+        results.append('<section class="section"><h2>Research over time</h2>'+caption+forms+
                        '</section><section class="section"><h2>Article counts</h2>'+measures+'</section>')
-    return ('<div class="ap-evidence">'+chooser('ap-corpus', options, results, 'Corpus')+
+    return ('<div class="ap-evidence">'+chooser('ap-corpus', [c[0] for c in corpora], results, 'Corpus')+
             '<p class="foot">Published search through 22 August 2025. The 2025 baseline covers part of the year.</p></div>')

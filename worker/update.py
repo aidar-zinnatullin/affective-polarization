@@ -3,6 +3,7 @@ import argparse
 from collections import Counter
 from evidence import build as build_evidence
 import csv
+from datetime import date
 import json
 import os
 from pathlib import Path
@@ -14,7 +15,7 @@ from catalogue import (CAUSE_TERMS, SEARCHES, START_DATE, Retrieval, abstract, a
 
 STATE = Path("review/state.json")
 APP = Path("app")
-STUDY_FIELDS = ["id","date","title","authors","doi","journal","issn","queries","status",
+STUDY_FIELDS = ["id","date","title","authors","doi","journal","issn","queries","status","inclusion_basis",
                 "first_seen","driver","outcome","design","countries","quartile","sjr_vintage",
                 "population","sample_size","instruments","hypothesis","factor","finding","locators","note"]
 DETAILS = ["population","sample_size","instruments","hypothesis","factor","finding"]
@@ -83,7 +84,7 @@ def discover(state):
                         if old and set(old["issn"]) != set(m["issn"]):
                             r.pop("sjr", None)
                         if old and (old["id"], old["doi"], old["title"]) != (m["id"], m["doi"], m["title"]):
-                            for field in ("screen", "screen_hash", "readings", "document_hash", "retrieval"):
+                            for field in ("screen", "screen_hash", "readings", "adjudication", "document_hash", "retrieval"):
                                 r.pop(field, None)
                         r["meta"] = m
                         abstracts[key] = abstract(work)
@@ -116,12 +117,58 @@ def metadata_status(m):
     return ""
 
 
+def supported_codes(reading):
+    if (reading["eligibility"] != "include" or not reading["supported"]
+            or reading["driver"] not in DRIVERS or reading["design"] not in DESIGNS
+            or reading["outcome"] not in OUTCOMES or not reading.get("locators")
+            or not reading.get("finding", "").strip()):
+        return None
+    countries = tuple(sorted({norm(c) for c in reading["countries"] if c.strip()}))
+    return reading["driver"], reading["outcome"], reading["design"], countries
+
+
+def review_votes(record):
+    votes = list(record.get("readings", []))
+    if record.get("adjudication"):
+        votes.append(record["adjudication"])
+    return votes
+
+
+def agreed_reading(record):
+    """Return a cited extraction whose full set of codes has two independent votes."""
+    seen = {}
+    for reading in review_votes(record):
+        codes = supported_codes(reading)
+        if codes is not None:
+            if codes in seen:
+                return seen[codes]
+            seen[codes] = reading
+    return None
+
+
+def needs_tiebreak(record):
+    pair = record.get("readings", [])
+    if len(pair) != 2 or record.get("adjudication") or agreed_reading(record):
+        return False
+    exclusions = sum(r["eligibility"] == "exclude" for r in pair)
+    # A third vote must be able to corroborate an inclusion or an exclusion.
+    return exclusions == 1 or (exclusions == 0 and any(supported_codes(r) for r in pair))
+
+
+def in_update_window(value):
+    try:
+        published = date.fromisoformat(value)
+    except (TypeError, ValueError):
+        return False
+    return date.fromisoformat(START_DATE) <= published <= utcdate()
+
+
 def code_article(budget, r, abs_text):
     m = r["meta"]
     if metadata_status(m) or r.get("possible_duplicate"):
         return
     if r.get("protocol") != PROTOCOL or r.get("model") != MODEL:
-        for k in ("screen", "readings", "document_hash", "retrieval", "screen_hash"):
+        for k in ("screen", "readings", "adjudication", "document_hash", "retrieval", "screen_hash"):
             r.pop(k, None)
         r["protocol"] = PROTOCOL
         r["model"] = MODEL
@@ -130,7 +177,7 @@ def code_article(budget, r, abs_text):
         if signature != r.get("screen_hash"):
             decision = screen(budget, m["title"], abs_text)
             if r.get("screen_hash"):
-                for k in ("readings", "document_hash"):
+                for k in ("readings", "adjudication", "document_hash"):
                     r.pop(k, None)
             r["screen"] = decision
             r["screen_hash"] = signature
@@ -138,7 +185,7 @@ def code_article(budget, r, abs_text):
         r["screen"] = {"decision": "uncertain", "reason": "Abstract unavailable. Full text required."}
     if r.get("screen", {}).get("decision") == "exclude" or not m["xml"]:
         return
-    if len(r.get("readings", [])) == 2:
+    if len(r.get("readings", [])) == 2 and not needs_tiebreak(r):
         return
     try:
         paragraphs = full_text(m)
@@ -150,8 +197,11 @@ def code_article(budget, r, abs_text):
     if r.get("document_hash") != doc_hash:
         r["document_hash"] = doc_hash
         r["readings"] = []
+        r.pop("adjudication", None)
     while len(r["readings"]) < 2:
         r["readings"].append(read_paper(budget, m["title"], paragraphs, bool(r["readings"])))
+    if needs_tiebreak(r):
+        r["adjudication"] = read_paper(budget, m["title"], paragraphs, adjudicate=True)
 
 
 def approvals(state):
@@ -174,11 +224,12 @@ def classify(r):
         return status
     if r.get("possible_duplicate"):
         return "Check possible duplicate"
-    if r.get("protocol") not in {None, PROTOCOL}:
+    if (r.get("protocol") not in {None, PROTOCOL}
+            or (readings and (r.get("protocol") != PROTOCOL or r.get("model") != MODEL))):
         return "Awaiting updated codebook"
     if r.get("screen", {}).get("decision") == "exclude":
         return "AI abstract exclusion"
-    if not m["xml"] and r.get("screen"):
+    if not m["xml"] and len(readings) < 2 and r.get("screen"):
         return "Awaiting full text"
     if len(readings) < 2:
         if r.get("retrieval"):
@@ -186,17 +237,17 @@ def classify(r):
         if len(readings) == 1:
             return "Awaiting second reading"
         return "Awaiting full-text coding" if r.get("screen") else "Discovered"
-    one, two = readings
-    if one["eligibility"] == two["eligibility"] == "exclude":
+    if sum(v["eligibility"] == "exclude" for v in review_votes(r)) >= 2:
         return "AI full-text exclusion"
-    comparable = lambda v: (v["driver"], v["outcome"], v["design"], sorted(norm(c) for c in v["countries"]))
-    if (one["eligibility"] != "include" or two["eligibility"] != "include" or
-            not one["supported"] or not two["supported"] or comparable(one) != comparable(two)
-            or "Unclear" in (one["driver"], one["design"])):
+    if not agreed_reading(r):
         return "Needs adjudication"
+    if not in_update_window(m["date"]):
+        return "Check publication date"
+    if m["language"] != "en" or m["source_type"] != "journal" or m["type"] not in {"article", "journal-article"}:
+        return "Check journal article metadata"
     if not r.get("sjr"):
         return "AI proposal: check outlet"
-    return "AI proposal: outlet checked"
+    return "AI-reviewed inclusion"
 
 
 def study_rows(state):
@@ -212,12 +263,13 @@ def study_rows(state):
                 r["sjr"] = match
                 break
         status = classify(r)
-        code = (r.get("readings") or [{}])[0]
+        code = agreed_reading(r) or (r.get("readings") or [{}])[0]
+        quartile, vintage = r.get("sjr") or ("", "")
         row = {**{k2: m[k2] for k2 in ["date","title","doi","journal"]}, "authors": "; ".join(m["authors"]),
                "issn": "; ".join(m["issn"]), "id": k, "first_seen": r["first_seen"],
                "queries": " | ".join(r["queries"]), "status": status,
                "note": r.get("retrieval") or code.get("reason") or r.get("screen", {}).get("reason", ""),
-               "quartile": r.get("sjr", ["",""])[0], "sjr_vintage": r.get("sjr", ["",""])[1],
+               "quartile": quartile, "sjr_vintage": vintage,
                "countries": " | ".join(dict.fromkeys(code.get("countries", [])))}
         for field in ["driver","outcome","design","locators"] + DETAILS:
             row[field] = code.get(field, "")
@@ -231,19 +283,21 @@ def study_rows(state):
                     value = (decision.get(field) or "").strip()
                     if value:
                         row[field] = value
-                if not (r.get("sjr") and row["driver"] in DRIVERS and row["design"] in DESIGNS
+                if not (in_update_window(m["date"]) and r.get("sjr") and row["driver"] in DRIVERS and row["design"] in DESIGNS
                         and row["outcome"] in OUTCOMES and row["finding"] and row["locators"]):
                     row["status"] = "Review incomplete"
                 else:
                     row["status"] = "Verified inclusion"
+        basis = {"AI-reviewed inclusion": "AI", "Verified inclusion": "Reviewer"}
+        row["inclusion_basis"] = basis.get(row["status"], "") if "Primary" in r["queries"] else ""
         rows.append(row)
     return sorted(rows, key=lambda row: (row["date"], row["id"]), reverse=True)
 
 
 def evidence_by_family(rows, driver):
-    return [{"id": r["id"], "design": r["design"], "outcome": r["outcome"], "finding": r["finding"]}
-            for r in rows if r["status"] == "Verified inclusion" and r["driver"] == driver
-            and "Primary" in r["queries"].split(" | ")]
+    return [{"id": r["id"], "design": r["design"], "outcome": r["outcome"], "finding": r["finding"],
+             "basis": r["inclusion_basis"]}
+            for r in rows if r["inclusion_basis"] and r["driver"] == driver]
 
 
 def synthesize(state, budget, rows):
@@ -289,7 +343,7 @@ def refresh(state):
         state["last_work"] = "Discovery is waiting for an OpenAlex key."
         return
     abstracts, run = discover(state)
-    catalogue = journals()
+    catalogue, journal_source = journals()
     for r in state["articles"].values():
         for issn in r["meta"]["issn"]:
             match = catalogue.get(issn.replace("-", "").upper())
@@ -297,7 +351,7 @@ def refresh(state):
                 r["sjr"] = list(match)
                 break
     if not os.getenv("OPENAI_API_KEY"):
-        state["last_work"] = f"{stamp()} · Discovery ran. AI screening is off."
+        state["last_work"] = f"{stamp()} · Discovery ran. AI screening is off. Journal check: {journal_source}."
         return
     budget = Budget()
     stop = time.monotonic() + 270
@@ -315,11 +369,13 @@ def refresh(state):
                 message = "Run time reached. Remaining records are queued."
                 break
             code_article(budget, r, abstracts.get(k, ""))
+        if time.monotonic() < stop:
+            synthesize(state, budget, study_rows(state))
     except Pause as e:
         message = str(e)
     if any(v["status"] != "Complete" for v in run["queries"].values()):
         message += " See search coverage for incomplete queries."
-    state["last_work"] = f"{stamp()} · {message}"
+    state["last_work"] = f"{stamp()} · {message} Journal check: {journal_source}."
 
 
 if __name__ == "__main__":
