@@ -289,9 +289,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measures campaign rhetoric and electoral outcomes, but not an antecedent of affective polarization; outcome-only link."
+      },
+      "screen_hash": "b07b68212e45f6c18f18c5d067b22bad895d746bc3987d83a616069b961d83f3",
       "sjr": [
         "Q1",
         "2025"
@@ -594,9 +601,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is about party communication on gender/sexuality and engagement, not an empirical antecedent of affective polarization with a clear causal direction or process."
+      },
+      "screen_hash": "e3c6f78ff3177c59446a4df013665a57ff5dec3a8a90b1bc2438814850b4e2c1",
       "sjr": [
         "Q1",
         "2025"
@@ -2790,7 +2804,45 @@
       "queries": [
         "Primary"
       ],
-      "readings": [],
+      "readings": [
+        {
+          "countries": [
+            "Brazil",
+            "Lebanon"
+          ],
+          "design": "Other",
+          "driver": "Identity and group processes",
+          "eligibility": "exclude",
+          "factor": "Postmemory, sectarian identity, and political ideology in diaspora discourse during peace versus war",
+          "finding": "In peace, nostalgic and heritage-oriented content fostered community and low-conflict intimacy; in war, political and sectarian reminders in comments produced blame, incivility, and polarization, fragmenting that intimacy. The study is descriptive and interpretive, with no causal test and some mixed audience reactions across posts.",
+          "hypothesis": "The study asks how digital diasporic intimacy is constructed and whether it can be maintained in war, and whether conflict makes it turn into diasporic affective polarization.",
+          "instruments": "Critical technocultural discourse analysis; screenshots of Instagram posts/comments; thematic analysis in NVivo",
+          "locators": "outcome P26, design P31, finding P68",
+          "outcome": "Both",
+          "population": "Lebanese diaspora in Brazil and Instagram followers/comments on @libano_brasil",
+          "reason": "Non-journal, qualitative case study of Instagram discourse; it does not test an empirical antecedent of affective polarization with an explicit causal direction/process in a journal article context. The paper discusses how war-related comment conflict and postmemory appear in one diaspora page, but the evidence is interpretive rather than an antecedent test.",
+          "sample_size": "2 Instagram post periods (March 2023 N=105; Sep-Nov 2024 N=111)",
+          "supported": false
+        },
+        {
+          "countries": [
+            "Brazil"
+          ],
+          "design": "Other",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Postmemory, nostalgia, sectarian identity, and war-related conflict framing in Instagram content/comments",
+          "finding": "The article argues that nostalgia and identity-oriented content foster digital diasporic intimacy in peaceful periods, while war-related political disagreements and postmemory in comments produce visible affective polarization and rupture community intimacy. Evidence is descriptive and interpretive rather than causal.",
+          "hypothesis": "Digital diasporic intimacy is maintained in peace but can turn into diasporic affective polarization in war",
+          "instruments": "Critical technocultural discourse analysis; screenshot collection; NVivo; thematic/discourse analysis",
+          "locators": "outcome P26, design P31, finding P68",
+          "outcome": "Unspecified",
+          "population": "Instagram page @libano_brasil followers and commenters",
+          "reason": "Excluded because this is a qualitative single-case discourse analysis of an Instagram page, not an empirical study with a clear causal or associative design examining antecedents of affective polarization at the article level. The paper discusses affective polarization conceptually and interpretively, but does not test a measurable driver-outcome relationship with a defined sample of respondents or units of analysis suitable for inclusion.",
+          "sample_size": "Two post periods: March 2023 (N=105 posts) and Sept. 17-Nov. 27, 2024 (N=111 posts)",
+          "supported": false
+        }
+      ],
       "screen": {
         "decision": "uncertain",
         "reason": "The abstract describes a qualitative discourse analysis of Instagram comments and mentions “diasporic affective polarization,” but it does not clearly establish an empirical causal antecedent or process beyond interpretation."
@@ -2851,9 +2903,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is a journal news/report section and does not present an empirical antecedent study with a clear causal direction or process."
+      },
+      "screen_hash": "7b7dab7115a9d6a0cfe02898e7049e7f3827063315a785a775a38ce66fdf1ddb",
       "sjr": [
         "Q1",
         "2025"
@@ -2979,10 +3038,17 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary",
         "Partisan animosity"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Outcome-focused study of how affective polarization predicts climate-policy support; no clear antecedent or causal direction toward affective polarization."
+      },
+      "screen_hash": "5e72d4fc66a5c6ec2daa9e7d1071720abe7bf841f5bf65b94710a72800a2d719",
       "sjr": [
         "Q1",
         "2025"
@@ -3009,9 +3075,16 @@
         "type": "dataset",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/descriptive note on emotions and correlations only; no explicit causal antecedent or process."
+      },
+      "screen_hash": "2671086a14c8d97c38bbebbcfdf2f0236486c6e7b8670be5b44d7ca19e42de6c"
     },
     "W7151878268": {
       "aliases": [
@@ -3118,9 +3191,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "No explicit causal antecedent/process for affective polarization; the abstract mainly reports cognitive-bias detection and associations, with affective polarization only mentioned as an implication."
+      },
+      "screen_hash": "f36467566b2405430b4d4863dac2264a44daa0b3960ffc257265a634ea51c13d",
       "sjr": [
         "Q1",
         "2025"
@@ -3177,9 +3257,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Empirical panel conjoint study on democratic hypocrisy/revealed preferences, not an antecedent of affective polarization; the causal direction runs from polarization to democratic norm choices."
+      },
+      "screen_hash": "f70ac0ee6f2bc00d9384ad6ded29b18a5346cc9ab266e10343db9d13ac7c3efc",
       "sjr": [
         "Q1",
         "2025"
@@ -3210,9 +3297,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory-focused narrative literature review; no original empirical antecedent study of affective polarization."
+      },
+      "screen_hash": "af92a248036052286e9a0d5928fa0306d35a0f658725d85449d23a29458d9a9f",
       "sjr": [
         "Q1",
         "2025"
@@ -3300,9 +3394,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Within-case causal process on Hungary linking majoritarian institutions to affective polarisation; journal article, not consequence-only."
+      },
+      "screen_hash": "352aca6049de72cd2a4c91355139f2b7ea59e713fbbd05307e08e1ab7869d65e",
       "sjr": [
         "Q1",
         "2025"
@@ -3450,9 +3551,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/commentary only; no empirical antecedent study with an explicit causal direction or process."
+      },
+      "screen_hash": "d6fce60db7e0da5abd3962b461bdecc5ec0fb8565836508640fe2dcd8d6afd60",
       "sjr": [
         "Q1",
         "2025"
@@ -3486,9 +3594,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Longitudinal RI-CLPM study with an explicit antecedent-to-outcome direction: social identity threat predicted later increases in affective polarisation."
+      },
+      "screen_hash": "f24d90109308e9e46aebcbaf46daae779ee0f48515304d07bc7b95eb101427b2",
       "sjr": [
         "Q1",
         "2025"
@@ -3540,9 +3655,16 @@
         "type": "conference-abstract",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused and the abstract reports no significant relationship between metacognitive accuracy and affective polarization; AP is an outcome here rather than an antecedent/process."
+      },
+      "screen_hash": "33f2cc7605942e20dfb122a941a1d3bc19216bdca57d1d5c9d6c519bc2bc7e1c"
     },
     "W7155499936": {
       "aliases": [
@@ -3598,9 +3720,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement-focused cross-sectional description of emotions linked to affective polarization; no empirical antecedent or explicit causal direction/process."
+      },
+      "screen_hash": "a76ee3f672996a80d5e29d9a6f68c30b9c6c8103c1c75b10b3f09b92336bf17d",
       "sjr": [
         "Q1",
         "2025"
@@ -3656,9 +3785,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused government evaluation after disasters; no clear causal process antecedent of affective polarization."
+      },
+      "screen_hash": "28a0398d3648fe45ff6fbf104978e9225807f12795cf6383e5ce0b87cdbf5b5d",
       "sjr": [
         "Q1",
         "2025"
@@ -3690,18 +3826,44 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused on comment polarization risk rather than an antecedent of affective polarization; the study is observational and does not test a clear causal process."
+      },
+      "screen_hash": "6d3881ebf08f3def4cb4f534546ab36bec3d908f5f1e24aa9c4b5531b4d8b844",
       "sjr": [
         "Q1",
         "2025"
       ]
     },
     "W7160025595": {
+      "adjudication": {
+        "countries": [
+          "Pakistan"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Media and information environment",
+        "eligibility": "include",
+        "factor": "Daily consumption of political short-form videos / algorithmic curation",
+        "finding": "Cross-sectional survey evidence showed a positive association: higher daily political short-form video consumption was linked to greater affective political polarization. The logistic regression was significant (OR = 4.18, p < .001), but the authors note that reverse causality and confounding cannot be ruled out.",
+        "hypothesis": "H3: Frequent consumption of algorithmically curated political short-form videos is a significant positive predictor of affective political polarization among Pakistani youth.",
+        "instruments": "Structured self-administered online questionnaire (Google Forms); items on daily short-form platform use, political content exposure, perceived algorithmic repetition/opposing views, and a 3-item affective political polarization scale adapted from Iyengar and Westwood (2015), α = 0.82",
+        "locators": "outcome P47, design P38, finding P74",
+        "outcome": "Vertical",
+        "population": "Active short-form video platform users aged 18 to 30 in Lahore, Pakistan",
+        "reason": "Empirical quantitative article on Pakistani youth that tests a directional association between short-form political video consumption and affective political polarization; cross-sectional survey with regression evidence. Outcome and target are identifiable, and the paper reports a supported positive relationship, though causality is not established.",
+        "sample_size": "N = 390",
+        "supported": false
+      },
       "aliases": [
         "W7160025595"
       ],
+      "document_hash": "7fb8dd596e316f42222e6cde97019edf0abeb32d995c3af5b766c8ba934fd67a",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -3724,9 +3886,54 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Pakistan"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Daily consumption of political short-form videos / algorithmically curated political content",
+          "finding": "Cross-sectional survey evidence showed that higher daily political short-form video consumption was associated with more frequent political content exposure and significantly higher affective political polarization; logistic regression found daily consumption positively predicted high polarization (OR = 4.18), though the authors note causality cannot be established and reverse causality remains possible.",
+          "hypothesis": "H3: Frequent consumption of algorithmically curated political short-form videos is a significant positive predictor of affective political polarization among Pakistani youth.",
+          "instruments": "Structured self-administered online questionnaire via Google Forms; 3-item affective political polarization scale adapted from Iyengar and Westwood (2015); usage and algorithmic exposure items on 5-point Likert scales",
+          "locators": "driver P5, outcome P47, design P38, finding P74",
+          "outcome": "Vertical",
+          "population": "Active short-form video platform users aged 18 to 30 years in Lahore",
+          "reason": "Empirical quantitative journal article with a cross-sectional survey testing an explicit association/prediction from short-form political video consumption to affective political polarization among Pakistani youth.",
+          "sample_size": "N = 390",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Pakistan"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Daily consumption of political short-form videos / algorithmic curation",
+          "finding": "Cross-sectional results showed higher political short-form video consumption was associated with more political content exposure and perceived algorithmic repetition, and it significantly predicted higher affective polarization in logistic regression (OR = 4.18, p < .001). The authors note the design cannot establish causality and reverse causality remains possible.",
+          "hypothesis": "H3: Frequent consumption of algorithmically curated political short-form videos is a significant positive predictor of affective political polarization among Pakistani youth.",
+          "instruments": "Structured self-administered online questionnaire (Google Forms); items on platform usage, algorithmic repetition/echo chambers, and a 3-item affective polarization scale (α = 0.82) adapted from Iyengar and Westwood (2015)",
+          "locators": "design P38, finding P74",
+          "outcome": "Vertical",
+          "population": "Active short-form video platform users aged 18 to 30 years in Lahore, Pakistan",
+          "reason": "Empirical quantitative article-level study of Pakistani youth linking short-form political video consumption and algorithmic personalization to affective political polarization. It reports a cross-sectional survey with statistical associations and a regression predicting the outcome. Not consequence-only or qualitative-only.",
+          "sample_size": "N = 390",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Quantitative cross-sectional survey with regression testing an explicit association between algorithmic short-video exposure and affective polarization; likely relevant despite causal limits."
+      },
+      "screen_hash": "300e2b0f1d0abdffe78406b06ad0d7b53905a236fcb587e72740d8c1771d3c68"
     },
     "W7160163664": {
       "aliases": [
@@ -3777,9 +3984,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Opinion paper/review with no primary empirical antecedent on affective polarization; the mention is theoretical only."
+      },
+      "screen_hash": "8b4be74eb767c312f363b9627ee66e1c65c32c4e5c6f96c80c586b3cb01f59d8",
       "sjr": [
         "Q1",
         "2025"
@@ -3814,9 +4028,95 @@
       ]
     },
     "W7161520371": {
+      "adjudication": {
+        "countries": [
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Barbados",
+          "Belgium",
+          "Benin",
+          "Botswana",
+          "Brazil",
+          "Canada",
+          "Cape Verde",
+          "Chile",
+          "Costa Rica",
+          "Croatia",
+          "Cyprus",
+          "Czech Republic",
+          "Denmark",
+          "Dominican Republic",
+          "El Salvador",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Ghana",
+          "Greece",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Jamaica",
+          "Japan",
+          "Latvia",
+          "Lesotho",
+          "Lithuania",
+          "Luxembourg",
+          "Mali",
+          "Malta",
+          "Mauritius",
+          "Mexico",
+          "Mongolia",
+          "Namibia",
+          "Netherlands",
+          "New Zealand",
+          "Norway",
+          "Panama",
+          "Peru",
+          "Poland",
+          "Portugal",
+          "Romania",
+          "Sao Tome and Principe",
+          "Senegal",
+          "Serbia",
+          "Montenegro",
+          "Slovakia",
+          "Slovenia",
+          "South Africa",
+          "South Korea",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "Trinidad and Tobago",
+          "Ukraine",
+          "United Kingdom",
+          "United States of America",
+          "Uruguay",
+          "Vanuatu"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Identity and group processes",
+        "eligibility": "include",
+        "factor": "Affective polarization",
+        "finding": "Higher affective polarization is associated with more democratic backsliding, especially declines in electoral, deliberative, and liberal democracy; inflation is not significant. The article’s strongest evidence is cross-sectional regression, so results are associative rather than demonstrably causal.",
+        "hypothesis": "H1: higher affective polarization is positively associated with democratic backsliding; expected negative effects on electoral and deliberative democracy, possibly also other dimensions.",
+        "instruments": "V-Dem political polarization indicator used as affective polarization proxy; V-Dem democracy indices (electoral, liberal, deliberative, egalitarian, participatory); World Bank Global Database of Inflation; OLS regression in R",
+        "locators": "driver P67, outcome P68, design P86, finding P117",
+        "outcome": "Vertical",
+        "population": "Countries classified as Free by Freedom House in 2006",
+        "reason": "Empirical quantitative article tests whether affective polarization predicts democratic backsliding across 68 countries (2006-2019) and reports significant negative associations with several democracy dimensions. It is not consequence-only or theory-only, and the causal direction is explicit in the hypotheses and regressions, though the design is cross-sectional country-level association rather than panel.",
+        "sample_size": "68 countries; 2006-2019 country-year data averaged to country level",
+        "supported": true
+      },
       "aliases": [
         "W7161520371"
       ],
+      "document_hash": "e468833e2a3d7f31b7263a10d2c69dd07b43f0263192399051c51d913de46664",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -3834,9 +4134,188 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Barbados",
+            "Belgium",
+            "Benin",
+            "Botswana",
+            "Brazil",
+            "Canada",
+            "Cape Verde",
+            "Chile",
+            "Costa Rica",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Dominican Republic",
+            "El Salvador",
+            "Estonia",
+            "Finland",
+            "France",
+            "Germany",
+            "Ghana",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Jamaica",
+            "Japan",
+            "Latvia",
+            "Lesotho",
+            "Lithuania",
+            "Luxembourg",
+            "Mali",
+            "Malta",
+            "Mauritius",
+            "Mexico",
+            "Mongolia",
+            "Namibia",
+            "Netherlands",
+            "New Zealand",
+            "Norway",
+            "Panama",
+            "Peru",
+            "Poland",
+            "Portugal",
+            "Romania",
+            "Sao Tome and Principe",
+            "Senegal",
+            "Serbia",
+            "Montenegro",
+            "Slovakia",
+            "Slovenia",
+            "South Africa",
+            "South Korea",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Trinidad and Tobago",
+            "Ukraine",
+            "United Kingdom",
+            "United States of America",
+            "Uruguay",
+            "Vanuatu"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Affective polarization (operationalized with V-Dem political polarization)",
+          "finding": "Cross-sectional regression results show that higher affective polarization is associated with greater democratic decline. The negative association is significant for electoral, deliberative, and liberal democracy, while egalitarian and participatory democracy are not significant; inflation is not significant.",
+          "hypothesis": "Higher affective polarization will be associated with greater democratic backsliding, especially in electoral and deliberative democracy; inflation is a positive control hypothesis.",
+          "instruments": "V-Dem political polarization indicator; V-Dem democracy indices (electoral, deliberative, liberal, egalitarian, participatory); World Bank Global Database of Inflation",
+          "locators": "driver P67, outcome P64, design P86, finding P117",
+          "outcome": "Both",
+          "population": "Countries classified as Free by Freedom House in 2006",
+          "reason": "Empirical article with an explicit causal/associational claim about affective polarization affecting democratic backsliding. Uses quantitative regression on 68 countries and reports substantive results for multiple democracy dimensions. Not consequence-only, theory-only, or qualitative-only.",
+          "sample_size": "68 countries; 2006-2019",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Argentina",
+            "Australia",
+            "Austria",
+            "Barbados",
+            "Belgium",
+            "Benin",
+            "Botswana",
+            "Brazil",
+            "Canada",
+            "Cape Verde",
+            "Chile",
+            "Costa Rica",
+            "Croatia",
+            "Cyprus",
+            "Czech Republic",
+            "Denmark",
+            "Dominican Republic",
+            "El Salvador",
+            "Estonia",
+            "Finland",
+            "France",
+            "Germany",
+            "Ghana",
+            "Greece",
+            "Hungary",
+            "Iceland",
+            "India",
+            "Indonesia",
+            "Ireland",
+            "Israel",
+            "Italy",
+            "Jamaica",
+            "Japan",
+            "Latvia",
+            "Lesotho",
+            "Lithuania",
+            "Luxembourg",
+            "Mali",
+            "Malta",
+            "Mauritius",
+            "Mexico",
+            "Mongolia",
+            "Namibia",
+            "Netherlands",
+            "New Zealand",
+            "Norway",
+            "Panama",
+            "Peru",
+            "Poland",
+            "Portugal",
+            "Romania",
+            "Sao Tome and Principe",
+            "Senegal",
+            "Serbia",
+            "Montenegro",
+            "Slovakia",
+            "Slovenia",
+            "South Africa",
+            "South Korea",
+            "Spain",
+            "Sweden",
+            "Switzerland",
+            "Trinidad and Tobago",
+            "Ukraine",
+            "United Kingdom",
+            "United States of America",
+            "Uruguay",
+            "Vanuatu"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Affective polarization",
+          "finding": "Across 68 countries, higher affective polarization is associated with larger declines in electoral, deliberative, and liberal democracy; the egalitarian and participatory models are weak or null, and inflation is not significant.",
+          "hypothesis": "H1: positive correlation between affective polarization and democratic backsliding; H2: positive correlation between inflation and democratic backsliding",
+          "instruments": "V-Dem political polarization indicator; V-Dem democracy indices; World Bank Global Database of Inflation",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "National-level country-year observations from 68 Free countries",
+          "reason": "Excluded because the paper treats affective polarization as a predictor of democratic backsliding rather than examining an antecedent of affective polarization; the outcome is consequence-only for our review question. The paper is also largely an original quantitative analysis of backsliding, not an empirical antecedent study of affective polarization.",
+          "sample_size": "68 countries; 2006-2019",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical cross-national regression study with an explicit causal claim that affective polarization predicts democratic backsliding; journal status not confirmed in abstract, but the design is suitable for full-text review."
+      },
+      "screen_hash": "fa6e7a10dece698fa755e0a15a1e86fc93daaf50a050f6b81a504bfd78aa13d2"
     },
     "W7161536499": {
       "aliases": [
@@ -3887,9 +4366,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
       ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Two-wave survey study with lagged associations linking online partisan news exposure to affective polarization via political discussions; abstract provides an explicit process and is empirical."
+      },
+      "screen_hash": "51e0377e838a3ff3d3ce248173c87d202a6a7202b84bb39d989f977ce66c9a5c",
       "sjr": [
         "Q2",
         "2025"
@@ -3899,6 +4385,7 @@
       "aliases": [
         "W7161779936"
       ],
+      "document_hash": "7147452492bca90bb1055bba3e0ad51731330d99497a8131b615bf7676da2bc4",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -3919,9 +4406,36 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [
+            "India"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Affective polarization",
+          "finding": "Cross-sectional analyses found strong associations between affective polarization, cognitive flexibility, and social support and political interest. The write-up reports that higher affective polarization was linked to lower political interest, while the article also contains contradictory descriptive statements suggesting mixed directionality across sections. Overall, the paper emphasizes a significant predictive relationship but the internally inconsistent reporting limits confidence in the exact direction and magnitude.",
+          "hypothesis": "Affective polarization, cognitive flexibility, and social support will be significantly related to and predict political interest among young adults.",
+          "instruments": "Affective Polarization Scale (15-item), Cognitive Flexibility Scale (12-item), Social Support Questionnaire-Short Form (6-item), Political Interest Scale (30-item)",
+          "locators": "driver P110, outcome P110, design P120, finding P192",
+          "outcome": "Unspecified",
+          "population": "Young adults aged 18-25, full-time college students",
+          "reason": "Empirical quantitative journal article on antecedents of political interest with an explicit directional test of affective polarization, cognitive flexibility, and social support among young adults; includes correlational and regression analyses. Although the source text is internally inconsistent and some reported coefficients appear implausible, it still provides an empirical design and causal/predictive framing suitable for inclusion.",
+          "sample_size": "200",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Quantitative correlational/regression study with explicit associations involving affective polarization and a causal interpretation for political disengagement, though cross-sectional and likely overfit."
+      },
+      "screen_hash": "8dd8e9e73fcbae8939c4545977bd2666b9ec6cdf3c61e102c92431231028289d"
     },
     "W7162098115": {
       "aliases": [
@@ -4532,9 +5046,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-focused and largely interpretive; no clear empirical antecedent design for affective polarization beyond broad associations."
+      },
+      "screen_hash": "b355b6645d11e01f0082baded48d32391a95778d91bd64e9229cb612b9f70893"
     },
     "W7167445175": {
       "aliases": [
@@ -5830,9 +6351,16 @@
         "type": "study-registration",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/perception study of stereotypes and traits; it does not test an empirical antecedent causing affective polarization."
+      },
+      "screen_hash": "18585b1656d7cbabc2524595a122d3a5ad46d7007184f9036a530c0a2f08f47f"
     },
     "W7213775837": {
       "aliases": [
@@ -5855,9 +6383,16 @@
         "type": "study-registration",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "Longitudinal predictive study with a clear prospective design and a stated process, but the abstract reads mainly as a model test/prediction and does not clearly report an empirical causal antecedent finding for affective polarization; full text needed."
+      },
+      "screen_hash": "ca6102609adf006ee703a391a7016fc35054eff563de38f679cc86c4efea08d7"
     },
     "W7213984467": {
       "aliases": [
@@ -6211,9 +6746,28 @@
       ]
     },
     "W7223212649": {
+      "adjudication": {
+        "countries": [
+          "United States"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Identity and group processes",
+        "eligibility": "include",
+        "factor": "Greater political salience, more political interaction (especially in person), and greater political homogeneity in peer groups; closest friend groups show similar patterns.",
+        "finding": "Cross-sectional evidence indicates that more politically salient, more interactive, and more politically homogeneous peer groups are associated with higher affective polarization; social media interaction shows a weaker positive association, and race/ethnicity, religion, and gender homogeneity are null. Closest-friend patterns are similar but often stronger.",
+        "hypothesis": "Peer-group belonging and echo-chamber dynamics are associated with higher affective polarization among high school students.",
+        "instruments": "0-100 feeling thermometers toward Democrats and Republicans; affective polarization difference score; Likert-scale measures of political salience, political interaction (in-person and social media), and group homogeneity; semi-structured Zoom/in-person interviews",
+        "locators": "outcome P11, design P11, finding P31",
+        "outcome": "Horizontal",
+        "population": "American high school students; peer groups/closest friend groups",
+        "reason": "Article-level empirical study of U.S. high school peer groups and affective polarization. It tests directional associations between peer-group characteristics and polarization using survey data (plus interviews), with clear measured outcomes and targets. Strongest design is cross-sectional associative; no longitudinal or experimental test is reported. Consequence-only, theory-only, and qualitative-only exclusions do not apply.",
+        "sample_size": "Survey n=81; interview n=15",
+        "supported": false
+      },
       "aliases": [
         "W7223212649"
       ],
+      "document_hash": "c3d185c469a7b7f5444a5dbe760c6a49f93c9e4697cfd317b8b36939d42e3019",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -6233,9 +6787,54 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Psychological factors",
+          "eligibility": "include",
+          "factor": "Peer-group belonging-induced echo chambers via political salience, interaction, and homogeneity",
+          "finding": "In this cross-sectional case study, higher peer-group political salience, more political interaction (especially in person), and greater political homogeneity were associated with higher affective polarization; social media interaction was positive but weaker, while race/ethnicity, religion, and gender homogeneity were null.",
+          "hypothesis": "Peer-group belonging and related peer dynamics (political salience, interaction, homogeneity) are associated with greater affective polarization among adolescents.",
+          "instruments": "Jotform survey; 0-100 feeling thermometers toward Democrats and Republicans; semi-structured Zoom/in-person interviews",
+          "locators": "driver P27, design P7, finding P31",
+          "outcome": "Both",
+          "population": "American high school students (adolescents, ages 14-18 implied)",
+          "reason": "Empirical journal article with an explicit proposed process linking peer-group belonging/echo chambers to affective polarization; uses survey and interview data and reports correlational associations in a U.S. high school sample.",
+          "sample_size": "Survey n=81; interview n=15",
+          "supported": false
+        },
+        {
+          "countries": [
+            "United States"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Identity and group processes",
+          "eligibility": "include",
+          "factor": "Peer-group political salience, political interaction (in-person and social media), and political homogeneity",
+          "finding": "Across the cross-sectional survey, higher political salience and more political interaction within peer groups were associated with higher affective polarization; social-media interaction showed the weakest positive association, and political homogeneity also increased polarization, while race/ethnicity, religion, and gender homogeneity were not significant.",
+          "hypothesis": "Peer-group belonging, political salience, interaction frequency, and homogeneity would be associated with greater affective polarization.",
+          "instruments": "Jotform survey; 30-45 minute semi-structured Zoom/in-person interviews; feeling thermometers toward Democrats/Republicans and related items",
+          "locators": "driver P28, outcome P11, design P7, finding P31",
+          "outcome": "Both",
+          "population": "American high school students (peer groups/closest friend groups)",
+          "reason": "English peer-reviewed journal article reporting an empirical cross-sectional survey/interview study with an explicit process claim linking peer-group factors to affective polarization among American high school students. The measured outcome is clear and the article reports associations with a stated direction.",
+          "sample_size": "Survey n=81; interviews n=15",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "The study reports an association between peer-group factors and affective polarization in a case study, but the causal direction is not directly established from the abstract."
+      },
+      "screen_hash": "c347fe7d585c140baff47fa98237a7dd268062099e03a99ad99a9f0ee63442d9"
     },
     "W7223246288": {
       "aliases": [
@@ -6692,6 +7291,43 @@
           "source": "OpenAlex",
           "status": "Complete",
           "through_date": "2026-11-21"
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "queries": {
+        "Hostility toward the opposition party": {
+          "from_date": "2025-08-23",
+          "hits": 0,
+          "query_text": "\"hostility toward the opposition party\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Negative partisanship": {
+          "from_date": "2025-08-23",
+          "hits": 12,
+          "query_text": "\"negative partisanship\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Partisan animosity": {
+          "from_date": "2025-08-23",
+          "hits": 23,
+          "query_text": "\"partisan animosity\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Primary": {
+          "from_date": "2025-08-23",
+          "hits": 185,
+          "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
         }
       }
     },
