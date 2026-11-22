@@ -35,7 +35,11 @@
         "decision": "exclude",
         "reason": "Measurement-focused validation study; it does not test an empirical antecedent or causal/process link of affective polarization."
       },
-      "screen_hash": "c4827d71628340e1f44226e68beefd46b2a4545a395e6821d8880cc97b018aed"
+      "screen_hash": "c4827d71628340e1f44226e68beefd46b2a4545a395e6821d8880cc97b018aed",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4410138662": {
       "aliases": [
@@ -63,8 +67,19 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is a measurement/validation study; affective polarization is only an incremental validity outcome, not an empirical antecedent with a causal process."
+      },
+      "screen_hash": "e832a83b1e7e471b817e0482ae1ed0bd43a54e9310b3a0be0df17fd3056c245e",
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W4411579982": {
@@ -95,6 +110,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W4413804228": {
@@ -124,6 +143,24 @@
       ]
     },
     "W4413957750": {
+      "adjudication": {
+        "countries": [
+          "Germany"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Media and information environment",
+        "eligibility": "include",
+        "factor": "Negative rhetoric by mainstream parties targeting the AfD, especially cross-party/common-front messaging",
+        "finding": "The article finds a positive association in the observational study and a causal treatment effect in the experiment: negative rhetoric toward the AfD increases affective polarization, with cross-party messages producing the largest effects; in-party effects are smaller and the observational in-party association is unclear or sometimes opposite.",
+        "hypothesis": "Negative rhetoric by mainstream parties, especially coordinated cross-party rhetoric, increases affective polarization toward the radical right more than single-party messages.",
+        "instruments": "Parliamentary debate text analysis (dictionary + PoS tagging of targeted negative rhetoric); Politbarometer like-dislike / skalometer and feeling thermometers; vignette survey experiment with real elite messages",
+        "locators": "driver P2, outcome P31, finding P51",
+        "outcome": "Both",
+        "population": "Mainstream party voters / German public",
+        "reason": "Empirical journal article with an explicit causal and correlational test of how mainstream-party negative rhetoric toward the radical right affects affective polarization; includes observational and survey-experimental evidence.",
+        "sample_size": "Cross-sectional public opinion data; survey experiment n ≈ 3,100 (final analytic n = 2,910)",
+        "supported": false
+      },
       "aliases": [
         "W4413957750"
       ],
@@ -196,7 +233,11 @@
         "decision": "advance",
         "reason": "Empirical study with causal direction: mainstream party negative rhetoric is tested as a predictor of affective polarization, including experimental evidence."
       },
-      "screen_hash": "9310fd76d32be6a61b5cebf3c30776696e46cf8656fd6710e0a7cbfe8f055d14"
+      "screen_hash": "9310fd76d32be6a61b5cebf3c30776696e46cf8656fd6710e0a7cbfe8f055d14",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4414057147": {
       "aliases": [
@@ -250,6 +291,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W4414142125": {
@@ -326,7 +371,11 @@
         "decision": "advance",
         "reason": "Experimental study with an explicit causal design linking partisanship to discriminatory hiring behavior; includes affective polarization as a predictive mechanism."
       },
-      "screen_hash": "75b912418048c32e3bd7127fd7cd7a992b2111ec507127dc266245a58c4b16fe"
+      "screen_hash": "75b912418048c32e3bd7127fd7cd7a992b2111ec507127dc266245a58c4b16fe",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4414144748": {
       "aliases": [
@@ -363,7 +412,11 @@
         "decision": "advance",
         "reason": "Journal article with repeated cross-sectional macro-level regression testing a directional relationship; includes affective polarization as a predictor of democratic support, so it is relevant and sufficiently empirical."
       },
-      "screen_hash": "a9b39916648ef5ccad8ca1ced0e4daa691b00bc64908b5f1606827419f94af99"
+      "screen_hash": "a9b39916648ef5ccad8ca1ced0e4daa691b00bc64908b5f1606827419f94af99",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4414145263": {
       "aliases": [
@@ -480,7 +533,11 @@
         "decision": "exclude",
         "reason": "Qualitative case study about boycotts in Turkey; discusses affective polarization as context/driver, but not an empirical antecedent study of affective polarization with causal design."
       },
-      "screen_hash": "1ef013a735a86536af48dc2ce951e596783dfcc224521e491ca08fe2e475dd88"
+      "screen_hash": "1ef013a735a86536af48dc2ce951e596783dfcc224521e491ca08fe2e475dd88",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4415026894": {
       "aliases": [
@@ -539,6 +596,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W4415234659": {
@@ -567,9 +628,31 @@
       },
       "queries": [
         "Negative partisanship"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W4415250944": {
+      "adjudication": {
+        "countries": [
+          "United States"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Identity and group processes",
+        "eligibility": "include",
+        "factor": "Interaction with politically diverse accounts / wider range of political views (and topic-level political diversity)",
+        "finding": "More cross-partisan interaction was associated with higher user toxicity, and topic conversations involving wider political diversity were generally more toxic; however, being more ideologically extreme by itself did not reliably increase toxicity, and some topic-level effects were mixed or topic-dependent.",
+        "hypothesis": "Greater political diversity/interaction across viewpoints would be associated with higher toxicity, reflecting affective polarization.",
+        "instruments": "Custom DeBERTa-based toxicity classifier; Correspondence Analysis for partisanship; MPNet embeddings with DP-Means topic clustering; GAMs",
+        "locators": "driver P5, outcome P5, design P129, finding P75",
+        "outcome": "Both",
+        "population": "Politically engaged Twitter/X users and topic-level conversations",
+        "reason": "Empirical article with a clear tested relationship between political diversity/partisanship (affective polarization proxy) and toxicity, including an explicit directional association. Although the paper emphasizes correlation rather than causality, it still reports measured associations at user and topic levels and fits the review criteria.",
+        "sample_size": "43,151 accounts; 89,599,787 tweets",
+        "supported": true
+      },
       "aliases": [
         "W4415250944"
       ],
@@ -641,7 +724,11 @@
         "decision": "advance",
         "reason": "Empirical Twitter study with an explicit predictive/associational design linking political diversity and affective polarization-related toxicity to users’ own toxicity; not theory-only or qualitative."
       },
-      "screen_hash": "cb5b077a7608b3bc424ff8b2d86ed4d068d390dd4c6fc33a657aeb6c372b1331"
+      "screen_hash": "cb5b077a7608b3bc424ff8b2d86ed4d068d390dd4c6fc33a657aeb6c372b1331",
+      "sjr": [
+        "Q2",
+        "2025"
+      ]
     },
     "W4415256318": {
       "aliases": [
@@ -677,9 +764,31 @@
         "decision": "advance",
         "reason": "Empirical survey study with explicit antecedents and limited mediation evidence for causal processes in affective polarization."
       },
-      "screen_hash": "9966910b1dc0266931f5d56cab23e7bbc04019ac6e5f61d167125646bad31ddc"
+      "screen_hash": "9966910b1dc0266931f5d56cab23e7bbc04019ac6e5f61d167125646bad31ddc",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4415268580": {
+      "adjudication": {
+        "countries": [
+          "Indonesia"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Psychological factors",
+        "eligibility": "include",
+        "factor": "Ideological extremity (U-shaped/quadratic ideology term)",
+        "finding": "Cross-sectional regressions showed that affective polarization persisted after the election and was most strongly associated with ideological extremity in a U-shaped pattern; social media consumption was also positively associated, while intergroup contact was negatively associated. Political participation was a weaker positive correlate. The linear ideology term was null.",
+        "hypothesis": "Affective polarization is associated with ideological extremity, social media consumption, intergroup contact, and political participation; ideology is expected to show a non-linear U-shaped relation.",
+        "instruments": "Feeling thermometer-based affective polarization scale; 10-point ideological self-placement with linear and quadratic terms; social media consumption index; intergroup contact index; political participation index",
+        "locators": "driver P26, outcome P27, design P7, finding P28, finding P30",
+        "outcome": "Both",
+        "population": "Eligible Indonesian voters in the 2024 election",
+        "reason": "Empirical quantitative journal-style study with a clear cross-sectional survey design testing causal-directional associations between drivers and affective polarization in post-2024 Indonesia.",
+        "sample_size": "1,500 respondents",
+        "supported": true
+      },
       "aliases": [
         "W4415268580"
       ],
@@ -791,7 +900,11 @@
         "decision": "advance",
         "reason": "ABM study with explicit causal processes for selective exposure, homogeneous discussion, and social/media influence shaping affective polarization."
       },
-      "screen_hash": "74b0010b97343279715b9fa284be2a3e6be506d5124e3c4ff9d27d5e8a9eec49"
+      "screen_hash": "74b0010b97343279715b9fa284be2a3e6be506d5124e3c4ff9d27d5e8a9eec49",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4415295841": {
       "aliases": [
@@ -828,7 +941,11 @@
         "decision": "exclude",
         "reason": "Theory/modeling study of opinion polarization and depolarization; no empirical antecedent of affective polarization."
       },
-      "screen_hash": "389d90d376184acdf08b303ac2ee3c6cf14ce20e44e9e23db35b69f505244b86"
+      "screen_hash": "389d90d376184acdf08b303ac2ee3c6cf14ce20e44e9e23db35b69f505244b86",
+      "sjr": [
+        "Q2",
+        "2025"
+      ]
     },
     "W4415381535": {
       "aliases": [
@@ -903,7 +1020,11 @@
         "decision": "advance",
         "reason": "Empirical association study with clear design and political behavior outcome; compares offline/online partisan exposure as predictors of vote choice, so it fits as a plausible antecedent-related full-text candidate."
       },
-      "screen_hash": "f4cf51d88db323adf40ae9f6e9d8e3952933024f9983fc556c637df3d66d76a2"
+      "screen_hash": "f4cf51d88db323adf40ae9f6e9d8e3952933024f9983fc556c637df3d66d76a2",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4415521323": {
       "aliases": [
@@ -978,7 +1099,11 @@
         "decision": "exclude",
         "reason": "Measurement-only paper introducing WEDO; no explicit causal antecedent of affective polarization."
       },
-      "screen_hash": "42c8d2238b1fab9b0a2dcf9263a0ed19c781ede88a2fd2375a9aabbc33153a31"
+      "screen_hash": "42c8d2238b1fab9b0a2dcf9263a0ed19c781ede88a2fd2375a9aabbc33153a31",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4415767535": {
       "aliases": [
@@ -1033,6 +1158,10 @@
       },
       "queries": [
         "Partisan animosity"
+      ],
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W4416859224": {
@@ -1073,7 +1202,11 @@
         "decision": "exclude",
         "reason": "The study tests affective polarization as a predictor of wellbeing and finds no significant causal effects; the only directional finding is stress causing polarization, which is not an antecedent of affective polarization."
       },
-      "screen_hash": "29273c37ea3e323d739a42d86ebb5ff0361aff0e1c495b305a51a6d746a6132e"
+      "screen_hash": "29273c37ea3e323d739a42d86ebb5ff0361aff0e1c495b305a51a6d746a6132e",
+      "sjr": [
+        "Q2",
+        "2025"
+      ]
     },
     "W4416934096": {
       "aliases": [
@@ -1107,7 +1240,11 @@
       "screen": {
         "decision": "uncertain",
         "reason": "Abstract unavailable. Full text required."
-      }
+      },
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W4417232859": {
       "aliases": [
@@ -1145,7 +1282,11 @@
         "decision": "advance",
         "reason": "Empirical study with a clear causal/associational process: party-voter policy congruence predicting horizontal affective polarization toward in- and out-party voters."
       },
-      "screen_hash": "7b684e73ad6c3f3eec1b95481ce54a777ab52fd85ebd574ada5a4e6b5a55d1e0"
+      "screen_hash": "7b684e73ad6c3f3eec1b95481ce54a777ab52fd85ebd574ada5a4e6b5a55d1e0",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W7105686401": {
       "aliases": [
@@ -1180,9 +1321,31 @@
         "decision": "exclude",
         "reason": "Consequence-only for affective polarization; the abstract reports no meaningful effect on partisan affective polarization."
       },
-      "screen_hash": "f7fa7646455d281aa47d2cc630ba41153d9e7656023aa88a5a22637024317826"
+      "screen_hash": "f7fa7646455d281aa47d2cc630ba41153d9e7656023aa88a5a22637024317826",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W7105690925": {
+      "adjudication": {
+        "countries": [
+          "Pakistan"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Media and information environment",
+        "eligibility": "include",
+        "factor": "Exposure to political content on social media / social media use",
+        "finding": "The article finds high social-media political exposure among Pakistani youth, but little actual party switching; instead, it reports stronger emotional connection, greater trust in social media political content, and reinforcement of existing beliefs, consistent with affective polarization and confirmation bias rather than ideological realignment.",
+        "hypothesis": "Political content on social media influences youth political polarization, party affiliation, and perceptions of trust/credibility",
+        "instruments": "Structured questionnaire administered in paper and online form; analyzed in SPSS v26",
+        "locators": "driver P45, outcome P25, design P45, finding P76",
+        "outcome": "Both",
+        "population": "Pakistani university students aged 18-30",
+        "reason": "Cross-sectional survey article on Pakistani university students testing whether exposure to social media political content is associated with political polarization and related attitudes. It reports an explicit directional relationship, with frequent exposure linked to stronger confirmation bias, emotional attachment, and perceived polarization, though most respondents did not change party affiliation.",
+        "sample_size": "100 respondents",
+        "supported": true
+      },
       "aliases": [
         "W7105690925"
       ],
@@ -1391,6 +1554,10 @@
       "queries": [
         "Primary",
         "Partisan animosity"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7114909039": {
@@ -1515,7 +1682,11 @@
         "decision": "exclude",
         "reason": "Consequence-focused study on emissions; affective polarization is treated as the predictor rather than being examined as an antecedent."
       },
-      "screen_hash": "ca24036eef6a6a25ee6fc8b4589a7a568685f4819071dd7026d0ea0b6cb6e5e3"
+      "screen_hash": "ca24036eef6a6a25ee6fc8b4589a7a568685f4819071dd7026d0ea0b6cb6e5e3",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W7117720239": {
       "aliases": [
@@ -1553,7 +1724,11 @@
         "decision": "advance",
         "reason": "Empirical reanalysis with large survey datasets shows expectancy and value predict interpersonal liking, offering a clear process for affective polarization."
       },
-      "screen_hash": "a520d035625979d73f87e3aa5a765869b449036e95ceac0fe6d865c4a7f65188"
+      "screen_hash": "a520d035625979d73f87e3aa5a765869b449036e95ceac0fe6d865c4a7f65188",
+      "sjr": [
+        "Q1",
+        "2025"
+      ]
     },
     "W7118187198": {
       "aliases": [
@@ -1580,8 +1755,19 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Measurement/association with self-assessed wokeness, not an antecedent of affective polarization."
+      },
+      "screen_hash": "59fc215cc8300e3c54cae7bb341c1446d9725767a4f723ce779000cf2807ad5a",
+      "sjr": [
+        "Q3",
+        "2025"
       ]
     },
     "W7123257109": {
@@ -1605,9 +1791,16 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory-only and no empirical study design or causal antecedent; it proposes affective polarization as a democratic cause."
+      },
+      "screen_hash": "087c8a4fc6ba7d4653568c5655ef333fc148f9b23baa3eb314fff6b8ba2892b4"
     },
     "W7124142086": {
       "aliases": [
@@ -1689,6 +1882,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W7125257284": {
@@ -1717,8 +1914,19 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Consequence-only: the abstract studies support for undemocratic practices as an outcome of affective polarization, not an empirical antecedent/process of polarization."
+      },
+      "screen_hash": "6b4b286a07cf5b5adce1256e174c3d4027fb042f510ee8726ac910e4f0087471",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7125670689": {
@@ -1770,9 +1978,16 @@
         "type": "report",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Non-journal report/theory-oriented overview with no empirical design or explicit study of affective polarization antecedents."
+      },
+      "screen_hash": "35a82b1ff44d162004a330497859b39c444b2fd5c7b1fc74e73fefdc47a3266c"
     },
     "W7125779908": {
       "aliases": [
@@ -1799,14 +2014,40 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "This is about voting behavior and political sophistication, not an empirical antecedent of affective polarization; polarization is only mentioned as a possible implication."
+      },
+      "screen_hash": "11e2d1af2db3d8ecda47baef606cbda11a315a7a65b0805c82e05031a66dda84"
     },
     "W7125935372": {
+      "adjudication": {
+        "countries": [
+          "Switzerland"
+        ],
+        "design": "Experimental",
+        "driver": "Media and information environment",
+        "eligibility": "include",
+        "factor": "VAA use (and invitation to use the VAA)",
+        "finding": "Evidence is mixed. Observed VAA use generally points toward less polarized vote choice and more positive party affect, including lower affective polarization, but these effects are small and often not significant. The randomized encouragement/CACE results are mostly null, and the article concludes the evidence is suggestive but not definitive.",
+        "hypothesis": "VAA use reduces vote-choice polarization and lowers affective polarization by exposing voters to multiple parties and reducing perceived partisan sorting and out-group animus.",
+        "instruments": "Two-wave panel survey; Smartvote VAA use; vote intention/vote choice extremism measure; Wagner (2021) affective polarization indicators (weighted/unweighted spread-of-scores and mean distance); encouragement treatment with CACE/2SLS",
+        "locators": "design P7, finding P66",
+        "outcome": "Both",
+        "population": "Voting-age survey respondents in the 2023 Swiss national election campaign",
+        "reason": "The article empirically tests whether voting advice application use affects affective polarization, with an explicit directional mechanism and a field-experiment panel design in Switzerland. It reports mixed but generally depolarizing associations for observed use, while the randomized encouragement/CACE results are null or inconclusive.",
+        "sample_size": "2,573 observations; 1,727 invited to use the VAA; 878 actual users; 846 control respondents",
+        "supported": false
+      },
       "aliases": [
         "W7125935372"
       ],
+      "document_hash": "b07ce2a2b5ace201d7e3e5420ebe571254aebeba824c6a5272ae310931d27ad8",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -1828,8 +2069,57 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "Switzerland"
+          ],
+          "design": "Experimental",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Use of voting advice applications (VAA) / invitation to use VAA",
+          "finding": "Mixed evidence. Observed VAA use is associated with slightly less polarized vote choice and somewhat more positive party affect, but effects are not consistent across parties and often not statistically significant. The randomized encouragement treatment and CACE models show no clear robust effect on vote polarization or affective polarization.",
+          "hypothesis": "VAA use reduces vote-choice polarization, lowers out-party animus, and decreases affective polarization.",
+          "instruments": "Two-wave panel survey; Smartvote VAA use/encouragement; vote intention and vote choice; party affect ratings on 0-10 scales; affective polarization measures (weighted/unweighted spread-of-scores, mean distance)",
+          "locators": "driver P6, outcome P6, design P8, finding P8",
+          "outcome": "Both",
+          "population": "Survey respondents in the 2023 Swiss national election campaign",
+          "reason": "Empirical journal article testing whether VAA use affects vote-choice polarization and affective polarization; uses a two-wave panel and a randomized encouragement field experiment in Switzerland. The article reports mixed but generally depolarizing associations for observed VAA use, with weaker/null causal treatment effects.",
+          "sample_size": "2,573 observations (3,941 wave 1; 3,290 wave 2; 1,727 invited; 878 treated users; 846 controls)",
+          "supported": true
+        },
+        {
+          "countries": [
+            "Switzerland"
+          ],
+          "design": "Panel",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Exposure to multi-party voting advice information through VAA use (and randomized invitation to use the VAA)",
+          "finding": "Mixed evidence. Observed VAA use is associated with slightly less polarized vote choice and somewhat more positive party affect, but effects are inconsistent across parties and often not significant; the randomized encouragement/CACE shows no clear robust effect on vote polarization or affective polarization.",
+          "hypothesis": "VAA use lowers perceived partisan sorting, reduces vote polarization, and reduces party animus/affective polarization",
+          "instruments": "Smartvote VAA use; 11-point party affect ratings; vote intention/vote choice; weighted and unweighted spread-of-scores and mean distance affective polarization measures; Bayesian IRT ideological positioning",
+          "locators": "driver P21, outcome P6, design P7, finding P66",
+          "outcome": "Both",
+          "population": "Voters in the 2023 Swiss national election campaign",
+          "reason": "Empirical journal article with an explicit causal/process claim about VAA use affecting affective polarization and vote polarization; uses a field experiment plus two-wave panel survey in Switzerland. Outcome, unit of analysis, and assignment mechanism are clear. Results are mixed/null for the randomized encouragement effect but suggest a small depolarizing association for observed VAA use.",
+          "sample_size": "2,573 observations (3,941 first-wave respondents; 3,290 second-wave respondents; 1,727 invited to use the VAA; 878 treated users)",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Field experiment/panel study testing whether VAA use reduces affective polarization; explicit causal direction is present."
+      },
+      "screen_hash": "8c995cf1162b39af101ac4c44079acba2c075daecd0daa9d82509c778e4afdb0",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7126144899": {
@@ -1937,6 +2227,10 @@
       },
       "queries": [
         "Negative partisanship"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7127447906": {
@@ -2023,8 +2317,19 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "No affective polarization antecedent; this is a CFD model of water electrolyzer polarization, not a study of attitudes or group affect."
+      },
+      "screen_hash": "b8d85de9344c00af7abf8c1a7383747cbe7f8d48ad0a1af5a6b0fad7cd2fd449",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7128953427": {
@@ -2110,9 +2415,16 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Theory/methods paper and tutorial; it critiques measurement and demonstrates an association, but does not provide empirical antecedent evidence on affective polarization as a substantive outcome."
+      },
+      "screen_hash": "933978c24a89d8a31794f8fcab14ce48fe5c8efbe0b1bfd6f8ec4bc544e7afca"
     },
     "W7131778291": {
       "aliases": [
@@ -2143,9 +2455,28 @@
       ]
     },
     "W7132855165": {
+      "adjudication": {
+        "countries": [
+          "South Korea"
+        ],
+        "design": "Cross-sectional associative",
+        "driver": "Media and information environment",
+        "eligibility": "include",
+        "factor": "Conviction",
+        "finding": "Cross-sectional analyses showed that media use was related to stronger conviction and, in some cases, polarization; conviction positively predicted affective polarization on both ideological and gender issues, and indirect effects via conviction were significant even though the direct effect of media use on affective polarization was not. The mediation was stronger for ideological than gender polarization, and age moderated the indirect pathway, with younger participants generally more प्रभावित by media use.",
+        "hypothesis": "Media use would be positively associated with affective polarization and conviction; conviction would positively associate with affective polarization and mediate the media–polarization link; age would moderate the mediated pathway.",
+        "instruments": "Online questionnaire; affective polarization measured as absolute difference in favorable attitudes toward liberals vs conservatives and males vs females; conviction measured with four items adapted from Abelson/Skitka; media use frequency across five media types",
+        "locators": "driver P3, design P97, finding P78",
+        "outcome": "Both",
+        "population": "Online survey respondents, quota-sampled adults across age and gender groups",
+        "reason": "Empirical journal article with an explicit moderated-mediation test linking media use to affective polarization through conviction; includes measured outcomes, direction, and statistical results. Although cross-sectional and limited for causality, the paper is eligible as an empirical antecedent article.",
+        "sample_size": "1,026 participants",
+        "supported": false
+      },
       "aliases": [
         "W7132855165"
       ],
+      "document_hash": "ba55676c804415c09dfc1d3a8d36d75ef72f2b990437d279b9d5ccf5494ef5b1",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -2165,8 +2496,57 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [
+            "South Korea"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Conviction as the mediator between media use and affective polarization, moderated by age",
+          "finding": "Media use was associated with higher conviction, and conviction was associated with greater affective polarization on both ideological and gender issues. The direct media–polarization link was not significant overall, but indirect effects through conviction were significant; age conditioned the path, with stronger media effects among younger respondents. Some media types showed issue-specific null or mixed direct effects.",
+          "hypothesis": "Media use would be positively associated with affective polarization and conviction; conviction would predict affective polarization and mediate the media–polarization link; age would moderate the mediated path.",
+          "instruments": "Online questionnaire; media use frequency across five media types; affective polarization measured as absolute difference in favorability toward liberals vs conservatives and males vs females; conviction measured with Abelson-based items plus a core-belief item; Hayes PROCESS Models 4 and 7",
+          "locators": "driver P7, design P97, finding P78",
+          "outcome": "Both",
+          "population": "Adult Korean survey respondents, quota-sampled by gender and age (twenties to sixties)",
+          "reason": "Empirical journal article with a clear causal/mediational claim about media use influencing affective polarization via conviction; cross-sectional survey design and article-level quantitative results are reported. It also includes moderation by age. No exclusion criteria apply.",
+          "sample_size": "1,026",
+          "supported": false
+        },
+        {
+          "countries": [
+            "South Korea"
+          ],
+          "design": "Cross-sectional associative",
+          "driver": "Media and information environment",
+          "eligibility": "include",
+          "factor": "Conviction",
+          "finding": "The paper found that media use was associated with stronger conviction, and conviction was associated with greater affective polarization on both ideological and gender issues. Direct media effects on polarization were weak or absent in mediation models, but indirect effects through conviction were significant; the mediation was stronger for ideological than gender polarization, and age moderated the media-conviction pathway, with younger participants showing stronger media effects.",
+          "hypothesis": "Media use is positively associated with affective polarization and conviction; conviction is positively associated with affective polarization; conviction mediates the media-use/affective-polarization link; age moderates the mediated pathway.",
+          "instruments": "Online questionnaire; affective polarization measured as absolute difference in favorability ratings toward liberals vs conservatives and males vs females; conviction measured with Abelson-based items plus a moral conviction item; media use measured by frequency of TV, internet articles, social networking sites, internet community, and newspapers; analyses used correlations, regressions, and Hayes PROCESS models 4 and 7.",
+          "locators": "driver P3, outcome P7, design P97, finding P78",
+          "outcome": "Both",
+          "population": "Adults in South Korea, quota-sampled across gender and age groups (twenties to sixties)",
+          "reason": "Empirical journal article with an explicit proposed and tested causal process: media use -> conviction -> affective polarization, with age as a moderator. The study uses a cross-sectional survey and reports direct, indirect, and moderated mediation analyses. Outcome is identified as both horizontal (ideological/gender intergroup affect) and measured at the individual level.",
+          "sample_size": "1,026 respondents",
+          "supported": true
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Empirical survey study with a clear causal/process model: media use indirectly increased affective polarization via conviction, with age as a moderator."
+      },
+      "screen_hash": "34396f914996244471f0b07f4b238893fcd0c8aa26ea57fa78cd4f59cfb57796",
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W7133081022": {
@@ -2299,10 +2679,17 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary",
         "Negative partisanship"
-      ]
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Outcome is marijuana legalization attitudes, not an antecedent of affective polarization; only a speculative mention of affective polarization appears."
+      },
+      "screen_hash": "9d13a317ce38423be428167c77b0aa53af00af8d38c280e6a9387f82f5637728"
     },
     "W7135074329": {
       "aliases": [
@@ -2331,6 +2718,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7137082382": {
@@ -2364,12 +2755,17 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7137939630": {
       "aliases": [
         "W7137939630"
       ],
+      "document_hash": "9bf4476618906abf8b73dfb54422442af37bb71b047db258eb4f777dba53764f",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -2389,8 +2785,20 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "readings": [],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "The abstract describes a qualitative discourse analysis of Instagram comments and mentions “diasporic affective polarization,” but it does not clearly establish an empirical causal antecedent or process beyond interpretation."
+      },
+      "screen_hash": "317b567e9f8fe2e281c49afe11c6677b04b4da7cbeb3b5eb6710e04c955b4041",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7140035075": {
@@ -2445,6 +2853,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7140126786": {
@@ -2471,8 +2883,19 @@
         "type": "article",
         "xml": false
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "screen": {
+        "decision": "exclude",
+        "reason": "Content analysis of cable coverage only; no explicit causal antecedent or process for affective polarization, and it is consequence/coverage-focused rather than a direct empirical antecedent study."
+      },
+      "screen_hash": "3851affc4f14d2ffd166a53ae83bd29e56894660ed133678182897e1a401f59b",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7140299152": {
@@ -2559,6 +2982,10 @@
       "queries": [
         "Primary",
         "Partisan animosity"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7151873582": {
@@ -2693,6 +3120,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7154485339": {
@@ -2748,6 +3179,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7154563859": {
@@ -2777,6 +3212,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7154827704": {
@@ -2863,6 +3302,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7154939246": {
@@ -3009,6 +3452,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7155068316": {
@@ -3041,6 +3488,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7155217028": {
@@ -3149,6 +3600,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7158570351": {
@@ -3203,6 +3658,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7159970525": {
@@ -3233,6 +3692,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7160025595": {
@@ -3316,6 +3779,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7161108279": {
@@ -3422,6 +3889,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W7161779936": {
@@ -3478,6 +3949,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7162206702": {
@@ -3533,6 +4008,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7162410703": {
@@ -3588,6 +4067,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7163353804": {
@@ -3618,6 +4101,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7163743679": {
@@ -3672,7 +4159,12 @@
       "protocol": "1.0",
       "queries": [
         "Primary"
-      ]
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Survey study with an explicit directional hypothesis that perceived affective polarization predicts self-censorship, with planned regression analysis."
+      },
+      "screen_hash": "a4b6f1acae5b3c9affe118793103e76752c119ac12bca747caf0a585aa5029c4"
     },
     "W7164300800": {
       "aliases": [
@@ -3700,6 +4192,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7165083728": {
@@ -3835,6 +4331,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7165630192": {
@@ -3863,6 +4363,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7165748635": {
@@ -4083,6 +4587,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7167707805": {
@@ -4112,6 +4620,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7167894161": {
@@ -4280,6 +4792,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7169713129": {
@@ -4418,6 +4934,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W7170606210": {
@@ -4607,6 +5127,10 @@
       },
       "queries": [
         "Partisan animosity"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7171850389": {
@@ -4691,6 +5215,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7172391088": {
@@ -4720,6 +5248,10 @@
       },
       "queries": [
         "Negative partisanship"
+      ],
+      "sjr": [
+        "Q3",
+        "2025"
       ]
     },
     "W7172539693": {
@@ -4835,12 +5367,17 @@
       },
       "queries": [
         "Partisan animosity"
+      ],
+      "sjr": [
+        "Q2",
+        "2025"
       ]
     },
     "W7202384718": {
       "aliases": [
         "W7202384718"
       ],
+      "document_hash": "6b97bed5b0b0f561bdf1aa573c273b55dea2f3b74fd8ffb6fb7aa60b00c2edea",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -4860,10 +5397,51 @@
         "type": "conference-paper",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary",
         "Partisan animosity"
-      ]
+      ],
+      "readings": [
+        {
+          "countries": [],
+          "design": "Other",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Unreported",
+          "finding": "Excluded: literature synthesis rather than primary empirical evidence.",
+          "hypothesis": "Unreported",
+          "instruments": "Unreported",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "Unreported",
+          "reason": "This is an integrated literature synthesis, not an original empirical journal study. It explicitly says it organizes twelve peer-reviewed articles and does not collect new primary data, so it is excluded under the empirical-only criterion.",
+          "sample_size": "Unreported",
+          "supported": false
+        },
+        {
+          "countries": [],
+          "design": "Other",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Unreported",
+          "finding": "Excluded because the source is a review/synthesis rather than an eligible empirical study.",
+          "hypothesis": "Unreported",
+          "instruments": "Unreported",
+          "locators": "",
+          "outcome": "Unspecified",
+          "population": "Unreported",
+          "reason": "Not an empirical antecedent article; this is a literature synthesis/review without new primary data, and the venue is a conference paper rather than a journal report.",
+          "sample_size": "Unreported",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "uncertain",
+        "reason": "The abstract is a review/synthesis of journal articles, but it does not identify a single empirical antecedent study with a clear causal design; it mixes theory and findings, so the causal antecedent is insufficiently specified."
+      },
+      "screen_hash": "7598e8288b40df309bfa871c7a251a07f650d9647bbcc3a9cfea8f5fe24c48f6"
     },
     "W7202422137": {
       "aliases": [
@@ -4973,6 +5551,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7203910238": {
@@ -5001,6 +5583,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7204072586": {
@@ -5030,6 +5616,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7204237787": {
@@ -5059,6 +5649,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7207833964": {
@@ -5087,6 +5681,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7208689561": {
@@ -5143,6 +5741,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7212307279": {
@@ -5200,6 +5802,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7213612977": {
@@ -5360,6 +5966,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7220715022": {
@@ -5515,6 +6125,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7222988251": {
@@ -5680,6 +6294,7 @@
       "aliases": [
         "W7224993540"
       ],
+      "document_hash": "be436e0f79df7929c00808d2ec01060fbe43068f00eca91df6794f25ee17ec36",
       "first_seen": "2026-11-21",
       "meta": {
         "authors": [
@@ -5701,8 +6316,53 @@
         "type": "article",
         "xml": true
       },
+      "model": "gpt-5.4-mini-2026-03-17",
+      "protocol": "1.0",
       "queries": [
         "Primary"
+      ],
+      "readings": [
+        {
+          "countries": [],
+          "design": "Other",
+          "driver": "Identity and group processes",
+          "eligibility": "exclude",
+          "factor": "Intergroup contact operating under xenophobia, attitudinal bias, and constrained partner selection",
+          "finding": "In the simulations, contact often improved outgroup attitudes and reduced polarization, but under some parameter settings it backfired and raised affective polarization; extremely strong xenophobia could also suppress cross-group interaction and reduce polarization again. Results were nonlinear and depended on the balance of negative intergroup influence and outgroup avoidance.",
+          "hypothesis": "Simulation experiments ask when intergroup contact reduces or backfires on affective polarization under varying xenophobia, attitudinal bias, and selection constraints.",
+          "instruments": "Computational agent-based model; no survey instruments",
+          "locators": "",
+          "outcome": "Both",
+          "population": "Simulated agents in two groups",
+          "reason": "Not an empirical antecedents study with observed human data; this is a computational agent-based simulation / theoretical model article. It does analyze a causal process (intergroup contact, xenophobia, attitudinal bias) and affective polarization, but it is not an empirical journal report of antecedents.",
+          "sample_size": "N = 110 agents in the baseline simulation",
+          "supported": false
+        },
+        {
+          "countries": [],
+          "design": "Other",
+          "driver": "Unclear",
+          "eligibility": "exclude",
+          "factor": "Intergroup contact combined with xenophobia, attitudinal bias, homophily, and social influence.",
+          "finding": "In simulations, contact often improved outgroup attitudes, but under some conditions of stronger bias it backfired and increased affective polarization; extreme avoidance could also suppress polarization.",
+          "hypothesis": "The paper asks when intergroup contact mitigates or backfires in affecting intergroup attitudes and affective polarization under different bias conditions.",
+          "instruments": "Computational agent-based model; simulated intergroup attitudes and affective polarization measures.",
+          "locators": "",
+          "outcome": "Both",
+          "population": "Unreported",
+          "reason": "Theory/computational simulation article rather than an empirical journal study with observed data; no real-world sample, assignment mechanism, or empirical causal identification.",
+          "sample_size": "Unreported",
+          "supported": false
+        }
+      ],
+      "screen": {
+        "decision": "advance",
+        "reason": "Computational model with explicit causal processes for intergroup contact and peer influence affecting outgroup attitudes/affective polarization; plausible empirical antecedent despite simulation design."
+      },
+      "screen_hash": "bd11bd4dfe7ed1913b6172e1831386e6dae4200862c470fa3e917f7e1f0afc4b",
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7225019578": {
@@ -5954,6 +6614,10 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     },
     "W7237195035": {
@@ -5984,11 +6648,15 @@
       },
       "queries": [
         "Primary"
+      ],
+      "sjr": [
+        "Q1",
+        "2025"
       ]
     }
   },
   "briefs": {},
-  "last_work": "2026-11-21 · Per-run AI allowance reached. Queue saved.",
+  "last_work": "2026-11-22 · Per-run AI allowance reached. Queue saved. Journal check: archived SCImago 2025 export.",
   "runs": [
     {
       "date": "2026-11-21",
@@ -6024,6 +6692,43 @@
           "source": "OpenAlex",
           "status": "Complete",
           "through_date": "2026-11-21"
+        }
+      }
+    },
+    {
+      "date": "2026-11-22",
+      "queries": {
+        "Hostility toward the opposition party": {
+          "from_date": "2025-08-23",
+          "hits": 0,
+          "query_text": "\"hostility toward the opposition party\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Negative partisanship": {
+          "from_date": "2025-08-23",
+          "hits": 12,
+          "query_text": "\"negative partisanship\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Partisan animosity": {
+          "from_date": "2025-08-23",
+          "hits": 23,
+          "query_text": "\"partisan animosity\" AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
+        },
+        "Primary": {
+          "from_date": "2025-08-23",
+          "hits": 185,
+          "query_text": "(\"affective polarization\" OR \"affective polarisation\") AND (causes OR predictors OR drivers OR roots OR origins OR determinants)",
+          "source": "OpenAlex",
+          "status": "Complete",
+          "through_date": "2026-11-22"
         }
       }
     }
